@@ -499,7 +499,7 @@ Developed as a B.E. Artificial Intelligence and Machine Learning major project a
 
 
 
-For detailed installation instructions, configuration, API usage, and implementation-specific notes, see \[`context-aware-nmt/README.md`](./context-aware-nmt/README.md).
+
 
 
 
