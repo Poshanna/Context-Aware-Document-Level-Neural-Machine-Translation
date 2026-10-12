@@ -1,0 +1,62 @@
+{
+  "error_count": 0,
+  "generated_ts_utc": "2026-09-30T10:09:36Z",
+  "has_severe_issues": false,
+  "issues": [],
+  "ok": true,
+  "summary": {
+    "test": {
+      "count": 492751,
+      "source_length": {
+        "count": 492751,
+        "max": 942,
+        "mean": 55.313,
+        "median": 40,
+        "min": 5
+      },
+      "target_length": {
+        "count": 492751,
+        "max": 978,
+        "mean": 57.142,
+        "median": 43,
+        "min": 5
+      }
+    },
+    "train": {
+      "count": 3942014,
+      "source_length": {
+        "count": 3942014,
+        "max": 1000,
+        "mean": 55.324,
+        "median": 40,
+        "min": 5
+      },
+      "target_length": {
+        "count": 3942014,
+        "max": 1000,
+        "mean": 57.167,
+        "median": 43,
+        "min": 4
+      }
+    },
+    "val": {
+      "count": 492752,
+      "source_length": {
+        "count": 492752,
+        "max": 993,
+        "mean": 55.254,
+        "median": 40,
+        "min": 5
+      },
+      "target_length": {
+        "count": 492752,
+        "max": 987,
+        "mean": 57.169,
+        "median": 43,
+        "min": 5
+      }
+    }
+  },
+  "total_issues": 0,
+  "warning_count": 0
+}

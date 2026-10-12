@@ -1,0 +1,240 @@
+{
+  "dataset": "DocHPLT",
+  "evaluation_examples": 100,
+  "clean_examples_available": 93,
+  "note": "Automatically selected report-ready qualitative examples. Adult-content examples and URL-containing examples were excluded.",
+  "strong_improvements": [
+    {
+      "rank": 1,
+      "category": "improvement",
+      "evaluation_index": 54,
+      "source": "Google Chrome",
+      "reference": "Google Chrome",
+      "baseline": "గూగుల్ క్రోమ్",
+      "context_adapter": "Google Chrome",
+      "bleu_change": 100.00000000000004,
+      "chrf_change": 100.0,
+      "selected_context": [
+        {
+          "id": "22.1",
+          "text": "4) Go to ‘Tools’ -> ‘Internet Options’; select ‘General tab’ and click website, e.g. Google.com.",
+          "similarity": 0.4235870838165283
+        },
+        {
+          "id": "22.2",
+          "text": "Click OK to save changes.",
+          "similarity": 0.2782759368419647
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "category": "improvement",
+      "evaluation_index": 44,
+      "source": "- Gujarati Horoscope 2022",
+      "reference": "- Gujarati Horoscope 2022",
+      "baseline": "- గుజరాతీ రాశిచక్రం 2022",
+      "context_adapter": "- Gujarati Horoscope 2022",
+      "bleu_change": 81.00410785871023,
+      "chrf_change": 91.2034888385424,
+      "selected_context": [
+        {
+          "id": "28.1",
+          "text": "- Tamil Horoscope 2022",
+          "similarity": 0.8003345727920532
+        },
+        {
+          "id": "29.1",
+          "text": "- Kannada Horoscope 2022",
+          "similarity": 0.7955371141433716
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "category": "improvement",
+      "evaluation_index": 60,
+      "source": "Read daily news paper, competitive magazine and see various news channel.",
+      "reference": "Read daily news paper, competitive magazine and see various news channel.",
+      "baseline": "రోజువారీ వార్తాపత్రిక, పోటీ పత్రికలను చదవండి, వివిధ వార్తా ఛానెల్లను చూడండి.",
+      "context_adapter": "Read daily news newspaper, competitive magazine and see various news channel.",
+      "bleu_change": 72.41081282773513,
+      "chrf_change": 97.88969861643717,
+      "selected_context": [
+        {
+          "id": "51.2",
+          "text": "Indian History, Polity, Indian Economy, India and World Geography, General Science and Current Events are main components.",
+          "similarity": 0.25862061977386475
+        },
+        {
+          "id": "51.3",
+          "text": "For the GS always read NCERT and other school books for basic facts.",
+          "similarity": 0.2672562897205353
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "category": "improvement",
+      "evaluation_index": 48,
+      "source": "Manju Warrier & Amala Akineni C/O Saira Banu (Mala..",
+      "reference": "Manju Warrier & Amala Akineni C/O Saira Banu (Mala..",
+      "baseline": "మంజు వార్యర్ & అమలా అకినెని సి/ఓ సయారా బను (మాలా. . .",
+      "context_adapter": "Manju Warrior & Amala Akineni C/O Saira Banu (Mala..",
+      "bleu_change": 78.94364477393586,
+      "chrf_change": 89.09009434104671,
+      "selected_context": [
+        {
+          "id": "1.5",
+          "text": "Megastar is returning to silver screen as lead hero after nine long years.",
+          "similarity": 0.12288060784339905
+        },
+        {
+          "id": "2.1",
+          "text": "Baahubali 2 – The Conclusion - Motion Poster 2",
+          "similarity": 0.19106538593769073
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "category": "improvement",
+      "evaluation_index": 7,
+      "source": "MIND Path to Thalamus Enhanced Edition PC Game 2017 Overview Wrapped in a mind-bending story, …",
+      "reference": "MIND Path to Thalamus Enhanced Edition PC Game 2017 Overview Wrapped in a mind-bending story, …",
+      "baseline": "మైండ్ పాత్ టు తాలిమస్ ఎన్హెచ్ఎన్ ఎడిషన్ PC గేమ్ 2017 అవలోకనం మనస్సును కదిలించే కథలో మునిగిపోయింది, . . .",
+      "context_adapter": "MIND Path to Thalamus Enhanced Edition PC Game 2017 Overview Mind-Bending Story, ...",
+      "bleu_change": 53.2449237078471,
+      "chrf_change": 70.95544671477852,
+      "selected_context": [
+        {
+          "id": "9.2",
+          "text": "MIND Path to Thalamus Enhanced Edition Free Download PC Game setup in single direct hyperlink for Windows.",
+          "similarity": 0.6917064189910889
+        },
+        {
+          "id": "9.3",
+          "text": "It is an incredible journey and indie recreation.",
+          "similarity": 0.24260857701301575
+        }
+      ]
+    }
+  ],
+  "strong_regressions": [
+    {
+      "rank": 1,
+      "category": "regression",
+      "evaluation_index": 96,
+      "source": "Buy Standard License – Music Maker Buy Premium License – Music Maker",
+      "reference": "ప్రామాణిక లైసెన్స్ కొనుగోలు – సంగీతం Maker ప్రీమియం కొనండి లైసెన్సు – సంగీతం Maker",
+      "baseline": "ప్రామాణిక లైసెన్స్ కొనుగోలు  సంగీత తయారీదారు ప్రీమియం లైసెన్స్ కొనుగోలు  సంగీత తయారీదారు",
+      "context_adapter": "Buy Standard License  Music Maker Buy Premium License  Music Maker",
+      "bleu_change": -9.656446118572374,
+      "chrf_change": -47.63754474861195,
+      "selected_context": [
+        {
+          "id": "29.1",
+          "text": "BONUS GRAPHIC PACK of 42 FREE and Royalty Free Marketing Graphics (Video screens, Timelines, Banners, Logo’s, Business cards and more)",
+          "similarity": 0.2849423885345459
+        },
+        {
+          "id": "30.1",
+          "text": "If you want to know more about the Music Maker Theme, please see the following links;",
+          "similarity": 0.4178825318813324
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "category": "regression",
+      "evaluation_index": 81,
+      "source": "Ibiza Gran Hotel - Balearene.",
+      "reference": "ఐబిజా గ్రాన్ హోటల్ - Balearene.",
+      "baseline": "ఇబిజా గ్రాన్ హోటల్ - బాలేరిన్.",
+      "context_adapter": "Ibiza Gran Hotel - Balearene.",
+      "bleu_change": -2.2530375739422155,
+      "chrf_change": -21.014101751397952,
+      "selected_context": [
+        {
+          "id": "19.2",
+          "text": "The star very true to its name.",
+          "similarity": 0.07969342172145844
+        },
+        {
+          "id": "19.3",
+          "text": "It has sophisticated shopping malls, best restaurants offering some of the finest dishes with a kind of entertainment for anyone visiting place.",
+          "similarity": 0.3432505130767822
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "category": "regression",
+      "evaluation_index": 36,
+      "source": "Geographical distribution: Globally Distributed",
+      "reference": "భౌగోళిక పంపిణీ: ప్రపంచవ్యాప్తంగా పంపిణీ",
+      "baseline": "భౌగోళిక పంపిణీః ప్రపంచవ్యాప్తంగా పంపిణీ",
+      "context_adapter": "Geographical Distribution: ప్రపంచవ్యాప్తంగా పంపిణీ",
+      "bleu_change": 12.228770693193354,
+      "chrf_change": -31.937038863906253,
+      "selected_context": [
+        {
+          "id": "7.1",
+          "text": "Operating Environment: Windows platform",
+          "similarity": 0.16246414184570312
+        },
+        {
+          "id": "8.1",
+          "text": "Number of Corruption: More than 70 files at a time",
+          "similarity": 0.01159711554646492
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "category": "regression",
+      "evaluation_index": 9,
+      "source": "Telugu man to become the President of Indian National Congress.",
+      "reference": "భారత జాతీయ కాంగ్రెస్ కు అధ్యక్షత వహించిన తొలి తెలుగువారు? ఆనందాచార్యులు",
+      "baseline": "తెలుగు వ్యక్తి భారత జాతీయ కాంగ్రెస్ అధ్యక్షుడిగా ఎన్నికయ్యారు.",
+      "context_adapter": "Telugu Man to become the President of Indian National Congress. భారత జాతీయ కాంగ్రెస్ అధ్యక్షుడిగా తెలంగాణకు చెందిన వ్యక్తి.",
+      "bleu_change": -8.473721010684653,
+      "chrf_change": -10.84875429593994,
+      "selected_context": [
+        {
+          "id": "75.1",
+          "text": "Ananda",
+          "similarity": 0.09058870375156403
+        },
+        {
+          "id": "76.1",
+          "text": "Charyulu was the 1st",
+          "similarity": 0.14513300359249115
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "category": "regression",
+      "evaluation_index": 71,
+      "source": "It may come along with other bad programs or computer threats.",
+      "reference": "2. ఇది ఇతర చెడ్డ కార్యక్రమాలు లేదా కంప్యూటర్ బెదిరింపులు పాటు రావచ్చు.",
+      "baseline": "ఇది ఇతర చెడు ప్రోగ్రామ్లతో లేదా కంప్యూటర్ బెదిరింపులతో పాటు రావచ్చు.",
+      "context_adapter": "ఇది ఇతర చెడు ప్రోగ్రామ్లు లేదా కంప్యూటర్ బెదిరింపులు తో వస్తుంది.",
+      "bleu_change": -1.9656150320183805,
+      "chrf_change": -9.120753552215298,
+      "selected_context": [
+        {
+          "id": "12.1",
+          "text": "Possible Threats of Shopsearchers.com",
+          "similarity": 0.4156889319419861
+        },
+        {
+          "id": "13.1",
+          "text": "It ukufakwa kumakhompyutha aphume kwemvume nesaziso.",
+          "similarity": 0.058268044143915176
+        }
+      ]
+    }
+  ]
+}

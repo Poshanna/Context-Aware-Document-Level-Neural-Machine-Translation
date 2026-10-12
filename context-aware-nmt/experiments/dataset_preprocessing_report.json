@@ -1,0 +1,52 @@
+{
+  "cleaning": {
+    "malformed_length_ratio_threshold": 0.95,
+    "max_chars": 1000,
+    "min_chars": 2
+  },
+  "duplicate_removed_count": 18192,
+  "final_count": 4927517,
+  "generation_ts_utc": "2026-09-30T10:05:19Z",
+  "input_count": 4946035,
+  "language_filtered_count": 0,
+  "language_pair": "en-te",
+  "length_filtered_count": 326,
+  "malformed_flagged_count": 23,
+  "malformed_record_count": 0,
+  "null_removed_count": 0,
+  "random_seed": 42,
+  "raw_count": 4946035,
+  "removed_count": 18518,
+  "source_data_path": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\samanantar",
+  "source_dataset": "AI4Bharat Samanantar",
+  "provenance": {
+    "upstream": {
+      "dataset_name": "AI4Bharat Samanantar",
+      "source_url": "https://indicnlp.ai4bharat.org/samanantar/",
+      "revision": "ead34c5b22a0354d350e7dfdd6aece7df5a48f37",
+      "language_pair": "en-te",
+      "source_language": "en",
+      "target_language": "te"
+    },
+    "preprocessing": {
+      "run_id": "samanantar-en-te-2026-09-30T10:05:19Z-seed-42",
+      "seed": 42,
+      "prepared_files": {
+        "train": "train.en-te.jsonl",
+        "val": "val.en-te.jsonl",
+        "test": "test.en-te.jsonl"
+      }
+    }
+  },
+  "split": {
+    "test_ratio": 0.1,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1
+  },
+  "src_lang": "en",
+  "test_count": 492751,
+  "tgt_lang": "te",
+  "train_count": 3942014,
+  "valid_count": 4946035,
+  "validation_count": 492752
+}

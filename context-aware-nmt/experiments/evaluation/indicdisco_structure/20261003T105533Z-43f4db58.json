@@ -1,0 +1,154 @@
+{
+  "run_id": "20261003T105533Z-43f4db58",
+  "timestamp_utc": "2026-10-03T10:55:33.059315+00:00",
+  "dataset": "IndicDISCO-MT",
+  "repository": "HimangY/IndicDISCO-MT",
+  "pinned_revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+  "component": "Indicdisco_MT",
+  "split": "test",
+  "source": "https://huggingface.co/datasets/HimangY/IndicDISCO-MT/resolve/13f4a8caa71b00859ee4235713aa253c3b2fe193/Indicdisco_MT/Tel/tel_indicdisco-mt_test.csv",
+  "source_kind": "pinned_official_url",
+  "source_provenance_verified": true,
+  "source_language": "Telugu",
+  "target_language": "English",
+  "language_labels_embedded_in_csv": false,
+  "max_rows_requested": 3,
+  "bytes_read": 16384,
+  "observed_schema": [
+    "source",
+    "target"
+  ],
+  "inspected_row_count": 1,
+  "accepted_row_count": 1,
+  "excluded_row_count": 0,
+  "exclusion_reason_counts": {},
+  "accepted_rows": [
+    {
+      "row_locator": "https://huggingface.co/datasets/HimangY/IndicDISCO-MT/resolve/13f4a8caa71b00859ee4235713aa253c3b2fe193/Indicdisco_MT/Tel/tel_indicdisco-mt_test.csv#row=0",
+      "source_language": "Telugu",
+      "target_language": "English",
+      "source_paragraph_field_present": true,
+      "source_paragraph_nonempty": true,
+      "source_paragraph_present": true,
+      "target_paragraph_field_present": true,
+      "target_paragraph_nonempty": true,
+      "target_paragraph_present": true,
+      "same_document_causal_context_available": false,
+      "previous_paragraph_context_available": false,
+      "provenance_status": "verified_dataset",
+      "source_paragraph_chars": 709,
+      "target_paragraph_chars": 624,
+      "unit_type": "paragraph",
+      "alignment": "paragraph_pair",
+      "document_id": null,
+      "ordering": null,
+      "cross_row_context": "unavailable",
+      "paragraph_pair_represented_directly_by_row": true,
+      "provenance": {
+        "dataset": "IndicDISCO-MT",
+        "revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+        "split": "test",
+        "component": "Indicdisco_MT",
+        "record_locator": "https://huggingface.co/datasets/HimangY/IndicDISCO-MT/resolve/13f4a8caa71b00859ee4235713aa253c3b2fe193/Indicdisco_MT/Tel/tel_indicdisco-mt_test.csv#row=0",
+        "source_location": "https://huggingface.co/datasets/HimangY/IndicDISCO-MT/resolve/13f4a8caa71b00859ee4235713aa253c3b2fe193/Indicdisco_MT/Tel/tel_indicdisco-mt_test.csv#row=0:source",
+        "reference_location": "https://huggingface.co/datasets/HimangY/IndicDISCO-MT/resolve/13f4a8caa71b00859ee4235713aa253c3b2fe193/Indicdisco_MT/Tel/tel_indicdisco-mt_test.csv#row=0:target",
+        "alignment_location": "https://huggingface.co/datasets/HimangY/IndicDISCO-MT/resolve/13f4a8caa71b00859ee4235713aa253c3b2fe193/Indicdisco_MT/Tel/tel_indicdisco-mt_test.csv#row=0:source,target",
+        "status": "verified_dataset",
+        "unit_id": null
+      },
+      "metric_eligibility": {
+        "paragraph_bleu": {
+          "eligible": true,
+          "reason": "same-row paragraph reference is available; structural eligibility only; rights remain unresolved and no score was computed"
+        },
+        "paragraph_chrf++": {
+          "eligible": true,
+          "reason": "same-row paragraph reference is available; structural eligibility only; rights remain unresolved and no score was computed"
+        },
+        "sentence_bleu": {
+          "eligible": false,
+          "reason": "sentence references and sentence alignment are unavailable in the core paragraph rows"
+        },
+        "sentence_chrf++": {
+          "eligible": false,
+          "reason": "sentence references and sentence alignment are unavailable in the core paragraph rows"
+        },
+        "document_context_bleu": {
+          "eligible": false,
+          "reason": "document identity, cross-row ordering, and document context are unavailable"
+        },
+        "document_context_chrf++": {
+          "eligible": false,
+          "reason": "document identity, cross-row ordering, and document context are unavailable"
+        }
+      }
+    }
+  ],
+  "excluded_rows": [],
+  "parse_status": {
+    "trailing_partial_record": true,
+    "warning": "incomplete_trailing_csv_record: unexpected end of data"
+  },
+  "structural_capabilities": {
+    "explicit_sentence_ids_exist": false,
+    "explicit_document_ids_exist": false,
+    "parent_document_ids_exist": false,
+    "explicit_ordering_fields_exist": false,
+    "sentence_alignment_metadata_exists": false,
+    "paragraph_alignment_represented_directly_by_row": true,
+    "document_identity_available": false,
+    "ordering_available": false,
+    "sentence_alignment_available": false,
+    "context_available": false,
+    "same_document_causal_context_available": false,
+    "previous_paragraph_context_available": false,
+    "cross_row_context_available": false,
+    "within_paragraph_sentence_context_available": false
+  },
+  "metric_eligibility": {
+    "paragraph_bleu": {
+      "eligible": true,
+      "computed": false,
+      "eligible_rows": 1,
+      "reason": "same-row paragraph reference is available; structural eligibility only; rights remain unresolved and no score was computed"
+    },
+    "paragraph_chrf++": {
+      "eligible": true,
+      "computed": false,
+      "eligible_rows": 1,
+      "reason": "same-row paragraph reference is available; structural eligibility only; rights remain unresolved and no score was computed"
+    },
+    "sentence_bleu": {
+      "eligible": false,
+      "computed": false,
+      "eligible_rows": 0,
+      "reason": "sentence references and sentence alignment are unavailable in the core paragraph rows"
+    },
+    "sentence_chrf++": {
+      "eligible": false,
+      "computed": false,
+      "eligible_rows": 0,
+      "reason": "sentence references and sentence alignment are unavailable in the core paragraph rows"
+    },
+    "document_context_bleu": {
+      "eligible": false,
+      "computed": false,
+      "eligible_rows": 0,
+      "reason": "document identity, cross-row ordering, and document context are unavailable"
+    },
+    "document_context_chrf++": {
+      "eligible": false,
+      "computed": false,
+      "eligible_rows": 0,
+      "reason": "document identity, cross-row ordering, and document context are unavailable"
+    }
+  },
+  "provenance": {
+    "status": "verified_dataset",
+    "row_locator_semantics": "record provenance only; never a document ID",
+    "unit_id": null
+  },
+  "rights_status": "unresolved",
+  "no_inference": true,
+  "no_metrics_computed": true
+}

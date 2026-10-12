@@ -1,0 +1,761 @@
+{
+  "dataset": "DocHPLT",
+  "source_run": "experiments\\evaluation\\dochplt\\20261006T051941Z-8768e7db",
+  "selection_policy": {
+    "minimum_alignment_score": 0.7,
+    "minimum_source_chars": 10,
+    "minimum_reference_chars": 2,
+    "exclude_source_equals_reference": true,
+    "exclude_metadata_like_text": true,
+    "require_document_ids": true,
+    "require_sentence_ids": true,
+    "require_preceding_context": true,
+    "exclude_duplicate_translation_pairs": true
+  },
+  "total_input_examples": 50,
+  "clean_examples": 9,
+  "rejected_examples": 41,
+  "clean_example_indices": [
+    2,
+    4,
+    7,
+    11,
+    14,
+    15,
+    34,
+    37,
+    46
+  ],
+  "rejected": [
+    {
+      "example_index": 1,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- Tamil Horoscope 2015",
+      "reference": "- Tamil Horoscope 2015",
+      "alignment_score": 0.7117879986763
+    },
+    {
+      "example_index": 3,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Sharing my creation on my website is my gift.",
+      "reference": "Sharing my creation on my website is my gift.",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 5,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- Education Horoscope 2022",
+      "reference": "- Education Horoscope 2022",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 6,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "We also respect Muslim heroes like APJ Abdul Kalam who are our role models.",
+      "reference": "We also respect Muslim heroes like APJ Abdul Kalam who are our role models.",
+      "alignment_score": 0.8252490162849426
+    },
+    {
+      "example_index": 8,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Make a contribution and help bring change.",
+      "reference": "Make a contribution and help bring change.",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 9,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- Puppy Linux-New Version 5.2 series",
+      "reference": "- Puppy Linux-New Version 5.2 series",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 10,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Astrological services for accurate answers and better feature",
+      "reference": "Astrological services for accurate answers and better feature",
+      "alignment_score": 0.7640140056610107
+    },
+    {
+      "example_index": 12,
+      "reasons": [
+        "source_equals_reference",
+        "metadata_like_source",
+        "metadata_like_reference"
+      ],
+      "source": "Subscribe to: Post Comments (Atom)",
+      "reference": "Subscribe to: Post Comments (Atom)",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 13,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- Bengali Horoscope 2015",
+      "reference": "- Bengali Horoscope 2015",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 16,
+      "reasons": [
+        "metadata_like_source",
+        "metadata_like_reference"
+      ],
+      "source": "We suggest you to refer our blog http://blogs.tallysolutions.com/gst-transition-registered-businesses/",
+      "reference": "We suggest you to refer our blog http://blogs.tallysolutions.com/gst-invoicing/",
+      "alignment_score": 0.8271700143814087
+    },
+    {
+      "example_index": 17,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+      "reference": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+      "alignment_score": 0.737263023853302
+    },
+    {
+      "example_index": 18,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- House Warming Ceremony - Griha Pravesh Muhurat 2015",
+      "reference": "- House Warming Ceremony - Griha Pravesh Muhurat 2015",
+      "alignment_score": 0.8822069764137268
+    },
+    {
+      "example_index": 19,
+      "reasons": [
+        "source_equals_reference",
+        "metadata_like_source",
+        "metadata_like_reference"
+      ],
+      "source": "Facebook Comments",
+      "reference": "Facebook Comments",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 20,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- Rashifal 2015 (Roman)",
+      "reference": "- Rashifal 2015 (Roman)",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 21,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Our fight is against those who misinterpret them and malign Islam by associating it with terrorism.",
+      "reference": "Our fight is against those who misinterpret them and malign Islam by associating it with terrorism.",
+      "alignment_score": 0.9075220227241516
+    },
+    {
+      "example_index": 22,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "We only refer to interpretations made by fanatics and terrorists to justify their kill and rape.",
+      "reference": "We only refer to interpretations made by fanatics and terrorists to justify their kill and rape.",
+      "alignment_score": 0.9074850082397461
+    },
+    {
+      "example_index": 23,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Click Here For PRP Released Fifth Candidates List",
+      "reference": "Click Here For PRP Released Fifth Candidates List",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 24,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- Sarvartha Siddhi Yoga 2015 Muhurat",
+      "reference": "- Sarvartha Siddhi Yoga 2015 Muhurat",
+      "alignment_score": 0.8176119923591614
+    },
+    {
+      "example_index": 25,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- Vidyarambh Muhurat 2015",
+      "reference": "- Vidyarambh Muhurat 2015",
+      "alignment_score": 0.7766929864883423
+    },
+    {
+      "example_index": 26,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Make a contribution and help bring change.",
+      "reference": "Make a contribution and help bring change.",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 27,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+      "reference": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+      "alignment_score": 0.737263023853302
+    },
+    {
+      "example_index": 28,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\"",
+      "reference": "- This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\"",
+      "alignment_score": 0.8432739973068237
+    },
+    {
+      "example_index": 29,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Are you a winner today?",
+      "reference": "Are you a winner today?",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 30,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- Bengali Horoscope 2015",
+      "reference": "- Bengali Horoscope 2015",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 31,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "The non-breaking space is also known as a hard space or fixed space.",
+      "reference": "The non-breaking space is also known as a hard space or fixed space.",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 32,
+      "reasons": [
+        "source_equals_reference",
+        "metadata_like_source",
+        "metadata_like_reference"
+      ],
+      "source": "Our email is:",
+      "reference": "Our email is:",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 33,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Nayanthara Dora - Official Tamil Teaser",
+      "reference": "Nayanthara Dora - Official Tamil Teaser",
+      "alignment_score": 0.7071070075035095
+    },
+    {
+      "example_index": 35,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- GST Updates (7)",
+      "reference": "- GST Updates (7)",
+      "alignment_score": 0.8176119923591614
+    },
+    {
+      "example_index": 36,
+      "reasons": [
+        "source_equals_reference",
+        "metadata_like_source",
+        "metadata_like_reference"
+      ],
+      "source": "Facebook Comments",
+      "reference": "Facebook Comments",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 38,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Trisha Mohini Official Trailer",
+      "reference": "Trisha Mohini Official Trailer",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 39,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Books - Magazines all area (all area) April 5, 2018Free",
+      "reference": "Books - Magazines all area (all area) April 5, 2018Free",
+      "alignment_score": 0.7966279983520508
+    },
+    {
+      "example_index": 40,
+      "reasons": [
+        "source_equals_reference",
+        "metadata_like_source",
+        "metadata_like_reference"
+      ],
+      "source": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+      "reference": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+      "alignment_score": 0.8010410070419312
+    },
+    {
+      "example_index": 41,
+      "reasons": [
+        "source_equals_reference",
+        "metadata_like_source",
+        "metadata_like_reference"
+      ],
+      "source": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+      "reference": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+      "alignment_score": 0.8010410070419312
+    },
+    {
+      "example_index": 42,
+      "reasons": [
+        "source_equals_reference",
+        "metadata_like_source",
+        "metadata_like_reference"
+      ],
+      "source": "You also need to have JavaScript enabled in your browser.",
+      "reference": "You also need to have JavaScript enabled in your browser.",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 43,
+      "reasons": [
+        "source_equals_reference",
+        "metadata_like_source",
+        "metadata_like_reference"
+      ],
+      "source": "You also need to have JavaScript enabled in your browser.",
+      "reference": "You also need to have JavaScript enabled in your browser.",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 44,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- Ascendant Horoscope 2022",
+      "reference": "- Ascendant Horoscope 2022",
+      "alignment_score": 0.7766929864883423
+    },
+    {
+      "example_index": 45,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Our fight is against those who misinterpret them and malign Islam by associating it with terrorism.",
+      "reference": "Our fight is against those who misinterpret them and malign Islam by associating it with terrorism.",
+      "alignment_score": 0.9075220227241516
+    },
+    {
+      "example_index": 47,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "Florida Part 1:Six days in Orlando",
+      "reference": "Florida Part 1:Six days in Orlando",
+      "alignment_score": 1.0
+    },
+    {
+      "example_index": 48,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "This guarantees that the text “100 km” will not be broken: if it does not fit at the end of a line it is moved in its entirety to the next line.",
+      "reference": "This guarantees that the text “100 km” will not be broken: if it does not fit at the end of a line it is moved in its entirety to the next line.",
+      "alignment_score": 0.8625940084457397
+    },
+    {
+      "example_index": 49,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "“Art cannot be merely commerce.",
+      "reference": "“Art cannot be merely commerce.",
+      "alignment_score": 0.7071070075035095
+    },
+    {
+      "example_index": 50,
+      "reasons": [
+        "source_equals_reference"
+      ],
+      "source": "- microKorg (0%, 0 Votes)",
+      "reference": "- microKorg (0%, 0 Votes)",
+      "alignment_score": 0.8167650103569031
+    }
+  ],
+  "examples": [
+    {
+      "example_index": 2,
+      "source_document_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+      "target_document_id": "http___abstractextures.blogspot.com__1.xml",
+      "context_sentence_ids": [
+        "20.1",
+        "21.1"
+      ],
+      "context_sentences": [
+        "Writing about my experience is a gift.",
+        "Painting for all to see, is my gift."
+      ],
+      "current_source_sentence_id": "22.1",
+      "current_source_sentence": "Sharing my creation on my website is my gift.",
+      "target_sentence_id": "47.1",
+      "target_reference": "Wednesday, November 5, 2014",
+      "alignment_score": 1.0,
+      "baseline_hypothesis": "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+      "context_hypothesis": "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+      "baseline_status": "computed",
+      "context_status": "computed",
+      "baseline_error": null,
+      "context_error": null,
+      "reference_used_for_both_conditions": "Wednesday, November 5, 2014",
+      "context_was_supplied": true,
+      "model_name": "nllb200",
+      "dataset_provenance": {
+        "dataset_name": "DocHPLT",
+        "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+        "split": "train",
+        "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "adapter_name": "dochplt_parquet_v1",
+        "unit_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+        "unit_type": "document"
+      }
+    },
+    {
+      "example_index": 4,
+      "source_document_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+      "target_document_id": "http___abstractextures.blogspot.com__3.xml",
+      "context_sentence_ids": [
+        "20.1",
+        "21.1"
+      ],
+      "context_sentences": [
+        "Writing about my experience is a gift.",
+        "Painting for all to see, is my gift."
+      ],
+      "current_source_sentence_id": "22.1",
+      "current_source_sentence": "Sharing my creation on my website is my gift.",
+      "target_sentence_id": "47.1",
+      "target_reference": "Link to this article:",
+      "alignment_score": 1.0,
+      "baseline_hypothesis": "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+      "context_hypothesis": "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+      "baseline_status": "computed",
+      "context_status": "computed",
+      "baseline_error": null,
+      "context_error": null,
+      "reference_used_for_both_conditions": "Link to this article:",
+      "context_was_supplied": true,
+      "model_name": "nllb200",
+      "dataset_provenance": {
+        "dataset_name": "DocHPLT",
+        "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+        "split": "train",
+        "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "adapter_name": "dochplt_parquet_v1",
+        "unit_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+        "unit_type": "document"
+      }
+    },
+    {
+      "example_index": 7,
+      "source_document_id": "http___www.astrosage.com_calculators__1.xml",
+      "target_document_id": "http___astrosage.com_2013_telugu_rasi-phalalu-2013-telugu-horoscope-2013.asp_1.xml",
+      "context_sentence_ids": [
+        "26.1",
+        "27.1"
+      ],
+      "context_sentences": [
+        "- तिथि को लेकर न हों कनफ्यूज़- इस दिन से शुरू है पितृ पक्ष-नोट कर लें श्राद्ध की सही विधि!",
+        "- एस्ट्रोसेज कुंडली लाइव : असल ज्योतिष और असली ज्योतिषी"
+      ],
+      "current_source_sentence_id": "28.1",
+      "current_source_sentence": "- कन्या में गोचर कर सूर्य अन्य ग्रहों के साथ बनाएंगे कई बड़े योग, पढ़ें सूर्य के कन्या में गोचर का प्रभाव !",
+      "target_sentence_id": "40.1",
+      "target_reference": "- Sarvartha Siddhi Yoga 2015 Muhurat",
+      "alignment_score": 0.8176119923591614,
+      "baseline_hypothesis": "- కన్యలో గోచరిస్తే సూర్యుడు ఇతర గ్రహాలతో కలిసి అనేక పెద్ద యోగాలు చేస్తారు, సూర్యుడి కన్యలో గోచరిస్తే ప్రభావం ఎలా ఉంటుందో చదవండి!",
+      "context_hypothesis": "సందర్భంః - తేదీని తీసుకోకండి కన్ఫ్యూజ్ - ఈ రోజు నుండి ప్రారంభమవుతుంది పితృ పక్ష- గమనిక తీసుకోండి శ్రాద్ధ యొక్క సరైన పద్ధతి! - జ్యోతిషశాస్త్రం కుండలీ లైవ్ః నిజమైన జ్యోతిష్ మరియు నిజమైన జ్యోతిష్ ప్రస్తుత విచారణః - కన్య లో గోచరిస్తూ సూర్యుడు ఇతర గ్రహాలతో కలిసి అనేక పెద్ద యోగాలు చేస్తారు, సూర్యుడు కన్య లో గోచరిస్తూ ప్రభావం చదవండి !",
+      "baseline_status": "computed",
+      "context_status": "computed",
+      "baseline_error": null,
+      "context_error": null,
+      "reference_used_for_both_conditions": "- Sarvartha Siddhi Yoga 2015 Muhurat",
+      "context_was_supplied": true,
+      "model_name": "nllb200",
+      "dataset_provenance": {
+        "dataset_name": "DocHPLT",
+        "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+        "split": "train",
+        "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "adapter_name": "dochplt_parquet_v1",
+        "unit_id": "http___www.astrosage.com_calculators__1.xml",
+        "unit_type": "document"
+      }
+    },
+    {
+      "example_index": 11,
+      "source_document_id": "http___www.astrosage.com_2017_scorpio-horoscope-2017.asp_2.xml",
+      "target_document_id": "http___astrosage.com_2017_rasiphalalu2017.asp_1.xml",
+      "context_sentence_ids": [
+        "31.1",
+        "33.1"
+      ],
+      "context_sentences": [
+        "- Negative side: You need to save yourself from bad addictions.",
+        "- Auspicious color(s): Red, Yellow, Orange, and White"
+      ],
+      "current_source_sentence_id": "34.1",
+      "current_source_sentence": "- Auspicious direction: North",
+      "target_sentence_id": "69.1",
+      "target_reference": "- Chinese Horoscope 2017",
+      "alignment_score": 0.7766929864883423,
+      "baseline_hypothesis": "- మంచి దిశః ఉత్తర",
+      "context_hypothesis": "సందర్భంః - ప్రతికూల వైపుః మీరు చెడు వ్యసనాలకు దూరంగా ఉండాలి. - అనుకూలమైన రంగులు: ఎరుపు, పసుపు, నారింజ మరియు తెలుపు ప్రస్తుత వాక్యంః - అనుకూలమైన దిశః ఉత్తర",
+      "baseline_status": "computed",
+      "context_status": "computed",
+      "baseline_error": null,
+      "context_error": null,
+      "reference_used_for_both_conditions": "- Chinese Horoscope 2017",
+      "context_was_supplied": true,
+      "model_name": "nllb200",
+      "dataset_provenance": {
+        "dataset_name": "DocHPLT",
+        "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+        "split": "train",
+        "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "adapter_name": "dochplt_parquet_v1",
+        "unit_id": "http___www.astrosage.com_2017_scorpio-horoscope-2017.asp_2.xml",
+        "unit_type": "document"
+      }
+    },
+    {
+      "example_index": 14,
+      "source_document_id": "http___balagopal.org__cat_8_2.xml",
+      "target_document_id": "http___balagopal.org__m_201210_1.xml",
+      "context_sentence_ids": [
+        "74.1",
+        "75.1"
+      ],
+      "context_sentences": [
+        "Place: Sundarayya Vignana Kendram, Bagh Lingampally, Hyd.",
+        "A Chandrasekhar, HRF EC member will welcome the gathering."
+      ],
+      "current_source_sentence_id": "76.1",
+      "current_source_sentence": "HRF president S Jeevan Kumar will preside over the meet.",
+      "target_sentence_id": "71.1",
+      "target_reference": "We warmly invite you and friends to be with us on the day.",
+      "alignment_score": 1.0,
+      "baseline_hypothesis": "ఈ సమావేశానికి ఎచ్ఆర్ఎఫ్ అధ్యక్షుడు ఎస్.జీవన్ కుమార్ అధ్యక్షత వహించనున్నారు.",
+      "context_hypothesis": "సందర్భం: స్థానంః సుందరయ విజ్ఞాన కేంద్రాం, బాగ్ లింగంపల్లి, హైదరాబాద్. ఈ సమావేశాన్ని ఒక చంద్రశేఖర్, హెచ్ఆర్ఎఫ్ కమిషన్ సభ్యుడు స్వాగతించనున్నారు.",
+      "baseline_status": "computed",
+      "context_status": "computed",
+      "baseline_error": null,
+      "context_error": null,
+      "reference_used_for_both_conditions": "We warmly invite you and friends to be with us on the day.",
+      "context_was_supplied": true,
+      "model_name": "nllb200",
+      "dataset_provenance": {
+        "dataset_name": "DocHPLT",
+        "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+        "split": "train",
+        "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "adapter_name": "dochplt_parquet_v1",
+        "unit_id": "http___balagopal.org__cat_8_2.xml",
+        "unit_type": "document"
+      }
+    },
+    {
+      "example_index": 15,
+      "source_document_id": "http___insightdesigns.co.uk_Privacy-Policy.htm.xml",
+      "target_document_id": "http___architectureideas.info_privacy-policy__lang_te_1.xml",
+      "context_sentence_ids": [
+        "8.1",
+        "8.2"
+      ],
+      "context_sentences": [
+        "As with most other websites, we collect and use the data contained in log files.",
+        "The information in the log files include your IP (internet protocol) address, your ISP (internet service provider, such as AOL or Shaw Cable), the browser you used to visit our site (such as Internet Explorer or Firefox), the time you visited our site and which pages you visited throughout our site."
+      ],
+      "current_source_sentence_id": "9.1",
+      "current_source_sentence": "Cookies and Web Beacons",
+      "target_sentence_id": "4.1",
+      "target_reference": "కుకీలు మరియు వెబ్ బీకాన్స్:",
+      "alignment_score": 0.7766929864883423,
+      "baseline_hypothesis": "కుకీలు మరియు వెబ్ బేకర్లు",
+      "context_hypothesis": "CONTEXT: ఇతర వెబ్సైట్లలో మాదిరిగానే, లాగ్ ఫైళ్ళలో ఉన్న డేటాను మేము సేకరిస్తాము మరియు ఉపయోగిస్తాము. లాగ్ ఫైళ్ళలో మీ IP (ఇంటర్నెట్ ప్రోటోకాల్), మీ ISP (AOL లేదా Shaw Cable వంటి ఇంటర్నెట్ సర్వీస్ ప్రొవైడర్), మీరు మా సైట్ను సందర్శించడానికి ఉపయోగించిన బ్రౌజర్ (ఇంటర్నెట్ ఎక్స్ప్లోరర్ లేదా ఫైర్ఫాక్స్ వంటివి), మీరు మా సైట్ను సందర్శించిన సమయం మరియు మీరు మా సైట్ అంతటా సందర్శించిన పేజీలు ఉన్నాయి.",
+      "baseline_status": "computed",
+      "context_status": "computed",
+      "baseline_error": null,
+      "context_error": null,
+      "reference_used_for_both_conditions": "కుకీలు మరియు వెబ్ బీకాన్స్:",
+      "context_was_supplied": true,
+      "model_name": "nllb200",
+      "dataset_provenance": {
+        "dataset_name": "DocHPLT",
+        "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+        "split": "train",
+        "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "adapter_name": "dochplt_parquet_v1",
+        "unit_id": "http___insightdesigns.co.uk_Privacy-Policy.htm.xml",
+        "unit_type": "document"
+      }
+    },
+    {
+      "example_index": 34,
+      "source_document_id": "http___cineraaga.com_movies_news__rajamouli-gave-strategic-break-to-tamanna-bhatia.xml",
+      "target_document_id": "http___cineraaga.com_politics_buy-water-bottle-and-get-snake-free_2.xml",
+      "context_sentence_ids": [
+        "5.1",
+        "6.1"
+      ],
+      "context_sentences": [
+        "Manju Warrier & Amala Akineni C/O Saira Banu (Mala..",
+        "Madhavan | Vijay Sethupathi Vikram Vedha Tamil Mov.."
+      ],
+      "current_source_sentence_id": "7.1",
+      "current_source_sentence": "Nayanthara Dora - Official Tamil Teaser",
+      "target_sentence_id": "6.1",
+      "target_reference": "Trisha Mohini Official Trailer",
+      "alignment_score": 0.7071070075035095,
+      "baseline_hypothesis": "నాయనతారా డోరా - అధికారిక తమిళ టీజర్",
+      "context_hypothesis": "సందర్భం: మంజు వార్యర్ & అమలా అకినెని సి/ఓ సైరా బను (మల.. మధవన్",
+      "baseline_status": "computed",
+      "context_status": "computed",
+      "baseline_error": null,
+      "context_error": null,
+      "reference_used_for_both_conditions": "Trisha Mohini Official Trailer",
+      "context_was_supplied": true,
+      "model_name": "nllb200",
+      "dataset_provenance": {
+        "dataset_name": "DocHPLT",
+        "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+        "split": "train",
+        "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "adapter_name": "dochplt_parquet_v1",
+        "unit_id": "http___cineraaga.com_movies_news__rajamouli-gave-strategic-break-to-tamanna-bhatia.xml",
+        "unit_type": "document"
+      }
+    },
+    {
+      "example_index": 37,
+      "source_document_id": "http___cineraaga.com_movies_news__happy-birthday-to-meenaabout-meena-and-her-career.xml",
+      "target_document_id": "http___cineraaga.com_movies_news__cherrys-best-friend-plays-villain-role-in-his-next-movie_1.xml",
+      "context_sentence_ids": [
+        "4.1",
+        "5.1"
+      ],
+      "context_sentences": [
+        "Balakrishna Jai Simha Trailer",
+        "Akshay Kumar PADMAN Official Trailer"
+      ],
+      "current_source_sentence_id": "6.1",
+      "current_source_sentence": "Trisha Mohini Official Trailer",
+      "target_sentence_id": "6.1",
+      "target_reference": "Nayanthara Dora - Official Tamil Teaser",
+      "alignment_score": 1.0,
+      "baseline_hypothesis": "ట్రిషా మోహినీ అధికారిక ట్రైలర్",
+      "context_hypothesis": "సందర్భంః బాలకృష్ణ జై సింహా ట్రైలర్ అక్షయ్ కుమార్ పాడ్మాన్ అధికారిక ట్రైలర్ ప్రస్తుత శిక్షః త్రిష మోహినీ అధికారిక ట్రైలర్",
+      "baseline_status": "computed",
+      "context_status": "computed",
+      "baseline_error": null,
+      "context_error": null,
+      "reference_used_for_both_conditions": "Nayanthara Dora - Official Tamil Teaser",
+      "context_was_supplied": true,
+      "model_name": "nllb200",
+      "dataset_provenance": {
+        "dataset_name": "DocHPLT",
+        "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+        "split": "train",
+        "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "adapter_name": "dochplt_parquet_v1",
+        "unit_id": "http___cineraaga.com_movies_news__happy-birthday-to-meenaabout-meena-and-her-career.xml",
+        "unit_type": "document"
+      }
+    },
+    {
+      "example_index": 46,
+      "source_document_id": "http___chipcollection.com_2013_12__1.xml",
+      "target_document_id": "http___chipcollection.com_2013_12__lang_te_1.xml",
+      "context_sentence_ids": [
+        "15.1",
+        "16.1"
+      ],
+      "context_sentences": [
+        "- Prophet 12 (8%, 1 Votes)",
+        "- Novation Bass Station II (8%, 1 Votes)"
+      ],
+      "current_source_sentence_id": "17.1",
+      "current_source_sentence": "- Nord Lead 4 (0%, 0 Votes)",
+      "target_sentence_id": "16.1",
+      "target_reference": "- నోర్డ్ లీడ్ 4 (0%, 0 Votes)",
+      "alignment_score": 0.7007669806480408,
+      "baseline_hypothesis": "- నార్డ్ లీడ్ 4 (0%, 0 ఓట్లు)",
+      "context_hypothesis": "సందర్భంః - ప్రవక్త 12 (8%, 1 ఓట్లు) - నవేశన్ బాస్ స్టేషన్ II (8%, 1 ఓట్లు) ప్రస్తుత తీర్పుః - నార్డ్ లీడ్ 4 (0%, 0 ఓట్లు)",
+      "baseline_status": "computed",
+      "context_status": "computed",
+      "baseline_error": null,
+      "context_error": null,
+      "reference_used_for_both_conditions": "- నోర్డ్ లీడ్ 4 (0%, 0 Votes)",
+      "context_was_supplied": true,
+      "model_name": "nllb200",
+      "dataset_provenance": {
+        "dataset_name": "DocHPLT",
+        "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+        "split": "train",
+        "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+        "adapter_name": "dochplt_parquet_v1",
+        "unit_id": "http___chipcollection.com_2013_12__1.xml",
+        "unit_type": "document"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "baseline_sentence_level": {
+    "bleu": {
+      "status": "failed",
+      "score": null,
+      "reason": "one or more baseline translations failed"
+    },
+    "chrf++": {
+      "status": "failed",
+      "score": null,
+      "reason": "one or more baseline translations failed"
+    },
+    "bertscore": {
+      "status": "failed",
+      "score": null,
+      "reason": "one or more baseline translations failed"
+    },
+    "comet": {
+      "status": "failed",
+      "score": null,
+      "reason": "one or more baseline translations failed"
+    }
+  },
+  "context_conditioned": {
+    "bleu": {
+      "status": "unavailable",
+      "score": null,
+      "reason": "no eligible predictions"
+    },
+    "chrf++": {
+      "status": "unavailable",
+      "score": null,
+      "reason": "no eligible predictions"
+    },
+    "bertscore": {
+      "status": "unavailable",
+      "score": null,
+      "reason": "not requested"
+    },
+    "comet": {
+      "status": "unavailable",
+      "score": null,
+      "reason": "not requested"
+    }
+  }
+}

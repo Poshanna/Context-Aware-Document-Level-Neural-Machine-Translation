@@ -1,0 +1,3 @@
+{"data_source": "synthetic_test", "id": 0, "source_language": "en", "source_text": "Synthetic test sentence one.", "target_language": "te", "target_text": "కృత్రిమ పరీక్ష వాక్యం ఒకటి."}
+{"data_source": "synthetic_test", "id": 1, "source_language": "en", "source_text": "Synthetic test sentence two.", "target_language": "te", "target_text": "కృత్రిమ పరీక్ష వాక్యం రెండు."}
+{"data_source": "synthetic_test", "id": 2, "source_language": "en", "source_text": "Synthetic test sentence three.", "target_language": "te", "target_text": "కృత్రిమ పరీక్ష వాక్యం మూడు."}

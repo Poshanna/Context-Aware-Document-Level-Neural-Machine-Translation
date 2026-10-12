@@ -1,0 +1,192 @@
+[
+  {
+    "example_index": 1,
+    "source_document_id": "http___astrosage.com_festival_navratri_navdurga-astrology.asp.xml",
+    "target_document_id": "http___astrosage.com_2015_rasiphalalu2015.asp_1.xml",
+    "context_sentence_ids": [
+      "12.1",
+      "13.1"
+    ],
+    "context_sentences": [
+      "- Chinese Horoscope 2015",
+      "- Lal Kitab Horoscope 2015"
+    ],
+    "current_source_sentence_id": "14.1",
+    "current_source_sentence": "- Tamil Horoscope 2015",
+    "target_sentence_id": "75.1",
+    "target_reference": "- Tamil Horoscope 2015",
+    "alignment_score": 0.7117879986763,
+    "baseline_hypothesis": "- తమిళ హార్సోస్కోప్ 2015",
+    "context_hypothesis": "సందర్భంః - చైనీస్ హార్సోస్కోప్ 2015 - లాల్ కితాబ్ హార్సోస్కోప్ 2015 ప్రస్తుత వాక్యంః - తమిళ హార్సోస్కోప్ 2015",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Tamil Horoscope 2015",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___astrosage.com_festival_navratri_navdurga-astrology.asp.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 2,
+    "source_document_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+    "target_document_id": "http___abstractextures.blogspot.com__1.xml",
+    "context_sentence_ids": [
+      "20.1",
+      "21.1"
+    ],
+    "context_sentences": [
+      "Writing about my experience is a gift.",
+      "Painting for all to see, is my gift."
+    ],
+    "current_source_sentence_id": "22.1",
+    "current_source_sentence": "Sharing my creation on my website is my gift.",
+    "target_sentence_id": "47.1",
+    "target_reference": "Wednesday, November 5, 2014",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+    "context_hypothesis": "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Wednesday, November 5, 2014",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 3,
+    "source_document_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+    "target_document_id": "http___abstractextures.blogspot.com__2.xml",
+    "context_sentence_ids": [
+      "20.1",
+      "21.1"
+    ],
+    "context_sentences": [
+      "Writing about my experience is a gift.",
+      "Painting for all to see, is my gift."
+    ],
+    "current_source_sentence_id": "22.1",
+    "current_source_sentence": "Sharing my creation on my website is my gift.",
+    "target_sentence_id": "47.1",
+    "target_reference": "Sharing my creation on my website is my gift.",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+    "context_hypothesis": "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Sharing my creation on my website is my gift.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 4,
+    "source_document_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+    "target_document_id": "http___abstractextures.blogspot.com__3.xml",
+    "context_sentence_ids": [
+      "20.1",
+      "21.1"
+    ],
+    "context_sentences": [
+      "Writing about my experience is a gift.",
+      "Painting for all to see, is my gift."
+    ],
+    "current_source_sentence_id": "22.1",
+    "current_source_sentence": "Sharing my creation on my website is my gift.",
+    "target_sentence_id": "47.1",
+    "target_reference": "Link to this article:",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+    "context_hypothesis": "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Link to this article:",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 5,
+    "source_document_id": "https___www.astrosage.com_festival_diwali_diwali-cards.asp.xml",
+    "target_document_id": "http___astrosage.com_telugu_rasi-phalalu_next-week_gemini-rasi-phalalu.asp_1.xml",
+    "context_sentence_ids": [
+      "22.1",
+      "23.1"
+    ],
+    "context_sentences": [
+      "- Love Horoscope 2022",
+      "- Finance Horoscope 2022"
+    ],
+    "current_source_sentence_id": "24.1",
+    "current_source_sentence": "- Education Horoscope 2022",
+    "target_sentence_id": "43.1",
+    "target_reference": "- Education Horoscope 2022",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "- విద్యా వృత్తాంతం 2022",
+    "context_hypothesis": "సందర్భంః - ప్రేమ రాశిచక్రం 2022 - ఆర్థిక రాశిచక్రం 2022 ప్రస్తుత వాక్యంః - విద్య రాశిచక్రం 2022",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Education Horoscope 2022",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmp7ip7s5u9\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "https___www.astrosage.com_festival_diwali_diwali-cards.asp.xml",
+      "unit_type": "document"
+    }
+  }
+]

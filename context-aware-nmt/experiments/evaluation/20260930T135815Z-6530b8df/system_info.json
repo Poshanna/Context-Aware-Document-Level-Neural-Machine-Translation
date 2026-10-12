@@ -1,0 +1,12 @@
+{
+  "device": "cpu",
+  "software_versions": {
+    "python": "3.14.4",
+    "sacrebleu": "2.6.0",
+    "transformers": "5.17.0",
+    "torch": "2.11.0",
+    "numpy": "2.4.4",
+    "bert-score": "0.3.13",
+    "unbabel-comet": null
+  }
+}

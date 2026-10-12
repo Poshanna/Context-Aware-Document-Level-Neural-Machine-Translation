@@ -1,0 +1,101 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDE / Editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- pytest / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+cov.xml
+
+# --- Node / Frontend ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+.eslintcache
+
+# --- Environment / Secrets ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# --- Database ---
+*.sqlite
+*.sqlite3
+pgdata/
+alembic/versions/*.pyc
+
+# --- ML / Hugging Face caches (huge, do not commit) ---
+.cache/
+*.bin
+*.safetensors
+*.pt
+*.pth
+.huggingface/
+
+# --- Uploaded / processed data ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Experiment artifacts (large) ---
+experiments/**/checkpoints/
+experiments/**/outputs/
+experiments/**/*.csv
+experiments/**/*.jsonl
+experiments/**/runs/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Docker volumes ---
+volumes/
+uploads/
+hf_cache/
+
+# --- Logs ---
+logs/
+*.log

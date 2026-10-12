@@ -1,0 +1,56 @@
+{
+  "dataset": "DocHPLT",
+  "config": "en-te",
+  "split": "validation",
+  "evaluation_type": "deterministic 1000-example subset of prepared validation data",
+  "official_test_set": false,
+  "document_level_nmt": false,
+  "model": "facebook/nllb-200-distilled-600M",
+  "context_encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "checkpoint": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\experiments\\context_adapter\\context_adapter.pt",
+  "validation_file": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\processed\\context_adapter\\val.jsonl",
+  "examples": 100,
+  "context_top_k": 2,
+  "source_side_context_only": true,
+  "target_side_used_for_ranking": false,
+  "retrieval_method": "semantic similarity using all-MiniLM-L6-v2",
+  "decoding": {
+    "num_beams": 1,
+    "do_sample": false,
+    "max_source_length": 128,
+    "max_new_tokens": 128
+  },
+  "baseline": {
+    "model": "facebook/nllb-200-distilled-600M",
+    "metrics": {
+      "bleu": 7.3497042850342735,
+      "chrf": 25.106627044293095
+    },
+    "failures": 0
+  },
+  "context_adapter": {
+    "metrics": {
+      "bleu": 13.986554118370854,
+      "chrf": 31.93517150521508
+    },
+    "failures": 0,
+    "context_top_k": 2
+  },
+  "absolute_change": {
+    "bleu": 6.636849833336581,
+    "chrf": 6.828544460921986
+  },
+  "relative_change_percent": {
+    "bleu": 90.30090975021632,
+    "chrf": 27.19817540155861
+  },
+  "notes": [
+    "The baseline and Context Adapter are evaluated on exactly the same validation examples.",
+    "This is not an official DocHPLT test set.",
+    "The evaluation uses a deterministic subset of the prepared validation data.",
+    "The Context Adapter is an experimental context-fusion mechanism built on sentence-level NLLB-200.",
+    "Source-side context is retrieved without using target/reference text for ranking.",
+    "The context encoder and NLLB backbone remain frozen during evaluation.",
+    "Only the trained Context Adapter checkpoint is loaded as the learned context-fusion component."
+  ]
+}

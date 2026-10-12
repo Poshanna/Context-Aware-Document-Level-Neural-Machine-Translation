@@ -1,0 +1,199 @@
+{
+  "run_id": "20261003T172720Z-7f305c46",
+  "timestamp": "2026-10-03T17:27:20.901865+00:00",
+  "dataset": "IndicDISCO-MT",
+  "revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+  "component": "Indicdisco_MT",
+  "split": "test",
+  "source_lang": "te",
+  "target_lang": "en",
+  "requested_max_samples": 5,
+  "actual_sample_count": 5,
+  "successful_hypothesis_count": 5,
+  "seed": 42,
+  "sampling_strategy": "random_without_replacement_from_bounded_prefix",
+  "candidate_row_count": 10,
+  "bytes_read": 58968,
+  "sample_row_locators": [
+    "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=1",
+    "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=0",
+    "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=4",
+    "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=9",
+    "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=6"
+  ],
+  "exclusions": [],
+  "per_sample": [
+    {
+      "dataset": "IndicDISCO-MT",
+      "revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+      "component": "Indicdisco_MT",
+      "split": "test",
+      "row_locator": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=1",
+      "source_language": "Telugu",
+      "target_language": "English",
+      "source": "పాతకాలపు, అధిక బరువు గల భార్య మరియు తల్లి రూత్ ప్యాట్చెట్ తన వ్యాపారాన్ని పెంచుకోవడానికి ప్రయత్నిస్తున్న తన అకౌంటెంట్ భర్త బాబ్‌ను సంతోషపెట్టడానికి తీవ్రంగా ప్రయత్నిస్తుంది. బాబ్ ఒక పార్టీలో నార్సిసిస్టిక్ రొమాన్స్ నవలా రచయిత్రి మేరీ ఫిషర్‌ను కలిసిన తర్వాత, వారు ఎఫైర్ ప్రారంభిస్తారు. ఎఫైర్ గురించి తెలుసుకున్న రూత్, బాబ్‌ను అతని తల్లిదండ్రులు సందర్శించడానికి వస్తున్నప్పుడు ఎదుర్కొంటుంది మరియు బాబ్ ఆమెను విడిచిపెడతాడు. కోపంతో, రూత్ అతనిపై మరియు మేరీపై ప్రతీకారం తీర్చుకుంటుంది. రూత్ బాబ్ ఆస్తులను, అతని ఇల్లు, అతని కుటుంబం, అతని కెరీర్ మరియు అతని స్వేచ్ఛ ఒక దాని తర్వాత ఒకటి నాశనం చేయాలని ప్లాన్ చేస్తుంది. బాబ్ మేరీ వద్ద మరియు పిల్లలు పాఠశాలలో ఉండటంతో, ఆమె మేరీ యొక్క ఆర్థిక రికార్డులను సేకరించింది మరియు ఇంటి విద్యుత్తును ఓవర్‌లోడ్ చేస్తుంది, భారీ పేలుడులో ఇంటిని ధ్వంసం చేసింది. ఆమె పిల్లలను మేరీ మరియు బాబ్‌ దగ్గర విడిచిపెట్టి, తాను తిరిగి రానని అతనికి చెప్పింది. బాబ్ యొక్క రెండవ ఆస్తి, అతని కుటుంబం, నెమ్మదిగా క్షీణిస్తుంది, ఎందుకంటే మేరీ తల్లిగా ఎలా ఉండాలో తెలుసుకోవడానికి స్వార్థపూరితంగా నిరాకరించడం వల్ల బాబ్‌తో ఆమె సంబంధంలో ఉద్రిక్తత ఏర్పడుతుంది మరియు ఆమె సరికొత్త శృంగార నవల రాయగల సామర్థ్యంతో జోక్యం చేసుకోవడం ప్రారంభించింది. మేరీ యొక్క కొత్త నవల బాబ్‌తో ఆమె ప్రేమపై ఆధారపడి ఉంటుంది, అయితే లాండ్రీ గురించి ఒక అధ్యాయం ఉన్నందున ఆమె ప్రచురణకర్త దానిని వింతగా మరియు అస్పష్టంగా భావించారు. రూత్, వెస్టా రోజ్ అనే మారుపేరుతో ఒక నర్సింగ్ హోమ్‌లో ఉద్యోగం చేస్తుంది, అక్కడ ఆమె మేరీ గురించి తప్పుగా మాట్లాడే, విడిపోయిన తల్లి అయిన ఫ్రాన్సిన్‌తో స్నేహం చేస్తుంది మరియు ఆమె ఒక అనాలోచిత సమయంలో మేరీ జీవితంలోకి తిరిగి వచ్చేలా ఏర్పాటు చేస్తుంది. ఆమె నర్సింగ్‌హోమ్‌లో 22 సంవత్సరాలు పనిచేసి, తన సంపాదనను గణనీయమైన జీవిత పొదుపు కోసం పక్కన పెట్టిన హూపర్ అనే నర్సును కూడా కలుస్తుంది. సీనియర్ సిటిజన్ల మత్తుమందులు మరియు విటమిన్ మరియు కెఫిన్ మాత్రలు మరియు సుసంపన్నమైన కార్యకలాపాల కోసం లౌకిక రొటీన్‌లను రహస్యంగా మార్చడం ద్వారా రూత్ హూపర్‌ను భయపెట్టినప్పటికీ, ఆమెను డెజర్ట్‌లకు పరిచయం చేయడం ద్వారా ఆమె హూపర్ యొక్క నమ్మకాన్ని పొందుతుంది. బెడ్‌ వెటర్‌గా చిత్రీకరించి, ఆమె తిరిగి రాకుండా చేసేందుకు ఫ్రాన్సిన్ బెడ్‌పై నీటిని పడేసినందుకు రూత్‌ను ఇంటి నుండి తొలగించబడిన తర్వాత, ఆమె మరియు హూపర్ ఒక భాగస్వామ్యాన్ని ఏర్పరుచుకుని, సమాజం తిరస్కరించిన మరియు రెండవ అవకాశం అవసరం ఉన్న అణగారిన మహిళల కోసం ఒక ఉపాధి ఏజెన్సీని ప్రారంభించారు. . ఏజెన్సీ విజయవంతమైంది మరియు బాబ్‌పై ప్రతీకారం తీర్చుకోవడంలో రూత్ ఆమెకు సహాయం చేసింది. ఒలివియా, ఒక ఆకర్షణీయమైన కానీ చురుకైన యువ అందగత్తె, ఏజెన్సీకి వర్తిస్తుంది మరియు ఆమె బాబ్ యొక్క సెక్రటరీగా నియమించబడింది, అక్కడ అతను ఆమెతో ఆఫీసులో పడుకోవడం ప్రారంభించాడు. దీని వలన మేరీ రాత్రిపూట ఒంటరిగా మరియు నిరాశకు గురవుతుంది, ఇది బాబ్ ఆమె పురోగతిని తిరస్కరించేలా చేస్తుంది. ఒలివియా బాబ్‌పై తన ప్రేమను ప్రకటించినప్పుడు, అతను వెంటనే ఆమెను అసహ్యించుకుని తొలగించాడు. ఒలివియా ,రూత్‌కు బాబ్ ఒక మోసగాడు అని వెల్లడిస్తుంది, అతను తన ఖాతాదారుల నుండి వారి ఖాతాల నుండి వడ్డీని తగ్గించి, ఆపై దానిని అతని ఆఫ్‌షోర్ ఖాతాకు బదిలీ చేస్తాడు. మేరీని పీపుల్ ద్వారా పఫ్ పీస్ కోసం ఇంటర్వ్యూ చేస్తున్నప్పుడు, ఆమె తల్లి తన కెరీర్‌ను సమర్థవంతంగా నాశనం చేసే ఇబ్బందికరమైన రహస్యాలను వెల్లడిస్తుంది. ఒలివియా మరియు రూత్ బాబ్ యొక్క కంప్యూటర్‌ను హ్యాక్ చేసి భారీ దోపిడీని నిర్వహించి, దానిని ఐఆర్‌ఎస్‌కి నివేదించారు. రూత్ కూడా బాబ్, ఒలివియాతో పడుకున్న చిత్రాలను మేరీకి మెయిల్ చేస్తుంది. తన జీవితంపై నియంత్రణను తిరిగి పొందాలనే ఉద్దేశ్యంతో, మేరీ తన తల్లిని మరియు బాబ్ పిల్లలను ప్రవర్తించేలా బలవంతం చేస్తుంది, తర్వాత తన స్నేహితులతో కలిసి ఒక సొగసైన పార్టీని జరుపుకుంటుంది. బాబ్ అరెస్టుకు వారెంట్‌తో పోలీసులు కనిపించే వరకు అంతా బాగానే ఉంటుంది. అనుకూలమైన తీర్పును ఇవ్వమని బాబ్ యొక్క న్యాయవాది అవినీతిపరుడైన పురుష న్యాయమూర్తికి లంచం ఇస్తాడు, మరియు తెలియకుండానే బాబ్ తన ఖాతా నుండి దొంగిలిస్తున్నాడని మేరీకి తెలియజేసాడు, తద్వారా ఆమె బాబ్‌ను విడిచిపెట్టి తన భవనాన్ని విక్రయించింది. రూత్ ఏజెన్సీ ద్వారా కోర్టు క్లర్క్‌గా ఉద్యోగం పొందిన ఒక మహిళ, బాబ్ కేసును నిష్పాక్షికమైన మహిళా న్యాయమూర్తికి అప్పగించడం ద్వారా రూత్‌కు తిరిగి తన రుణాన్ని చెల్లిస్తుంది. బాబ్ పై ఆరోపణ రుజువై మరియు 18 నెలల జైలు శిక్ష విధించబడింది, తద్వారా అతని నాల్గవ మరియు చివరి ఆస్తి అయిన అతని స్వేచ్ఛను నాశనం చేసింది. బాబ్‌ని తీసుకెళ్తుండగా, రూత్ పట్ల అతని దురాశ, స్వార్థం మరియు అవిశ్వాసం తనను ఏమీ లేకుండా చేశిందని అతను గ్రహించాడు. పదహారు నెలల తర్వాత, రూత్ మరియు ఆమె పిల్లలు గొప్పగా సంస్కరించబడిన బాబ్‌ను సందర్శిస్తారు, అతను ఇప్పుడు విడాకుల తర్వాత రూత్‌తో మరింత స్నేహపూర్వక బంధాన్ని ఏర్పరుచుకున్నాడు మరియు జైలు నుండి విడుదలైన తర్వాత అతని పిల్లలతో కలుసుకోవడానికి ఎదురు చూస్తున్నాడు. బాబ్ లాగా మనుషులు మారగలిగినప్పటికీ, అందరూ అలా చేయరు అని రూత్ ముగించింది. మేరీ మరింత ప్రధాన స్రవంతి రచయిత్రిగా మారడం ద్వారా తన కెరీర్‌ను పునరుద్ధరించుకుంది మరియు ఒక న్యూ టెల్-ఆల్ పుస్తకం కోసం పుస్తకాలపై సంతకం చేస్తుంది, అక్కడ ఆమె రూత్ కోసం ఒక పుస్తకంపై సంతకం చేసింది కానీ ఆమెను గుర్తించలేదు. రూత్ తర్వాత వరుసలో ఒక వ్యక్తితో మేరీ స్పష్టంగా సరసాలాడడానికి ప్రయత్నించడాన్ని చూసి , ఆమె తన మార్గాలను పూర్తిగా మార్చుకోలేదని గ్రహిస్తుంది. మాన్‌హట్టన్‌లోని రద్దీగా ఉండే వీధిలో తన సంస్థకు చెందిన మహిళలతో కలిసి నడుస్తూ రూత్ నవ్వుతూ సినిమా ముగుస్తుంది.",
+      "reference": "Frumpy, overweight wife and mother Ruth Patchett desperately attempts to please her accountant husband Bob, who is trying to boost his business. After Bob meets narcissistic romance novelist Mary Fisher at a party, they begin an affair. Ruth, aware of the affair, confronts Bob while his parents are visiting, and Bob leaves her. Angry, Ruth vows revenge on him and Mary. Ruth lists Bob's assets, representing his home, his family, his career and his freedom, planning to cross off each one after destroying it. With Bob away at Mary's and the kids at school, she procures Mary's financial records and overloads the electricity of the house, destroying the house in a massive explosion. She leaves the kids with Mary and Bob and tells him that she will not be returning. Bob's second asset, his family, slowly deteriorates, as Mary's selfish refusal to learn how to be a mother causes tension in her relationship with Bob and begins to interfere with her ability to write her newest romance novel. Mary's new novel is loosely based on her romance with Bob, but her publisher considers it strange and off-putting as there is a chapter about laundry. Ruth takes a job at a nursing home under the pseudonym Vesta Rose, where she befriends Francine, Mary's foul-mouthed, estranged mother, and arranges for her to return to Mary's life at an inopportune moment. She also meets Hooper, a nurse who has worked for the nursing home for 22 years and put aside her earnings for a considerable life savings. Though Ruth horrifies Hooper by secretly switching the senior citizens' sedatives and mundane routines for vitamin and caffeine pills and enriching activities, she gains Hooper's trust by introducing her to desserts. After Ruth is fired from the home for dumping water on Francine's bed to frame her as a bed-wetter and prevent her return, she and Hooper form a partnership and start an employment agency for downtrodden women who have been rejected by society and need a second chance. The agency is successful, and the women Ruth has helped assist her in getting revenge on Bob. Olivia, an attractive but ditsy young blonde, applies to the agency, and she is hired as Bob's secretary where he starts sleeping with her at the office. This causes Mary to become lonely and desperate at night, which makes Bob rebuff her advances. When Olivia proclaims her love for Bob, he immediately dumps and fires her. Olivia reveals to Ruth that Bob is a fraudster who cons money out of his clients by skimming interest off their accounts, then transferring it to his offshore account. As Mary is being interviewed for a puff piece by People, her mother reveals embarrassing secrets about her that effectively destroy her career. Olivia and Ruth hack Bob's computer to conduct a gigantic embezzlement, then report this to the IRS. Ruth also mails pictures of Bob bedding Olivia to Mary. Intent on regaining control of her life, Mary forces her mother and Bob's children to behave, then throws an elegant party with her friends. All goes well until state troopers appear with a warrant for Bob's arrest. Bob's lawyer bribes a corrupt male judge to ensure a favorable verdict, and unknowingly informs Mary that Bob has been stealing from her account as well, causing her to leave Bob and sell her mansion. A woman who gained employment as a court clerk via Ruth's agency repays Ruth by reassigning Bob's case to an unbiased female judge. Bob is convicted of embezzlement and sentenced to 18 months in prison, thus destroying his fourth and final asset: his freedom. As Bob is taken away, he realizes that his greed, selfishness, and infidelity towards Ruth have left him with nothing. Sixteen months later, Ruth and her children visit a greatly reformed Bob, who is now on considerably more amicable terms with Ruth following their divorce and looking forward to catching up with his children after his upcoming release from prison. Ruth concludes that although people can change as Bob has, not everyone does so. Mary has revived her career by becoming a more mainstream author and is at a book signing about a new tell-all book, where she signs a book for Ruth but does not recognize her. Next in line after Ruth is a man whom Mary clearly tries to flirt with, indicating she has not completely changed her ways. The film ends with Ruth smiling as she walks down a busy street in Manhattan, accompanied by women from her firm.",
+      "hypothesis": "A vintage, overweight wife and mother Ruth Patchett struggles to please her accountant husband Bob, who is trying to grow her business. After Bob meets narcissistic romance novelist Mary Fisher at a party, they begin an affair. Ruth, learning of the affair, meets Bob when his parents come to visit and Bob leaves her. Angry, Ruth takes revenge on him and Mary. Ruth plans to destroy Bob's assets, his home, his family, his career, and his freedom one after another. With Bob at Mary's and the children at school, she collects Mary's financial records and overloads the home's electricity, destroying the house in a massive explosion. She left the children with Mary and Bob and told him she would not return. Bob's second estate, his family, is slowly declining, as Mary's selfish refusal to learn how to be a mother strains her relationship with Bob and begins to interfere with her ability to write a novel of romance. Mary's new novel is based on her love for Bob, but her publisher thought it was strange and vague because there was a chapter about laundry. Ruth, nicknamed Vesta Rose, works in a nursing home, where she befriends Francine, a divorced mother who misrepresents Mary, and arranges for her to return to Mary's life at an unexpected time. She also meets a nurse named Hooper who has worked in a nursing home for 22 years and has set aside her income for a significant life savings. Although she intimidates Ruth Hooper by secretively turning secular routines into senior citizen drugs and vitamin and caffeine pills and enriching activities, she gains Hooper's trust by introducing her to desserts. After Ruth was evicted from her home for portraying herself as a bed waitress and throwing water on Francine's bed to prevent her from returning, she and Hooper formed a partnership and started an employment agency for depressed women who were rejected by society and in need of a second chance. I mean, The agency was successful and Ruth helped her get revenge on Bob. Olivia, a charming but active young beauty, is hired by the agency and is hired as Bob's secretary, where he begins sleeping with her in the office. This leaves Mary alone and frustrated at night, which causes Bob to deny her progress. When Olivia announced her love for Bob, he immediately hated her and fired her. Olivia reveals to Ruth that Bob is a fraudster who cuts interest from his clients' accounts and then transfers it to his offshore account. When Mary is interviewed by People for Puff Peace, her mother reveals embarrassing secrets that could effectively ruin her career. Olivia and Ruth's computer was hacked and a massive robbery was carried out and reported to the IRS. Ruth also mails Mary pictures of her sleeping with Bob and Olivia. Intending to regain control of her life, Mary forces her mother and Bob's children to behave, then celebrates a lavish party with her friends. It will be fine until the police find Bob with a warrant for his arrest. Bob's lawyer bribes a corrupt male judge to give a favorable verdict, and unwittingly informs Mary that Bob is stealing from her account, so she abandons Bob and sells his building. A woman employed as a court clerk by the Ruth Agency repays her debt to Ruth by handing over the case to an impartial female judge. The charge against Bob was proved and he was sentenced to 18 months in prison, thus destroying his freedom, his fourth and final possession. As Bob was taken, he realized that his greed, selfishness, and distrust of Ruth had left him with nothing. Sixteen months later, Ruth and her children visit a greatly reformed Bob, who has now formed a more amicable bond with Ruth after the divorce and looks forward to meeting his children after his release from prison. Ruth concluded that although humans could change like Bob, not everyone would. Mary resurrected her career by becoming a more mainstream writer and signing books for a New Tell-All book, where she signed a book for Ruth but was not recognized. As Ruth sees Mary clearly trying to make out with a man in the line afterwards, she realizes that she has not completely changed her ways. The film ends with Ruth walking along a busy street in Manhattan with the women of her company and smiling.",
+      "inference_status": "succeeded",
+      "document_id": null,
+      "context_used": false,
+      "metric_eligibility": {
+        "paragraph_bleu": true,
+        "paragraph_chrf++": true
+      }
+    },
+    {
+      "dataset": "IndicDISCO-MT",
+      "revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+      "component": "Indicdisco_MT",
+      "split": "test",
+      "row_locator": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=0",
+      "source_language": "Telugu",
+      "target_language": "English",
+      "source": "గ్రాఫ్ థియరీలో, ఒక ట్రీ అనేది డైరెక్టెడ్ గ్రాఫ్, దీనిలో ఏదైనా రెండు వెర్టెక్స్‌లు ఖచ్చితంగా ఒక మార్గం ద్వారా లేదా సమానంగా కనెక్ట్ చేయబడిన ఎసిక్లిక్ అన్‌డైరెక్టెడ్ గ్రాఫ్ ద్వారా అనుసంధానించబడి ఉంటాయి. ఫారెస్ట్ అనేది అన్‌డైరెక్టెడ్ గ్రాఫ్, దీనిలో ఏవైనా రెండు వెర్టెక్స్‌లు గరిష్టంగా ఒక మార్గం ద్వారా లేదా సమానంగా ఒక అసైక్లిక్ అన్‌డైరెక్టెడ్ గ్రాఫ్ లేదా సమానమైన ట్రీ కలయికతో అనుసంధానించబడి ఉంటాయి. పాలీట్రీ (లేదా డైరెక్ట్ ట్రీ లేదా ఓరియెంటెడ్ ట్రీ లేదా సింగిల్‌గా కనెక్ట్ చేయబడిన నెట్‌వర్క్) అనేది డైరెక్ట్ ఎసిక్లిక్ గ్రాఫ్ (డిఎజి), దీని అంతర్లీన అన్‌డైరెక్టెడ్ గ్రాఫ్ ఒక ట్రీ. పాలీఫారెస్ట్ (లేదా డైరెక్ట్ ఫారెస్ట్ లేదా ఓరియెంటెడ్ ఫారెస్ట్) అనేది డైరెక్ట్ ఎసిక్లిక్ గ్రాఫ్, దీని అంతర్లీన ట్రీ గ్రాఫ్ ఒక ఫారెస్ట్.",
+      "reference": "In graph theory, a tree is an undirected graph in which any two vertices are connected by exactly one path, or equivalently a connected acyclic undirected graph. A forest is an undirected graph in which any two vertices are connected by at most one path, or equivalently an acyclic undirected graph, or equivalently a disjoint union of trees. A polytree (or directed tree or oriented tree or singly connected network) is a directed acyclic graph (DAG) whose underlying undirected graph is a tree. A polyforest (or directed forest or oriented forest) is a directed acyclic graph whose underlying undirected graph is a forest.",
+      "hypothesis": "In graph theory, a tree is a directed graph in which any two vertices are connected exactly by one path or by an equally connected acyclic undirected graph. A forest is an undirected graph in which any two vertices are connected by a single path or equivalent to an asynchronous undirected graph or an equivalent tree combination. A polytri (or direct tree or oriented tree or single-connected network) is a directed acyclic graph (DAG) whose underlying undirected graph is a tree. A polyforest (or direct forest or oriented forest) is a direct acyclic graph whose underlying tree graph is a forest.",
+      "inference_status": "succeeded",
+      "document_id": null,
+      "context_used": false,
+      "metric_eligibility": {
+        "paragraph_bleu": true,
+        "paragraph_chrf++": true
+      }
+    },
+    {
+      "dataset": "IndicDISCO-MT",
+      "revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+      "component": "Indicdisco_MT",
+      "split": "test",
+      "row_locator": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=4",
+      "source_language": "Telugu",
+      "target_language": "English",
+      "source": "గీతా గోపీనాథ్ 1971 డిసెంబర్ 8న భారతదేశంలోని కోల్‌కతాలో మలయాళీ కుటుంబంలో జన్మించారు. టీ.వీ గోపీనాథ్‌, వీ.సీ విజయలక్ష్మి దంపతుల ఇద్దరు కుమార్తెల్లో ఆమె చిన్నది. ఆమె కుటుంబానికి దివంగత ఎకె గోపాలన్‌తో బంధుత్వం ఉంది. గోపీనాథ్ మైసూర్‌లోని నిర్మలా కాన్వెంట్ స్కూల్‌లో చదివారు. ఆమె 1992లో ఢిల్లీ యూనివర్సిటీకి చెందిన లేడీ శ్రీ రామ్ కాలేజ్ ఫర్ ఉమెన్ నుండి బి.ఎ డిగ్రీని మరియు 1994లో ఢిల్లీ స్కూల్ ఆఫ్ ఎకనామిక్స్ నుండి కూడా ఆర్థికశాస్త్రంలో ఎమ్.ఎ డిగ్రీని అందుకుంది. ఆమె 1996లో యూనివర్శిటీ ఆఫ్ వాషింగ్టన్‌లో ఎమ్.ఎ డిగ్రీని పూర్తి చేసింది. బెన్ బెర్నాంకే, కెన్నెత్ రోగోఫ్ మరియు పియరీ-ఒలివియర్ గౌరించాస్ పర్యవేక్షణలో \"త్రీ ఎస్సేస్ ఆన్ ఇంటర్నేషనల్ క్యాపిటల్ ఫ్లోస్: ఎ సెర్చ్ థియరిటికల్ అప్రోచ్\" అనే డాక్టరల్ డిసర్టేషన్‌ను పూర్తి చేసిన తర్వాత 2001లో ప్రిన్స్‌టన్ యూనివర్శిటీ నుండి ఎకనామిక్స్‌లో పీహెచ్‌డీని పొందింది. ప్రిన్స్‌టన్‌లో డాక్టరల్ పరిశోధన చేస్తున్నప్పుడు ఆమెకు ప్రిన్స్‌టన్ వుడ్రో విల్సన్ ఫెలోషిప్ రీసెర్చ్ అవార్డు లభించింది. 2021లో, ఫైనాన్షియల్ టైమ్స్ గోపీనాథ్‌ను \"సంవత్సరంలో అత్యంత ప్రభావవంతమైన 25 మంది మహిళలు\"గా పేర్కొంది, ఇంటర్నేషనల్ ఎకనామిక్ అసోసియేషన్ ఆమెను షూమ్‌పీటర్-హేబెర్లర్ విశిష్ట ఫెలోగా పేర్కొంది, అగ్రికల్చరల్ & అప్లైడ్ ఎకనామిక్స్ అసోసియేషన్ ఆమెను జాన్ కెన్నెత్ గాల్‌బ్రైత్ అవార్డుతో గుర్తించింది. మరియు కార్నెగీ కార్పొరేషన్ ఆమెను \"గ్రేట్ (అమెరికన్) ఇమ్మిగ్రెంట్స్\"గా పేర్కొంది. ఆమె బ్లూమ్‌బెర్గ్ \"2019ని నిర్వచించిన 50 మంది వ్యక్తులలో\" మరియు టైమ్ మ్యాగజైన్ ద్వారా \"మొదటి వ్యక్తిగా మారడానికి ప్రధాన అడ్డంకులను బద్దలుకొట్టిన మహిళలలో\" పేరు పొందింది. 2018లో, గోపీనాథ్ అమెరికన్ అకాడమీ ఆఫ్ ఆర్ట్స్ అండ్ సైన్సెస్ మరియు ఎకనోమెట్రిక్ సొసైటీకి ఫెలోగా ఎన్నికయ్యారు. ఫారిన్ పాలసీ ఆమెను 2019లో టాప్ గ్లోబల్ థింకర్స్‌లో ఒకరిగా పేర్కొంది. 2017లో యూనివర్శిటీ ఆఫ్ వాషింగ్టన్ నుండి ఆమె విశిష్ట పూర్వ విద్యార్థి అవార్డును అందుకుంది. 2014లో ఇంటర్నేషనల్ మానిటరీ ఫండ్ ద్వారా 45 ఏళ్లలోపు అగ్రశ్రేణి 25 మంది ఆర్థికవేత్తలలో ఒకరిగా ఎంపికైంది మరియు 2011లో వరల్డ్ ఎకనామిక్ ఫోరమ్ ద్వారా యంగ్ గ్లోబల్ లీడర్‌గా ఎంపికైంది. 2019లో, ఆమెకు భారత రాష్ట్రపతి ప్రవాసీ భారతీయ సమ్మాన్‌ను ప్రదానం చేశారు.",
+      "reference": "Gita Gopinath was born on 8 December 1971 in Kolkata, India in a Malayali family. She is the younger of two daughters of T.V. Gopinath and V.C. Vijayalakshmi. Her family is related to the late A. K. Gopalan. Gopinath studied at Nirmala Convent School in Mysore. She received a B.A. degree from Lady Shri Ram College for Women of the University of Delhi in 1992 and an M.A. degree in economics from Delhi School of Economics, also of the University of Delhi, in 1994. She further completed an M.A. degree at the University of Washington in 1996. She earned her Ph.D. in economics from Princeton University in 2001 after completing a doctoral dissertation titled \"Three essays on international capital flows: a search theoretic approach\", under the supervision of Ben Bernanke, Kenneth Rogoff and Pierre-Olivier Gourinchas.She was awarded the Princeton's Woodrow Wilson Fellowship Research Award while doing her doctoral research at Princeton. In 2021, Financial Times named Gopinath among the \"25 most influential women of the year\", the International Economic Association named her the Schumpeter-Haberler Distinguished Fellow, the Agricultural & Applied Economics Association recognized her with the John Kenneth Galbraith Award, and the Carnegie Corporation named her among \"Great (American) Immigrants\". She was named among the Bloomberg \"50 people who defined 2019\" and among the \"Women who Broke Major Barriers to Become Firsts\" by Time magazine. In 2018, Gopinath was elected a fellow of the American Academy of Arts and Sciences and the Econometric Society. Foreign Policy named her one of the Top Global Thinkers in 2019. In 2017, she received the Distinguished Alumnus Award from the University of Washington. She was named one of the top 25 economists under 45 by the International Monetary Fund in 2014 and was chosen as a Young Global Leader by the World Economic Forum in 2011. In 2019, she was awarded the Pravasi Bharatiya Samman by the President of India.",
+      "hypothesis": "Geeta Gopinath was born on 8 December 1971 in Kolkata, India to a Malayali family. She is the youngest of two daughters of TV Gopinath and VC Vijayalakshi. Her family is related to the late A.K. Gopalan. Gopinath attended the Nirmala Convent School in Mysore. She received her BA degree from Lady Shri Ram College for Women, Delhi University in 1992 and her MA degree in Economics from the Delhi School of Economics in 1994. She completed her M.A. degree at the University of Washington in 1996. She received her PhD in Economics from Princeton University in 2001 after completing her doctoral dissertation entitled \"Three Essays on International Capital Flow: A Search Theoretical Approach\" under the supervision of Ben Bernanke, Kenneth Rogoff and Pierre-Olivier Gourras. While doing her doctoral research at Princeton, she was awarded the Princeton Woodrow Wilson Fellowship Research Award. In 2021, the Financial Times named Gopinath as \"The 25 Most Influential Women of the Year\", the International Economic Association named her a Schum Peter-Heberler Distinguished Fellow, and the Agricultural & Applied Economics Association recognized her with the John Kenneth Gallabrith Award. And the Carnegie Corporation has called her \"the Great (American) Immigrant\". She was named by Bloomberg \"50 People Who Defined 2019\" and Time Magazine as \"Women Who Broke the Key Barriers to Becoming the First Person\". In 2018, Gopinath was elected a Fellow of the American Academy of Arts and Sciences and the Econometric Society. She was named as one of the Top Global Thinkers in 2019 by Foreign Policy. She received the Distinguished Alumni Award from the University of Washington in 2017. In 2014, she was named one of the Top 25 Economists under 45 by the International Monetary Fund and in 2011 was named a Young Global Leader by the World Economic Forum. In 2019, she was awarded the Prasani Bharatiya Samman by the President of India.",
+      "inference_status": "succeeded",
+      "document_id": null,
+      "context_used": false,
+      "metric_eligibility": {
+        "paragraph_bleu": true,
+        "paragraph_chrf++": true
+      }
+    },
+    {
+      "dataset": "IndicDISCO-MT",
+      "revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+      "component": "Indicdisco_MT",
+      "split": "test",
+      "row_locator": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=9",
+      "source_language": "Telugu",
+      "target_language": "English",
+      "source": "మల్లికా సారాభాయ్ భారతదేశంలోని గుజరాత్‌లోని అహ్మదాబాద్‌లో విక్రమ్ సారాభాయ్ మరియు మృణాళిని సారాభాయ్ దంపతులకు జన్మించారు. ఆమె 1974లో ఐఐఎం అహ్మదాబాద్‌లో ఎంబీఏ పూర్తి చేసి, 1976లో గుజరాత్ యూనివర్సిటీ నుంచి ఆర్గనైజేషనల్ బిహేవియర్‌లో డాక్టరేట్ పూర్తి చేసింది. ఆమె ప్రముఖ కొరియోగ్రాఫర్ మరియు డాన్సర్, మరియు కొన్ని హిందీ, మలయాళం, గుజరాతీ మరియు అంతర్జాతీయ చిత్రాలలో కూడా నటించింది. ఆమె చిన్నతనంలోనే డ్యాన్స్ నేర్చుకోవడం ప్రారంభించింది మరియు ఆమె 15 సంవత్సరాల వయస్సులో దానితోపాటు సినిమాలో తన సినీ జీవితాన్ని ప్రారంభించింది. పీటర్ బ్రూక్ యొక్క మహాభారత నాటకంలో మల్లిక ద్రౌపది పాత్రను పోషించింది. మల్లికా తన సుదీర్ఘ కెరీర్‌లో అనేక ప్రశంసలను గెలుచుకుంది, గోల్డెన్ స్టార్ అవార్డు వాటిలో ఒకటి, ఆమె ఉత్తమ డాన్స్ సోలోయిస్ట్, థియేటర్ డి చాంప్స్ ఎలిసీస్, పారిస్ 1977లో గెలుచుకుంది. అలాగే నర్తకి, సారాభాయ్ సామాజిక కార్యకర్త. ఆమె అహ్మదాబాద్‌లో ఉన్న దర్పణ అకాడమీ ఆఫ్ పెర్ఫార్మింగ్ ఆర్ట్స్‌ను నిర్వహిస్తుంది, ఇది కళలకు మరియు ప్రవర్తన మార్పు కోసం కళలను భాషగా ఉపయోగించుకునే కేంద్రంగా ఉంటుంది.",
+      "reference": "Mallika Sarabhai was born in Ahmedabad, Gujarat, India to Vikram Sarabhai and Mrinalini Sarabhai. She completed her MBA from IIM Ahmedabad in 1974 and Doctorate in Organisational Behaviour from the Gujarat University in 1976. She is a noted choreographer and dancer and has also acted in a few Hindi, Malayalam, Gujarati and international films. She started to learn dancing when she was young and started her film career in the parallel cinema when she was 15. Mallika played the role of Draupadi in the Peter Brook's play The Mahabharata. Mallika has won many accolades during her long career, the Golden Star Award is one of them, which she won for the Best Dance Soloist, Theatre De Champs Elysees, Paris 1977. As well as a dancer, Sarabhai is a social activist. She manages the Darpana Academy of Performing Arts located at Ahmedabad, a centre for the arts and for the use of arts as a language for behaviour change.",
+      "hypothesis": "Mallika Sarabhai was born in Ahmedabad, Gujarat, India to the husband and wife Vikram Sarabhai and Marnali Sarabhai. She completed her MBA from IIM Ahmedabad in 1974 and her Doctorate in Organizational Behaviour from Gujarat University in 1976. She is a prominent choreographer and dancer, and has also acted in some Hindi, Malayalam, Gujarati and international films. She began learning dance at an early age and she began her film career in film as well as acting at the age of 15. Mallika Draupadi played the role of Draypati in Peter Brook's Mahabharata play. Mallika has won many accolades during her long career, including the Golden Star Award for Best Dance Soloist, won by the Théâtre de Champs Elysees, Paris in 1977. Also, Sarabhai is a social worker. She runs the Darpana Academy of Performing Arts in Ahmedabad, a centre for the use of arts as language for arts and behavioural change.",
+      "inference_status": "succeeded",
+      "document_id": null,
+      "context_used": false,
+      "metric_eligibility": {
+        "paragraph_bleu": true,
+        "paragraph_chrf++": true
+      }
+    },
+    {
+      "dataset": "IndicDISCO-MT",
+      "revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+      "component": "Indicdisco_MT",
+      "split": "test",
+      "row_locator": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=6",
+      "source_language": "Telugu",
+      "target_language": "English",
+      "source": "కాయస్థ కుటుంబంలోకి 1904 అక్టోబరు 2న శాస్త్రి తన అమ్మమ్మ ఇంట్లో జన్మించారు. శాస్త్రి యొక్క పూర్వీకులు బనారస్ సమీపంలోని రామ్‌నగర్ జమీందార్‌లో ఉండేవారు మరియు శాస్త్రి తన జీవితంలోని మొదటి సంవత్సరం అక్కడే గడిపారు. శాస్త్రి తండ్రి , శారద ప్రసాద్ శ్రీవాస్తవ మొదట పాఠశాల ఉపాధ్యాయుడుగాపనిచేసారు, ఆ తరువాత అలహాబాద్‌లోని రెవిన్యూ కార్యాలయంలో గుమాస్తాగా చేరారు,శాస్త్రి తల్లి రామ్‌‌దులారీ దేవి, మొఘల్‌సరాయ్‌లోని రైల్వే పాఠశాలలో ప్రధానోపాధ్యాయుడు మరియు ఆంగ్ల ఉపాధ్యాయుడైన మున్షీ హజారీ లాల్ కుమార్తె. ఆయన తల్లిదండ్రులకు శాస్త్రి రెండవ సంతానం, అలాగే పెద్ద కుమారుడు కూడా , అతనికి కైలాశీ దేవి అనే ఒక అక్క ఉంది. శాస్త్రికి ఇంచుమించు 18 నెలల వయస్సు ఉన్నప్పుడు అంటే ఏప్రిల్ 1906 సంవత్సరంలో అప్పుడప్పుడే డిప్యూటీ తహశీల్దార్‌గా పదోన్నతి పొందిన అతని తండ్రి, బుబోనిక్ ప్లేగు అనే మహమ్మారిలో మరణించాడు. రాందులారి దేవికి అప్పుడు కేవలం 23 సంవత్సరాల వయస్సు మాత్రమే మరియు తన మూడవ బిడ్డతో గర్భవతిగా ఉంది, తన ఇద్దరు పిల్లల తోపాటు రామ్‌నగర్ నుండి మొగల్‌సరాయ్‌లోని తన తండ్రి ఇంటికి వెళ్లి మంచి కోసం అక్కడే స్థిరపడింది. జూలై 1906సంవత్సరంలో ఆమె సుందరి దేవి అనే కుమార్తెకు జన్మనిచ్చింది. ఆ విధంగా, శాస్త్రి మరియు అతని సోదరీమణులు వాళ్ళ తాతగారైన హజారీ లాల్జీ ఇంటిలోనే పెరిగారు. అయితే, 1908సంవత్సరం మధ్యలో హజారీ లాల్జీ స్ట్రోక్‌తో మరణించారు. ఆ తర్వాత, ఘాజీపూర్‌లో నల్లమందు నియంత్రణ విభాగంలో ప్రధాన గుమాస్తాగా పనిచేస్తున్న అతని సోదరుడు (శాస్త్రి యొక్క తాతగారి తమ్ముడు) దర్బారీ లాల్ మరియు తరువాత అతని కుమారుడు (రాందులారి దేవి పినతండ్రి కొడుకు) మొఘల్‌సరాయ్‌లోని పాఠశాల ఉపాధ్యాయుడు బిందేశ్వరి ప్రసాద్ కుటుంబాన్ని చూసుకున్నారు.",
+      "reference": "Shastri was born on 2 October 1904 at the home of his maternal grandparents in a Kayastha family. Shastri's paternal ancestors had been in the of the zamindar of Ramnagar near Banaras, and Shastri lived there for the first year of his life. Shastri's father, Sharada Prasad Srivastava, was a school teacher who later became a clerk in the revenue office at Allahabad, while his mother, Ramdulari Devi, was the daughter of Munshi Hazari Lal, the headmaster and English teacher at a railway school in Mughalsarai. Shastri was the second child and eldest son of his parents; he had an elder sister, Kailashi Devi. In April 1906, when Shastri was hardly 18 months old, his father, who had only recently been promoted to the post of deputy tahsildar, died in an epidemic of bubonic plague. Ramdulari Devi, then only 23 years old and pregnant with her third child, took her two children and moved from Ramnagar to her father's house in Mughalsarai and settled there for good. She gave birth to a daughter, Sundari Devi, in July 1906. Thus, Shastri and his sisters grew up in the household of his maternal grandfather, Hazari Lalji. However, Hazari Lalji himself died from a stroke in mid-1908. Thereafter, the family was looked after by his brother (Shastri's great-uncle) Darbari Lal, who was the head clerk in the opium regulation department at Ghazipur, and later by his son (Ramdulari Devi's cousin) Bindeshwari Prasad, a school teacher in Mughalsarai.",
+      "hypothesis": "Sastry was born on 2 October 1904 in his grandmother's house to a family of Kaishas. Sastry's ancestors lived in Ram Nagar Jamindar near Banaras and Sastry spent the first year of his life there. Shastri's father, Sharad Prasad Srishvastava, first worked as a school teacher, then joined Gumasta in the Revenue Office in Allahabad, Shastri's mother Ram Dulari Devi, daughter of Munsi Hazari Lal, a teacher and English teacher at a railway school in Moghul Sarai. He was the second son of Satra and the eldest son of Satra and a sister named Kailashi Devi. His father, who had been promoted to Deputy Tahshildar, died of the bubonic plague in April 1906 when Sastry was about 18 months old. Randhallari Devi, then only 23 years old and pregnant with her third child, moved from Ram Nagar to her father's house in Mogul Sarai and settled there for good. In July 1906, she gave birth to a daughter, Sundin Devi. Thus, the scientist and his sisters were raised in the home of their grandfather, Hazari Lalji. However, in mid-1908, Hazari Lalji died of a stroke. After that, his brother Darbari Lal (grandfather of Sastry) who was the chief guru in the Black Drugs Control Department in Ghaziapur and later his son (son of Randelari Devi Pinatadri) a school teacher in Mughal Sarai, Bindeeswari Prasad took care of the family.",
+      "inference_status": "succeeded",
+      "document_id": null,
+      "context_used": false,
+      "metric_eligibility": {
+        "paragraph_bleu": true,
+        "paragraph_chrf++": true
+      }
+    }
+  ],
+  "metrics": {
+    "corpus_bleu": {
+      "status": "computed",
+      "score": 45.83825094656591,
+      "details": {
+        "aggregation": "corpus",
+        "tokenizer": "13a"
+      },
+      "num_examples": 5
+    },
+    "corpus_chrf++": {
+      "status": "computed",
+      "score": 70.76564083249255,
+      "details": {
+        "aggregation": "corpus",
+        "char_order": 6,
+        "word_order": 2,
+        "beta": 2,
+        "lowercase": false,
+        "whitespace": false,
+        "eps_smoothing": false
+      },
+      "num_examples": 5
+    }
+  },
+  "metric_configuration": {
+    "aggregation": "corpus",
+    "normalization": "none; preserve source, reference, and hypothesis strings",
+    "bleu": {
+      "implementation": "app.evaluation.bleu_metric.BLEUMetric via SacreBLEU",
+      "tokenizer": "13a",
+      "smoothing": "none"
+    },
+    "chrf++": {
+      "implementation": "app.evaluation.chrf_metric.CHRFMetric via SacreBLEU",
+      "char_order": 6,
+      "word_order": 2,
+      "beta": 2,
+      "lowercase": false,
+      "whitespace": false,
+      "eps_smoothing": false
+    },
+    "sacrebleu_version": "2.6.0"
+  },
+  "model_name": "facebook/nllb-200-distilled-600M",
+  "model_configuration": {
+    "model": "nllb200",
+    "checkpoint": "facebook/nllb-200-distilled-600M",
+    "input_max_length": 512,
+    "max_new_tokens": 256,
+    "max_length": 200,
+    "max_length_semantics": "existing checkpoint/default metadata; NLLB service explicitly passes max_new_tokens",
+    "do_sample": false,
+    "num_beams": 1,
+    "checkpoint_generation_config": {
+      "_from_model_config": true,
+      "bos_token_id": 0,
+      "decoder_start_token_id": 2,
+      "eos_token_id": 2,
+      "max_length": 200,
+      "pad_token_id": 1,
+      "transformers_version": "4.27.0.dev0"
+    },
+    "input_handling": "complete paragraph passed to baseline service; service retains its existing sentence segmentation and joins sentence translations back into one paragraph hypothesis; no preceding context"
+  },
+  "device": "cpu",
+  "rights_status": "unresolved",
+  "evaluation_granularity": "paragraph",
+  "document_level_evaluation": false,
+  "context_used": false,
+  "context_available": false,
+  "sentence_alignment_available": false,
+  "document_identity_available": false,
+  "no_fabricated_document_ids": true,
+  "inference_performed": true,
+  "no_inference": false,
+  "metrics_computed": true
+}

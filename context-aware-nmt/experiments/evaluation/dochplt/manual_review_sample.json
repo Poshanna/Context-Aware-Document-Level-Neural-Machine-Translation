@@ -1,0 +1,1333 @@
+{
+  "dataset": "DocHPLT",
+  "config": "en-te",
+  "source_pool_size": 100,
+  "sample_size": 50,
+  "seed": 42,
+  "selection_method": "Deterministic random sample from refined candidate pool",
+  "target_reference_not_used_for_sampling": true,
+  "review_items": [
+    {
+      "review_index": 1,
+      "example": {
+        "row_index": 172,
+        "source_document_id": "http___1nejora.top_en_kobo-rakuten_.xml",
+        "target_document_id": "http___1nejora.top_te_kobo-rakuten__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "60.1",
+        "target_sentence_id": "59.1",
+        "source_sentence": "Your screen name furnished will be at least 2 characters long.",
+        "target_reference": "నమోదిత మీ స్క్రీన్ పేరు కనీసం ఉంటుంది 2 అక్షరాల పొడవు.",
+        "alignment_score": 0.7282189726829529,
+        "context": [
+          {
+            "id": "58.1",
+            "text": "The title furnished will be at least 4 characters long."
+          },
+          {
+            "id": "59.1",
+            "text": "Screen Name *"
+          }
+        ],
+        "context_relevance_score": 0.9258200997725514
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 2,
+      "example": {
+        "row_index": 1349,
+        "source_document_id": "http___allfreepremiumwordpressthemes.com_wordpress-themes_download-time-v3-0-responsive-wordpress-theme-free_.xml",
+        "target_document_id": "http___allfreepremiumwordpressthemes.com_wordpress-themes_download-time-v3-0-responsive-wordpress-theme-free__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "22.1",
+        "target_sentence_id": "22.1",
+        "source_sentence": "Time v1.2 responsive wordpress theme",
+        "target_reference": "సమయం v1.2 ప్రతిస్పందించే WordPress థీమ్",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "20.1",
+            "text": "Time responsive wordpress theme free download"
+          },
+          {
+            "id": "21.1",
+            "text": "Time responsive wordpress theme nulled"
+          }
+        ],
+        "context_relevance_score": 0.917662935482247
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 3,
+      "example": {
+        "row_index": 1349,
+        "source_document_id": "http___allfreepremiumwordpressthemes.com_wordpress-themes_download-time-v3-0-responsive-wordpress-theme-free_.xml",
+        "target_document_id": "http___allfreepremiumwordpressthemes.com_wordpress-themes_download-time-v3-0-responsive-wordpress-theme-free__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "26.1",
+        "target_sentence_id": "26.1",
+        "source_sentence": "Time responsive wordpress theme download",
+        "target_reference": "సమయం ప్రతిస్పందించే WordPress థీమ్ డౌన్లోడ్",
+        "alignment_score": 0.8660249710083008,
+        "context": [
+          {
+            "id": "24.1",
+            "text": "Time wordpress theme documentation"
+          },
+          {
+            "id": "25.1",
+            "text": "Time wordpress theme download"
+          }
+        ],
+        "context_relevance_score": 0.8366600265340756
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 4,
+      "example": {
+        "row_index": 1349,
+        "source_document_id": "http___allfreepremiumwordpressthemes.com_wordpress-themes_download-time-v3-0-responsive-wordpress-theme-free_.xml",
+        "target_document_id": "http___allfreepremiumwordpressthemes.com_wordpress-themes_download-time-v3-0-responsive-wordpress-theme-free__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "28.1",
+        "target_sentence_id": "28.1",
+        "source_sentence": "Time responsive wordpress theme download free",
+        "target_reference": "సమయం ప్రతిస్పందించే WordPress థీమ్ డౌన్లోడ్ ఉచిత",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "26.1",
+            "text": "Time responsive wordpress theme download"
+          },
+          {
+            "id": "27.1",
+            "text": "Time wordpress theme free download"
+          }
+        ],
+        "context_relevance_score": 0.9622504486493764
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 5,
+      "example": {
+        "row_index": 1349,
+        "source_document_id": "http___allfreepremiumwordpressthemes.com_wordpress-themes_download-time-v3-0-responsive-wordpress-theme-free_.xml",
+        "target_document_id": "http___allfreepremiumwordpressthemes.com_wordpress-themes_download-time-v3-0-responsive-wordpress-theme-free__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "3.1",
+        "target_sentence_id": "3.1",
+        "source_sentence": "Time v3.0 responsive wordpress theme download free",
+        "target_reference": "సమయం v3.0 ప్రతిస్పందించే WordPress థీమ్ డౌన్లోడ్ ఉచిత",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "1.1",
+            "text": "Download Time v3.0 Responsive WordPress Theme Free"
+          },
+          {
+            "id": "2.1",
+            "text": "Incoming Searches And Related Terms for Download Time v3.0 Responsive WordPress Theme Free"
+          }
+        ],
+        "context_relevance_score": 0.9258200997725514
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 6,
+      "example": {
+        "row_index": 1561,
+        "source_document_id": "http___amazeall.com__1.xml",
+        "target_document_id": "http___amazeall.com__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "2.1",
+        "target_sentence_id": "2.1",
+        "source_sentence": "Internet Marketing:",
+        "target_reference": "ఇంటర్నెట్ మార్కెటింగ్:",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "1.1",
+            "text": "Internet Marketing Description"
+          }
+        ],
+        "context_relevance_score": 0.8164965809277259
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 7,
+      "example": {
+        "row_index": 1568,
+        "source_document_id": "http___amazeall.com_tag_cleanser.xml",
+        "target_document_id": "http___amazeall.com_category_skincare_skincareproducts_lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "3.1",
+        "target_sentence_id": "3.1",
+        "source_sentence": "Skin Care Products :",
+        "target_reference": "చర్మ సంరక్షణ ఉత్పత్తులు :",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "1.1",
+            "text": "Cleanser"
+          },
+          {
+            "id": "2.1",
+            "text": "Skin Care Products for routine Care Of Your Skin"
+          }
+        ],
+        "context_relevance_score": 0.8703882797784892
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 8,
+      "example": {
+        "row_index": 1564,
+        "source_document_id": "http___amazeall.com_tag_health.xml",
+        "target_document_id": "http___amazeall.com__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "11.1",
+        "target_sentence_id": "31.1",
+        "source_sentence": "Skin Care Products :",
+        "target_reference": "చర్మ సంరక్షణ ఉత్పత్తులు :",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "9.2",
+            "text": "Is it because of your diet?"
+          },
+          {
+            "id": "10.1",
+            "text": "Skin Care Products for routine Care Of Your Skin"
+          }
+        ],
+        "context_relevance_score": 0.8333333333333335
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 9,
+      "example": {
+        "row_index": 1570,
+        "source_document_id": "http___amazeall.com_tag_skincareproducts.xml",
+        "target_document_id": "http___amazeall.com_category_skincare_skincareproducts_lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "3.1",
+        "target_sentence_id": "3.1",
+        "source_sentence": "Skin Care Products :",
+        "target_reference": "చర్మ సంరక్షణ ఉత్పత్తులు :",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "1.1",
+            "text": "Skin Care Products"
+          },
+          {
+            "id": "2.1",
+            "text": "Skin Care Products – Identifying Perfect One Matches Your skin?"
+          }
+        ],
+        "context_relevance_score": 0.8819171036881969
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 10,
+      "example": {
+        "row_index": 2469,
+        "source_document_id": "http___androkelv.top_en_casino-barriere-le-ruhl_.xml",
+        "target_document_id": "http___androkelv.top_te_casino-barriere-le-ruhl__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "10.1",
+        "target_sentence_id": "11.1",
+        "source_sentence": "Thank you for taking the time to a re-circumvention was the establishment, we are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Ruhl.",
+        "target_reference": "ఏర్పాటుచేయటం రీ-అధిగమనాన్ని సమయం తీసుకున్నందుకు ధన్యవాదాలు, మేము మీరు మాకు మీ సమయం ఆనందించారు ఆనందపరిచింది ఉంటాయి, మరియు మేము Ruhl మీరు స్వాగతం ఒక కోరిక ఎదురుచూస్తున్నాము.",
+        "alignment_score": 0.7652360200881958,
+        "context": [
+          {
+            "id": "8.1",
+            "text": "Thank you for taking the time to a share your experience with us."
+          },
+          {
+            "id": "9.1",
+            "text": "We are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Casino Ruhl."
+          }
+        ],
+        "context_relevance_score": 0.8391463916782737
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 11,
+      "example": {
+        "row_index": 2481,
+        "source_document_id": "http___androllador.top_en_page_28_.xml",
+        "target_document_id": "http___androllador.top_te_page_28__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "5.3",
+        "target_sentence_id": "7.2",
+        "source_sentence": "Best Western Blue Square Hotel (more…)",
+        "target_reference": "Best Western బ్లూ Square Hotel (మరింత…)",
+        "alignment_score": 0.790569007396698,
+        "context": [
+          {
+            "id": "5.1",
+            "text": "Best Western Blue Square Hotel i ."
+          },
+          {
+            "id": "5.2",
+            "text": "Leave a comment!"
+          }
+        ],
+        "context_relevance_score": 0.7715167498104595
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 12,
+      "example": {
+        "row_index": 2770,
+        "source_document_id": "http___antoniocampos.no-ip.com_en_tag_vulnerabilidades_.xml",
+        "target_document_id": "http___antoniocampos.no-ip.com_te_tag_vulnerabilidades__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "33.1",
+        "target_sentence_id": "33.1",
+        "source_sentence": "Microsoft Office 2003 Standard Edition",
+        "target_reference": "Microsoft Office 2003 ప్రామాణిక ఎడిషన్",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "31.1",
+            "text": "Microsoft Office 2003 Professional Edition"
+          },
+          {
+            "id": "32.1",
+            "text": "Microsoft Office 2003 Small Business Edition"
+          }
+        ],
+        "context_relevance_score": 0.8207826816681232
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 13,
+      "example": {
+        "row_index": 3432,
+        "source_document_id": "http___architectureideas.info_category_furniture_.xml",
+        "target_document_id": "http___architectureideas.info_category_furniture__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "6.4",
+        "target_sentence_id": "11.1",
+        "source_sentence": "BEDROOM...",
+        "target_reference": "| 0 వ్యాఖ్యలు",
+        "alignment_score": 0.7071070075035095,
+        "context": [
+          {
+            "id": "6.2",
+            "text": "Furniture and other items in a bedroom depends on the type of bedroom- master bedroom or a children’s bedroom or a guest bedroom."
+          },
+          {
+            "id": "6.3",
+            "text": "Nowadays, most bedrooms have attached bathrooms (ensuite bathrooms)."
+          }
+        ],
+        "context_relevance_score": 0.7715167498104595
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 14,
+      "example": {
+        "row_index": 3905,
+        "source_document_id": "http___autocarandinsurance.com_af_tag_car-insurance-rates_.xml",
+        "target_document_id": "http___autocarandinsurance.com_te_tag_car-insurance-rates__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "2.1",
+        "target_sentence_id": "2.1",
+        "source_sentence": "Car insurance rates",
+        "target_reference": "కార్ భీమా రేట్లు",
+        "alignment_score": 0.7117879986763,
+        "context": [
+          {
+            "id": "1.1",
+            "text": "Car insurance rates-Factors that affect"
+          }
+        ],
+        "context_relevance_score": 0.7745966692414834
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 15,
+      "example": {
+        "row_index": 3903,
+        "source_document_id": "http___autocarandinsurance.com_auto-insurance-companies_.xml",
+        "target_document_id": "http___autocarandinsurance.com_te_tag_auto-insurance-companies__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "2.1",
+        "target_sentence_id": "2.1",
+        "source_sentence": "Auto insurance companies",
+        "target_reference": "ఆటో భీమా సంస్థలు",
+        "alignment_score": 0.7117879986763,
+        "context": [
+          {
+            "id": "1.1",
+            "text": "Auto insurance companies-With you always"
+          }
+        ],
+        "context_relevance_score": 0.8660254037844387
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 16,
+      "example": {
+        "row_index": 4588,
+        "source_document_id": "http___besthacks4u.com_hi_pou-hack-cheats-ios-android_.xml",
+        "target_document_id": "http___besthacks4u.com_te_pou-hack-cheats-ios-android__replytocom_45406_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "40.1",
+        "target_sentence_id": "40.1",
+        "source_sentence": "- pou torrent",
+        "target_reference": "- Pou టొరెంట్",
+        "alignment_score": 0.7117879986763,
+        "context": [
+          {
+            "id": "38.1",
+            "text": "- pou hack torrent"
+          },
+          {
+            "id": "39.1",
+            "text": "- pou cheat torrent"
+          }
+        ],
+        "context_relevance_score": 0.8944271909999159
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 17,
+      "example": {
+        "row_index": 4588,
+        "source_document_id": "http___besthacks4u.com_hi_pou-hack-cheats-ios-android_.xml",
+        "target_document_id": "http___besthacks4u.com_te_pou-hack-cheats-ios-android__replytocom_45406_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "42.1",
+        "target_sentence_id": "42.1",
+        "source_sentence": "- pou hack download android",
+        "target_reference": "- Pou హాక్ డౌన్ లోడ్ Android",
+        "alignment_score": 0.7080730199813843,
+        "context": [
+          {
+            "id": "40.1",
+            "text": "- pou torrent"
+          },
+          {
+            "id": "41.1",
+            "text": "- pou hack android"
+          }
+        ],
+        "context_relevance_score": 0.7559289460184544
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 18,
+      "example": {
+        "row_index": 4895,
+        "source_document_id": "http___biglauncher.com_help_en__1.xml",
+        "target_document_id": "http___biglauncher.com_help_te__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "5.1",
+        "target_sentence_id": "5.1",
+        "source_sentence": "How to set-up the SMS notifications in BIG Launcher / BIG SMS on Android 10",
+        "target_reference": "Android 10 లో BIG Launcher / BIG SMS లో SMS నోటిఫికేషన్లను ఎలా సెటప్ చేయాలి",
+        "alignment_score": 0.7171369791030884,
+        "context": [
+          {
+            "id": "3.2",
+            "text": "How to set BIG SMS as a default SMS app"
+          },
+          {
+            "id": "4.1",
+            "text": "How to show the BIG Launcher Preferences menu"
+          }
+        ],
+        "context_relevance_score": 0.7635417155709333
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 19,
+      "example": {
+        "row_index": 5691,
+        "source_document_id": "http___blog.teesupport.com_remove-jsd-pathjava-net-popup-ads-removal-tips_.xml",
+        "target_document_id": "http___blog.teesupport.com_te_remove-jsd-pathjava-net-popup-ads-removal-tips__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "18.1",
+        "target_sentence_id": "18.1",
+        "source_sentence": "Method 3 Remove Jsd.pathjava.net popup from PC using Manual Removal",
+        "target_reference": "పద్ధతి 3 మాన్యువల్ తొలగింపు ఉపయోగించి PC నుండి Jsd.pathjava.net పాపప్ తొలగించడానికి",
+        "alignment_score": 0.8944820165634155,
+        "context": [
+          {
+            "id": "16.1",
+            "text": "Method 1 Remove Jsd.pathjava.net popup from PC using MalwareBytes"
+          },
+          {
+            "id": "17.1",
+            "text": "Method 2 Remove Jsd.pathjava.net popup from PC using SpyHunter"
+          }
+        ],
+        "context_relevance_score": 0.8520128672302585
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 20,
+      "example": {
+        "row_index": 5745,
+        "source_document_id": "http___blog.teesupport.com_useful-tips-on-ridding-files4-mirror4-net-popup-removal-guide_.xml",
+        "target_document_id": "http___blog.teesupport.com_te_useful-tips-on-ridding-files4-mirror4-net-popup-removal-guide__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "17.1",
+        "target_sentence_id": "17.1",
+        "source_sentence": "Solution 2: Remove Files4.mirror4.net Ads automatically (with SpyHunter)",
+        "target_reference": "పరిష్కారము 2: స్వయంచాలకంగా Files4.mirror4.net ప్రకటనలను తొలగించు (SpyHunter తో)",
+        "alignment_score": 0.7745969891548157,
+        "context": [
+          {
+            "id": "15.1",
+            "text": "Remove Files4.mirror4.net Popup With Efficiency"
+          },
+          {
+            "id": "16.1",
+            "text": "Solution 1: Remove Files4.mirror4.net Ads manually"
+          }
+        ],
+        "context_relevance_score": 0.7715167498104595
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 21,
+      "example": {
+        "row_index": 5259,
+        "source_document_id": "http___blog.teesupport.com_zh-tw_how-to-completely-remove-redirect-virus-home-speedbit-com-search-speedbit-com-browser-hijacker-virus-removal_.xml",
+        "target_document_id": "http___blog.teesupport.com_te_how-to-completely-remove-redirect-virus-home-speedbit-com-search-speedbit-com-browser-hijacker-virus-removal__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "14.1",
+        "target_sentence_id": "14.1",
+        "source_sentence": "方法一: Manually Remove Home.speedbit.com",
+        "target_reference": "పద్ధతి: Manually Remove Home.speedbit.com",
+        "alignment_score": 0.8819169998168945,
+        "context": [
+          {
+            "id": "12.1",
+            "text": "Screen shortcut of home.speedbit.com/ search.speedbit.com"
+          },
+          {
+            "id": "13.1",
+            "text": "How to Remove Home.speedbit.com?"
+          }
+        ],
+        "context_relevance_score": 0.7745966692414833
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 22,
+      "example": {
+        "row_index": 5260,
+        "source_document_id": "http___blog.teesupport.com_zh_how-to-completely-remove-redirect-virus-home-speedbit-com-search-speedbit-com-browser-hijacker-virus-removal_.xml",
+        "target_document_id": "http___blog.teesupport.com_te_how-to-completely-remove-redirect-virus-home-speedbit-com-search-speedbit-com-browser-hijacker-virus-removal__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "14.1",
+        "target_sentence_id": "14.1",
+        "source_sentence": "方法一: Manually Remove Home.speedbit.com",
+        "target_reference": "పద్ధతి: Manually Remove Home.speedbit.com",
+        "alignment_score": 0.8819169998168945,
+        "context": [
+          {
+            "id": "12.1",
+            "text": "Screen shortcut of home.speedbit.com/ search.speedbit.com"
+          },
+          {
+            "id": "13.1",
+            "text": "How to Remove Home.speedbit.com?"
+          }
+        ],
+        "context_relevance_score": 0.7745966692414833
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 23,
+      "example": {
+        "row_index": 6329,
+        "source_document_id": "http___businessdiary.com.ph_9181_mongo-mung-bean-production-guide_.xml",
+        "target_document_id": "http___businessdiary.com.ph_te_9181_mongo-mung-bean-production-guide__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "23.1",
+        "target_sentence_id": "23.1",
+        "source_sentence": "37-40 seeds/ha (75-80% germination)",
+        "target_reference": "37-40 విత్తనాలు / ha (75-80% అంకురుంచడము)",
+        "alignment_score": 0.7937870025634766,
+        "context": [
+          {
+            "id": "21.1",
+            "text": "30 kgs seeds/ha (90-95% germination)"
+          },
+          {
+            "id": "22.1",
+            "text": "35 kgs seeds/ha (80-85% germination)"
+          }
+        ],
+        "context_relevance_score": 0.8164965809277259
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 24,
+      "example": {
+        "row_index": 7255,
+        "source_document_id": "http___checkunivresults.in_2016_01_05_kalahandi-district-collector-magistrate-recruitment-2016-www-kalahandi-nic-in_.xml",
+        "target_document_id": "http___checkunivresults.in_te_2016_01_05_kalahandi-district-collector-magistrate-recruitment-2016-www-kalahandi-nic-in__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "2.1",
+        "target_sentence_id": "2.1",
+        "source_sentence": "Kalahandi District Collector Magistrate Recruitment 2016",
+        "target_reference": "కలహండి జిల్లా కలెక్టర్ మేజిస్ట్రేట్ రిక్రూట్మెంట్ 2016",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "1.1",
+            "text": "Kalahandi Area Enthusiast Magistrate Recruitment 2016 ,Kalahandi District Debt collector Magistrate Employment 2016 Application & Application Refine ,Kalahandi Area Debt collector Magistrate Recruitment 2016 online Application ,How to use Kalahandi District Debt collector Magistrate Employment 2016 ,www.kalahandi.nic.in."
+          }
+        ],
+        "context_relevance_score": 0.7893370379638583
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 25,
+      "example": {
+        "row_index": 7359,
+        "source_document_id": "http___checkunivresults.in_2018_01_08_bseap-10th-class-exam-question-papers_.xml",
+        "target_document_id": "http___checkunivresults.in_te_2018_01_08_bseap-10th-class-exam-question-papers__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "2.1",
+        "target_sentence_id": "2.1",
+        "source_sentence": "Andhra Pradesh 10th Class Model Papers",
+        "target_reference": "ఆంధ్ర ప్రదేశ్ 10 వ క్లాస్ మోడల్ పేపర్స్",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "1.1",
+            "text": "BSEAP 10th Class Exam Question Papers, Andhra Pradesh 10th Class Model Papers, AP SSC 10th Class Model Papers, AP & 10th Class Supplementary Exam Model Papers,www.bseap.org"
+          }
+        ],
+        "context_relevance_score": 0.8179128813519699
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 26,
+      "example": {
+        "row_index": 7359,
+        "source_document_id": "http___checkunivresults.in_2018_01_08_bseap-10th-class-exam-question-papers_.xml",
+        "target_document_id": "http___checkunivresults.in_te_2018_01_08_bseap-10th-class-exam-question-papers__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "32.1",
+        "target_sentence_id": "32.1",
+        "source_sentence": "- AP SSC / 10th Model Question Paper 2017 Blueprint for Hindi Download Sakshieducation",
+        "target_reference": "- AP SSC / 10వ మోడల్ ప్రశ్న పేపర్ 2017 హిందీలో డౌన్లోడ్ Sakshieducation బ్లూప్రింట్",
+        "alignment_score": 0.7263280153274536,
+        "context": [
+          {
+            "id": "30.1",
+            "text": "- AP SSC / 10th Model Question Paper 2017 for Mathematics Download Sakshieducation"
+          },
+          {
+            "id": "31.1",
+            "text": "- AP SSC / 10th Model Question Paper 2017 Blueprint for Telugu Download Sakshieducation"
+          }
+        ],
+        "context_relevance_score": 0.9086882225022429
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 27,
+      "example": {
+        "row_index": 7359,
+        "source_document_id": "http___checkunivresults.in_2018_01_08_bseap-10th-class-exam-question-papers_.xml",
+        "target_document_id": "http___checkunivresults.in_te_2018_01_08_bseap-10th-class-exam-question-papers__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "33.1",
+        "target_sentence_id": "33.1",
+        "source_sentence": "- AP SSC / 10th Model Question Paper 2017 Blueprint for English Download Sakshieducation",
+        "target_reference": "- AP SSC / 10వ మోడల్ ప్రశ్న పేపర్ 2017 ఇంగ్లీష్ డౌన్లోడ్ Sakshieducation బ్లూప్రింట్",
+        "alignment_score": 0.8452190160751343,
+        "context": [
+          {
+            "id": "31.1",
+            "text": "- AP SSC / 10th Model Question Paper 2017 Blueprint for Telugu Download Sakshieducation"
+          },
+          {
+            "id": "32.1",
+            "text": "- AP SSC / 10th Model Question Paper 2017 Blueprint for Hindi Download Sakshieducation"
+          }
+        ],
+        "context_relevance_score": 0.9233805168766388
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 28,
+      "example": {
+        "row_index": 7359,
+        "source_document_id": "http___checkunivresults.in_2018_01_08_bseap-10th-class-exam-question-papers_.xml",
+        "target_document_id": "http___checkunivresults.in_te_2018_01_08_bseap-10th-class-exam-question-papers__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "34.1",
+        "target_sentence_id": "34.1",
+        "source_sentence": "- AP SSC / 10th Model Question Paper 2017 Blueprint for Physics Download Sakshieducation",
+        "target_reference": "- AP SSC / 10వ మోడల్ ప్రశ్న పేపర్ 2017 ఫిజిక్స్ డౌన్లోడ్ Sakshieducation బ్లూప్రింట్",
+        "alignment_score": 0.8452190160751343,
+        "context": [
+          {
+            "id": "32.1",
+            "text": "- AP SSC / 10th Model Question Paper 2017 Blueprint for Hindi Download Sakshieducation"
+          },
+          {
+            "id": "33.1",
+            "text": "- AP SSC / 10th Model Question Paper 2017 Blueprint for English Download Sakshieducation"
+          }
+        ],
+        "context_relevance_score": 0.9233805168766388
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 29,
+      "example": {
+        "row_index": 7359,
+        "source_document_id": "http___checkunivresults.in_2018_01_08_bseap-10th-class-exam-question-papers_.xml",
+        "target_document_id": "http___checkunivresults.in_te_2018_01_08_bseap-10th-class-exam-question-papers__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "37.1",
+        "target_sentence_id": "37.1",
+        "source_sentence": "- AP SSC / 10th Model Question Paper 2017 Blueprint for Social Download Sakshieducation",
+        "target_reference": "- AP SSC / 10వ మోడల్ ప్రశ్న పేపర్ 2017 కోసం సామాజిక డౌన్లోడ్ Sakshieducation బ్లూప్రింట్",
+        "alignment_score": 0.8564010262489319,
+        "context": [
+          {
+            "id": "35.1",
+            "text": "- AP SSC / 10th Model Question Paper 2017 Blueprint for Chemistry Download Sakshieducation"
+          },
+          {
+            "id": "36.1",
+            "text": "- AP SSC / 10th Model Question Paper 2017 Blueprint for Biology Download Sakshieducation"
+          }
+        ],
+        "context_relevance_score": 0.9233805168766388
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 30,
+      "example": {
+        "row_index": 7361,
+        "source_document_id": "http___checkunivresults.in_2018_01_30_rajasthan-ajmer-board-10th-class-previous-model-papers_.xml",
+        "target_document_id": "http___checkunivresults.in_te_2018_01_30_rajasthan-ajmer-board-10th-class-previous-model-papers__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "9.1",
+        "target_sentence_id": "9.1",
+        "source_sentence": "- Rbse Raj Board 10th Class Old Papers – Urdu",
+        "target_reference": "- Rbse రాజ్ బోర్డు 10 వ తరగతి ఓల్డ్ పేపర్స్ - ఉర్దూ",
+        "alignment_score": 0.7747750282287598,
+        "context": [
+          {
+            "id": "7.1",
+            "text": "- Rbse Raj Board 10th Class Old Papers – Maths"
+          },
+          {
+            "id": "8.1",
+            "text": "- Rbse Raj Board 10th Class Old Papers -Sanskrit Tl"
+          }
+        ],
+        "context_relevance_score": 0.9036961141150639
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 31,
+      "example": {
+        "row_index": 1009,
+        "source_document_id": "http___chicagonewsrag.com_2015_04_albany-park-photos-of-chicagos-77-neighborhoods_dsc_5930_.xml",
+        "target_document_id": "http___advancedlawofattractiontraininginstitute.com_day-2-advanced-law-of-attraction-certified-trainer_jim-with-gloria-2-2__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "7.1",
+        "target_sentence_id": "6.1",
+        "source_sentence": "- Click to share on Pinterest (Opens in new window)",
+        "target_reference": "- Pinterest న భాగస్వామ్యం క్లిక్ (కొత్త విండోలో తెరుచుకుంటుంది)",
+        "alignment_score": 0.7283110022544861,
+        "context": [
+          {
+            "id": "5.1",
+            "text": "- Click to share on StumbleUpon (Opens in new window)"
+          },
+          {
+            "id": "6.1",
+            "text": "- Share on Facebook (Opens in new window)"
+          }
+        ],
+        "context_relevance_score": 0.8429272304235246
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 32,
+      "example": {
+        "row_index": 7467,
+        "source_document_id": "http___chipcollection.com_2007_09__1.xml",
+        "target_document_id": "http___chipcollection.com_2007_09__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "24.1",
+        "target_sentence_id": "24.1",
+        "source_sentence": "Logic Express 8",
+        "target_reference": "లాజిక్ ఎక్స్ప్రెస్ 8",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "22.1",
+            "text": "Logic Studio – Logic Pro 8"
+          },
+          {
+            "id": "23.1",
+            "text": "Logic Express"
+          }
+        ],
+        "context_relevance_score": 0.8164965809277259
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 33,
+      "example": {
+        "row_index": 7522,
+        "source_document_id": "http___chipcollection.com_2010_08__1.xml",
+        "target_document_id": "http___chipcollection.com_2010_08__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "2.1",
+        "target_sentence_id": "2.1",
+        "source_sentence": "The NES Chip Collection is now available as an Ableton Live Pack!",
+        "target_reference": "NES చిప్ సేకరణ ఇప్పుడు ఒక Ableton Live ప్యాక్ వలె అందుబాటులో ఉంది! మాత్రమే $20",
+        "alignment_score": 0.8516950011253357,
+        "context": [
+          {
+            "id": "1.1",
+            "text": "NES CHIP Collection ($20) Now For Ableton"
+          }
+        ],
+        "context_relevance_score": 0.7905694150420948
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 34,
+      "example": {
+        "row_index": 8730,
+        "source_document_id": "http___cricket.webdunia.com_english_team_11_Kenya.html.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_11_Kenya.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "11.1",
+        "target_sentence_id": "15.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Fast Medium",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ ఫాస్ట్ మీడియం",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "9.1",
+            "text": "- Right Hand Bat / Right Arm Medium Fast"
+          },
+          {
+            "id": "10.1",
+            "text": "PJ Ongondo"
+          }
+        ],
+        "context_relevance_score": 0.9486832980505138
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 35,
+      "example": {
+        "row_index": 8755,
+        "source_document_id": "http___cricket.webdunia.com_english_team_1_South-Africa.html_2.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_1_South-Africa.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "9.1",
+        "target_sentence_id": "7.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Fast Medium",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ ఫాస్ట్ మీడియం",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "7.1",
+            "text": "- Right Hand Bat / Right Arm Offbreak"
+          },
+          {
+            "id": "8.1",
+            "text": "JH Kallis"
+          }
+        ],
+        "context_relevance_score": 0.7777777777777778
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 36,
+      "example": {
+        "row_index": 8759,
+        "source_document_id": "http___cricket.webdunia.com_english_team_1_SouthAfrica.html.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_1_SouthAfrica.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "9.1",
+        "target_sentence_id": "7.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Fast Medium",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ ఫాస్ట్ మీడియం",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "7.1",
+            "text": "- Right Hand Bat / Right Arm Offbreak"
+          },
+          {
+            "id": "8.1",
+            "text": "JH Kallis"
+          }
+        ],
+        "context_relevance_score": 0.7777777777777778
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 37,
+      "example": {
+        "row_index": 8767,
+        "source_document_id": "http___cricket.webdunia.com_english_team_26_Kolkata-Knight-Riders.html_1.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_26_Kolkata-Knight-Riders.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "11.1",
+        "target_sentence_id": "11.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Medium Fast",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ ఫాస్ట్ మీడియం",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "9.1",
+            "text": "- Right Hand Bat / Right Arm Fast Medium"
+          },
+          {
+            "id": "10.1",
+            "text": "R Bhatia"
+          }
+        ],
+        "context_relevance_score": 0.9486832980505138
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 38,
+      "example": {
+        "row_index": 8767,
+        "source_document_id": "http___cricket.webdunia.com_english_team_26_Kolkata-Knight-Riders.html_1.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_26_Kolkata-Knight-Riders.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "11.1",
+        "target_sentence_id": "13.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Medium Fast",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ మీడియం ఫాస్ట్",
+        "alignment_score": 0.8164970278739929,
+        "context": [
+          {
+            "id": "9.1",
+            "text": "- Right Hand Bat / Right Arm Fast Medium"
+          },
+          {
+            "id": "10.1",
+            "text": "R Bhatia"
+          }
+        ],
+        "context_relevance_score": 0.9486832980505138
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 39,
+      "example": {
+        "row_index": 8768,
+        "source_document_id": "http___cricket.webdunia.com_english_team_26_Kolkata-Knight-Riders.html_2.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_26_Kolkata-Knight-Riders.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "13.1",
+        "target_sentence_id": "13.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Medium Fast",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ మీడియం ఫాస్ట్",
+        "alignment_score": 0.8164970278739929,
+        "context": [
+          {
+            "id": "11.1",
+            "text": "- Right Hand Bat / Right Arm Fast Medium"
+          },
+          {
+            "id": "12.1",
+            "text": "R Bhatia"
+          }
+        ],
+        "context_relevance_score": 0.9486832980505138
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 40,
+      "example": {
+        "row_index": 8769,
+        "source_document_id": "http___cricket.webdunia.com_english_team_26_Kolkata-Knight-Riders.html_3.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_26_Kolkata-Knight-Riders.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "11.1",
+        "target_sentence_id": "13.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Medium Fast",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ మీడియం ఫాస్ట్",
+        "alignment_score": 0.8164970278739929,
+        "context": [
+          {
+            "id": "9.1",
+            "text": "- Right Hand Bat / Right Arm Fast Medium"
+          },
+          {
+            "id": "10.1",
+            "text": "R Bhatia"
+          }
+        ],
+        "context_relevance_score": 0.9486832980505138
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 41,
+      "example": {
+        "row_index": 8769,
+        "source_document_id": "http___cricket.webdunia.com_english_team_26_Kolkata-Knight-Riders.html_3.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_26_Kolkata-Knight-Riders.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "9.1",
+        "target_sentence_id": "11.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Fast Medium",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ ఫాస్ట్ మీడియం",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "7.1",
+            "text": "- Right Hand Bat / Right Arm Offbreak"
+          },
+          {
+            "id": "8.1",
+            "text": "JH Kallis"
+          }
+        ],
+        "context_relevance_score": 0.7777777777777778
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 42,
+      "example": {
+        "row_index": 8794,
+        "source_document_id": "http___cricket.webdunia.com_english_team_27_Chennai-Super-Kings.html_1.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_27_Chennai-Super-Kings.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "17.1",
+        "target_sentence_id": "16.1",
+        "source_sentence": "Delhi Sheikh Zayed Stadium 21 Apr 2014 20.00 IST",
+        "target_reference": "ఢిల్లీ డేర్డెవిల్స్ ఎమ్ఎ చిదంబరం స్టేడియం 12 May 2012 20.00 IST",
+        "alignment_score": 1.0,
+        "context": [
+          {
+            "id": "15.1",
+            "text": "Punjab Sheikh Zayed Stadium 18 Apr 2014 16.00 IST"
+          },
+          {
+            "id": "16.1",
+            "text": "Chennai vs"
+          }
+        ],
+        "context_relevance_score": 0.8017837257372731
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 43,
+      "example": {
+        "row_index": 8733,
+        "source_document_id": "http___cricket.webdunia.com_english_team_27_Chennai-Super-Kings.html_2.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_11_Kenya.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "11.1",
+        "target_sentence_id": "15.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Medium",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ ఫాస్ట్ మీడియం",
+        "alignment_score": 0.8167650103569031,
+        "context": [
+          {
+            "id": "9.1",
+            "text": "- Right Hand Bat / Right Arm Fast Medium"
+          },
+          {
+            "id": "10.1",
+            "text": "SB Styris"
+          }
+        ],
+        "context_relevance_score": 0.8944271909999159
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 44,
+      "example": {
+        "row_index": 8734,
+        "source_document_id": "http___cricket.webdunia.com_english_team_27_Chennai-Super-Kings.html_3.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_11_Kenya.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "11.1",
+        "target_sentence_id": "15.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Medium",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ ఫాస్ట్ మీడియం",
+        "alignment_score": 0.8167650103569031,
+        "context": [
+          {
+            "id": "9.1",
+            "text": "- Right Hand Bat / Right Arm Fast Medium"
+          },
+          {
+            "id": "10.1",
+            "text": "SB Styris"
+          }
+        ],
+        "context_relevance_score": 0.8944271909999159
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 45,
+      "example": {
+        "row_index": 8736,
+        "source_document_id": "http___cricket.webdunia.com_english_team_28_Mumbai-Indians.html_2.xml",
+        "target_document_id": "http___cricket.webdunia.com_telugu_team_11_Kenya.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "10.1",
+        "target_sentence_id": "15.1",
+        "source_sentence": "- Right Hand Bat / Right Arm Medium Fast",
+        "target_reference": "- రైట్ హ్యాండ్ బ్యాట్ / రైట్ ఆర్మ్ ఫాస్ట్ మీడియం",
+        "alignment_score": 0.8660249710083008,
+        "context": [
+          {
+            "id": "8.1",
+            "text": "- Right Hand Bat / Right Arm Offbreak"
+          },
+          {
+            "id": "9.1",
+            "text": "K Pollard"
+          }
+        ],
+        "context_relevance_score": 0.7777777777777778
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 46,
+      "example": {
+        "row_index": 8997,
+        "source_document_id": "http___crushthenclex.com_kaplan-nclex-review_.xml",
+        "target_document_id": "http___crushthenclex.com_kaplan-nclex-review__lang_te_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "32.1",
+        "target_sentence_id": "31.1",
+        "source_sentence": "- 1,000+ practice questions (NCLEX-PN Review)",
+        "target_reference": "- 1,000+ ఆచరణలో ప్రశ్నలు (NCLEX-PN రివ్యూ)",
+        "alignment_score": 0.8164970278739929,
+        "context": [
+          {
+            "id": "30.1",
+            "text": "Learning Materials"
+          },
+          {
+            "id": "31.1",
+            "text": "- 3,000+ practice questions (NCLEX-RN Review)"
+          }
+        ],
+        "context_relevance_score": 0.8451542547285165
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 47,
+      "example": {
+        "row_index": 9090,
+        "source_document_id": "http___cycleharlow.net_hi_category_car-insurance-qoute_.xml",
+        "target_document_id": "http___cycleharlow.net_te_category_car-insurance-qoute__1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "2.1",
+        "target_sentence_id": "2.1",
+        "source_sentence": "Insurance and car insurance",
+        "target_reference": "భీమా మరియు కారు భీమా",
+        "alignment_score": 0.8164970278739929,
+        "context": [
+          {
+            "id": "1.1",
+            "text": "Car insurance quotes Car insurance quotes"
+          }
+        ],
+        "context_relevance_score": 0.7745966692414834
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 48,
+      "example": {
+        "row_index": 11409,
+        "source_document_id": "http___daily-helper.com_en_296458_1.xml",
+        "target_document_id": "http___daily-helper.com_te_344001_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "5.1",
+        "target_sentence_id": "5.1",
+        "source_sentence": "Cocktail Blue Lagoon is one of the most famous and beautiful cocktails.",
+        "target_reference": "కావలసినవి:. 50ml వోడ్కా",
+        "alignment_score": 0.7071070075035095,
+        "context": [
+          {
+            "id": "4.1",
+            "text": "Blue Lagoon Cocktail."
+          },
+          {
+            "id": "4.2",
+            "text": "Cocktail Blue Lagoon is one of the most beautiful and cocktails"
+          }
+        ],
+        "context_relevance_score": 0.8838834764831843
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 49,
+      "example": {
+        "row_index": 991,
+        "source_document_id": "http___doris3m.blogspot.in_2007_05_01_archive.html.xml",
+        "target_document_id": "http___adugujaada.blogspot.in_2016_05_01_archive.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "4.2",
+        "target_sentence_id": "8.1",
+        "source_sentence": "World Press Freedom Day!",
+        "target_reference": "ప్రపంచ పత్రికా స్వేచ్ఛ దినోత్సవం ఉద్దేశ్యాలు :",
+        "alignment_score": 0.7745969891548157,
+        "context": [
+          {
+            "id": "3.1",
+            "text": "World Press Freedom Day"
+          },
+          {
+            "id": "4.1",
+            "text": "Today is an important day."
+          }
+        ],
+        "context_relevance_score": 0.8333333333333334
+      },
+      "manual_decision": null,
+      "review_reason": null
+    },
+    {
+      "review_index": 50,
+      "example": {
+        "row_index": 4120,
+        "source_document_id": "https___whatmaster.com_what-is-the-ozone-layer_.xml",
+        "target_document_id": "http___azgaralimd.blogspot.com_2019_09_2019-world-ozone-day-2019-history.html_1.xml",
+        "lang_pair": "en-te",
+        "source_sentence_id": "4.1",
+        "target_sentence_id": "46.1",
+        "source_sentence": "What is the ozone layer?",
+        "target_reference": "ఏమిటి What is Ozone Layer?",
+        "alignment_score": 0.7080730199813843,
+        "context": [
+          {
+            "id": "2.1",
+            "text": "We explain what the ozone layer is and what is its importance for planet Earth."
+          },
+          {
+            "id": "2.2",
+            "text": "Also, what are the holes in the ozone layer."
+          }
+        ],
+        "context_relevance_score": 0.8616404368553291
+      },
+      "manual_decision": null,
+      "review_reason": null
+    }
+  ]
+}

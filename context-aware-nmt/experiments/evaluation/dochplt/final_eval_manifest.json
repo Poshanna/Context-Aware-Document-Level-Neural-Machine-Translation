@@ -1,0 +1,289 @@
+{
+  "dataset": "DocHPLT",
+  "config": "en-te",
+  "split": "train",
+  "evaluation_type": "manually reviewed deterministic subset from a DocHPLT training shard",
+  "official_test_set": false,
+  "document_level_nmt": false,
+  "model": "facebook/nllb-200-distilled-600M",
+  "direction": "en-te",
+  "alignment_threshold": 0.7,
+  "context_window": 2,
+  "manual_review_seed": 42,
+  "source_manual_review_sample": "experiments\\evaluation\\dochplt\\manual_review_sample.json",
+  "selection_policy": {
+    "manual_review_required": true,
+    "accepted_translation_pair": true,
+    "accepted_context_relevance": true,
+    "target_reference_not_used_for_automated_ranking": true
+  },
+  "accepted_manual_review_indices": [
+    1,
+    10,
+    12,
+    14,
+    15,
+    18,
+    19,
+    20,
+    23,
+    24,
+    46,
+    50
+  ],
+  "sample_count": 12,
+  "examples": [
+    {
+      "evaluation_index": 1,
+      "manual_review_index": 1,
+      "source_document_id": "http___1nejora.top_en_kobo-rakuten_.xml",
+      "target_document_id": "http___1nejora.top_te_kobo-rakuten__1.xml",
+      "source_sentence_id": "60.1",
+      "target_sentence_id": "59.1",
+      "source_sentence": "Your screen name furnished will be at least 2 characters long.",
+      "target_reference": "నమోదిత మీ స్క్రీన్ పేరు కనీసం ఉంటుంది 2 అక్షరాల పొడవు.",
+      "context": [
+        {
+          "id": "58.1",
+          "text": "The title furnished will be at least 4 characters long."
+        },
+        {
+          "id": "59.1",
+          "text": "Screen Name *"
+        }
+      ],
+      "alignment_score": 0.7282189726829529,
+      "context_relevance_score": 0.9258200997725514
+    },
+    {
+      "evaluation_index": 2,
+      "manual_review_index": 10,
+      "source_document_id": "http___androkelv.top_en_casino-barriere-le-ruhl_.xml",
+      "target_document_id": "http___androkelv.top_te_casino-barriere-le-ruhl__1.xml",
+      "source_sentence_id": "10.1",
+      "target_sentence_id": "11.1",
+      "source_sentence": "Thank you for taking the time to a re-circumvention was the establishment, we are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Ruhl.",
+      "target_reference": "ఏర్పాటుచేయటం రీ-అధిగమనాన్ని సమయం తీసుకున్నందుకు ధన్యవాదాలు, మేము మీరు మాకు మీ సమయం ఆనందించారు ఆనందపరిచింది ఉంటాయి, మరియు మేము Ruhl మీరు స్వాగతం ఒక కోరిక ఎదురుచూస్తున్నాము.",
+      "context": [
+        {
+          "id": "8.1",
+          "text": "Thank you for taking the time to a share your experience with us."
+        },
+        {
+          "id": "9.1",
+          "text": "We are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Casino Ruhl."
+        }
+      ],
+      "alignment_score": 0.7652360200881958,
+      "context_relevance_score": 0.8391463916782737
+    },
+    {
+      "evaluation_index": 3,
+      "manual_review_index": 12,
+      "source_document_id": "http___antoniocampos.no-ip.com_en_tag_vulnerabilidades_.xml",
+      "target_document_id": "http___antoniocampos.no-ip.com_te_tag_vulnerabilidades__1.xml",
+      "source_sentence_id": "33.1",
+      "target_sentence_id": "33.1",
+      "source_sentence": "Microsoft Office 2003 Standard Edition",
+      "target_reference": "Microsoft Office 2003 ప్రామాణిక ఎడిషన్",
+      "context": [
+        {
+          "id": "31.1",
+          "text": "Microsoft Office 2003 Professional Edition"
+        },
+        {
+          "id": "32.1",
+          "text": "Microsoft Office 2003 Small Business Edition"
+        }
+      ],
+      "alignment_score": 1.0,
+      "context_relevance_score": 0.8207826816681232
+    },
+    {
+      "evaluation_index": 4,
+      "manual_review_index": 14,
+      "source_document_id": "http___autocarandinsurance.com_af_tag_car-insurance-rates_.xml",
+      "target_document_id": "http___autocarandinsurance.com_te_tag_car-insurance-rates__1.xml",
+      "source_sentence_id": "2.1",
+      "target_sentence_id": "2.1",
+      "source_sentence": "Car insurance rates",
+      "target_reference": "కార్ భీమా రేట్లు",
+      "context": [
+        {
+          "id": "1.1",
+          "text": "Car insurance rates-Factors that affect"
+        }
+      ],
+      "alignment_score": 0.7117879986763,
+      "context_relevance_score": 0.7745966692414834
+    },
+    {
+      "evaluation_index": 5,
+      "manual_review_index": 15,
+      "source_document_id": "http___autocarandinsurance.com_auto-insurance-companies_.xml",
+      "target_document_id": "http___autocarandinsurance.com_te_tag_auto-insurance-companies__1.xml",
+      "source_sentence_id": "2.1",
+      "target_sentence_id": "2.1",
+      "source_sentence": "Auto insurance companies",
+      "target_reference": "ఆటో భీమా సంస్థలు",
+      "context": [
+        {
+          "id": "1.1",
+          "text": "Auto insurance companies-With you always"
+        }
+      ],
+      "alignment_score": 0.7117879986763,
+      "context_relevance_score": 0.8660254037844387
+    },
+    {
+      "evaluation_index": 6,
+      "manual_review_index": 18,
+      "source_document_id": "http___biglauncher.com_help_en__1.xml",
+      "target_document_id": "http___biglauncher.com_help_te__1.xml",
+      "source_sentence_id": "5.1",
+      "target_sentence_id": "5.1",
+      "source_sentence": "How to set-up the SMS notifications in BIG Launcher / BIG SMS on Android 10",
+      "target_reference": "Android 10 లో BIG Launcher / BIG SMS లో SMS నోటిఫికేషన్లను ఎలా సెటప్ చేయాలి",
+      "context": [
+        {
+          "id": "3.2",
+          "text": "How to set BIG SMS as a default SMS app"
+        },
+        {
+          "id": "4.1",
+          "text": "How to show the BIG Launcher Preferences menu"
+        }
+      ],
+      "alignment_score": 0.7171369791030884,
+      "context_relevance_score": 0.7635417155709333
+    },
+    {
+      "evaluation_index": 7,
+      "manual_review_index": 19,
+      "source_document_id": "http___blog.teesupport.com_remove-jsd-pathjava-net-popup-ads-removal-tips_.xml",
+      "target_document_id": "http___blog.teesupport.com_te_remove-jsd-pathjava-net-popup-ads-removal-tips__1.xml",
+      "source_sentence_id": "18.1",
+      "target_sentence_id": "18.1",
+      "source_sentence": "Method 3 Remove Jsd.pathjava.net popup from PC using Manual Removal",
+      "target_reference": "పద్ధతి 3 మాన్యువల్ తొలగింపు ఉపయోగించి PC నుండి Jsd.pathjava.net పాపప్ తొలగించడానికి",
+      "context": [
+        {
+          "id": "16.1",
+          "text": "Method 1 Remove Jsd.pathjava.net popup from PC using MalwareBytes"
+        },
+        {
+          "id": "17.1",
+          "text": "Method 2 Remove Jsd.pathjava.net popup from PC using SpyHunter"
+        }
+      ],
+      "alignment_score": 0.8944820165634155,
+      "context_relevance_score": 0.8520128672302585
+    },
+    {
+      "evaluation_index": 8,
+      "manual_review_index": 20,
+      "source_document_id": "http___blog.teesupport.com_useful-tips-on-ridding-files4-mirror4-net-popup-removal-guide_.xml",
+      "target_document_id": "http___blog.teesupport.com_te_useful-tips-on-ridding-files4-mirror4-net-popup-removal-guide__1.xml",
+      "source_sentence_id": "17.1",
+      "target_sentence_id": "17.1",
+      "source_sentence": "Solution 2: Remove Files4.mirror4.net Ads automatically (with SpyHunter)",
+      "target_reference": "పరిష్కారము 2: స్వయంచాలకంగా Files4.mirror4.net ప్రకటనలను తొలగించు (SpyHunter తో)",
+      "context": [
+        {
+          "id": "15.1",
+          "text": "Remove Files4.mirror4.net Popup With Efficiency"
+        },
+        {
+          "id": "16.1",
+          "text": "Solution 1: Remove Files4.mirror4.net Ads manually"
+        }
+      ],
+      "alignment_score": 0.7745969891548157,
+      "context_relevance_score": 0.7715167498104595
+    },
+    {
+      "evaluation_index": 9,
+      "manual_review_index": 23,
+      "source_document_id": "http___businessdiary.com.ph_9181_mongo-mung-bean-production-guide_.xml",
+      "target_document_id": "http___businessdiary.com.ph_te_9181_mongo-mung-bean-production-guide__1.xml",
+      "source_sentence_id": "23.1",
+      "target_sentence_id": "23.1",
+      "source_sentence": "37-40 seeds/ha (75-80% germination)",
+      "target_reference": "37-40 విత్తనాలు / ha (75-80% అంకురుంచడము)",
+      "context": [
+        {
+          "id": "21.1",
+          "text": "30 kgs seeds/ha (90-95% germination)"
+        },
+        {
+          "id": "22.1",
+          "text": "35 kgs seeds/ha (80-85% germination)"
+        }
+      ],
+      "alignment_score": 0.7937870025634766,
+      "context_relevance_score": 0.8164965809277259
+    },
+    {
+      "evaluation_index": 10,
+      "manual_review_index": 24,
+      "source_document_id": "http___checkunivresults.in_2016_01_05_kalahandi-district-collector-magistrate-recruitment-2016-www-kalahandi-nic-in_.xml",
+      "target_document_id": "http___checkunivresults.in_te_2016_01_05_kalahandi-district-collector-magistrate-recruitment-2016-www-kalahandi-nic-in__1.xml",
+      "source_sentence_id": "2.1",
+      "target_sentence_id": "2.1",
+      "source_sentence": "Kalahandi District Collector Magistrate Recruitment 2016",
+      "target_reference": "కలహండి జిల్లా కలెక్టర్ మేజిస్ట్రేట్ రిక్రూట్మెంట్ 2016",
+      "context": [
+        {
+          "id": "1.1",
+          "text": "Kalahandi Area Enthusiast Magistrate Recruitment 2016 ,Kalahandi District Debt collector Magistrate Employment 2016 Application & Application Refine ,Kalahandi Area Debt collector Magistrate Recruitment 2016 online Application ,How to use Kalahandi District Debt collector Magistrate Employment 2016 ,www.kalahandi.nic.in."
+        }
+      ],
+      "alignment_score": 1.0,
+      "context_relevance_score": 0.7893370379638583
+    },
+    {
+      "evaluation_index": 11,
+      "manual_review_index": 46,
+      "source_document_id": "http___crushthenclex.com_kaplan-nclex-review_.xml",
+      "target_document_id": "http___crushthenclex.com_kaplan-nclex-review__lang_te_1.xml",
+      "source_sentence_id": "32.1",
+      "target_sentence_id": "31.1",
+      "source_sentence": "- 1,000+ practice questions (NCLEX-PN Review)",
+      "target_reference": "- 1,000+ ఆచరణలో ప్రశ్నలు (NCLEX-PN రివ్యూ)",
+      "context": [
+        {
+          "id": "30.1",
+          "text": "Learning Materials"
+        },
+        {
+          "id": "31.1",
+          "text": "- 3,000+ practice questions (NCLEX-RN Review)"
+        }
+      ],
+      "alignment_score": 0.8164970278739929,
+      "context_relevance_score": 0.8451542547285165
+    },
+    {
+      "evaluation_index": 12,
+      "manual_review_index": 50,
+      "source_document_id": "https___whatmaster.com_what-is-the-ozone-layer_.xml",
+      "target_document_id": "http___azgaralimd.blogspot.com_2019_09_2019-world-ozone-day-2019-history.html_1.xml",
+      "source_sentence_id": "4.1",
+      "target_sentence_id": "46.1",
+      "source_sentence": "What is the ozone layer?",
+      "target_reference": "ఏమిటి What is Ozone Layer?",
+      "context": [
+        {
+          "id": "2.1",
+          "text": "We explain what the ozone layer is and what is its importance for planet Earth."
+        },
+        {
+          "id": "2.2",
+          "text": "Also, what are the holes in the ozone layer."
+        }
+      ],
+      "alignment_score": 0.7080730199813843,
+      "context_relevance_score": 0.8616404368553291
+    }
+  ]
+}

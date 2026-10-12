@@ -1,0 +1,123 @@
+{
+  "bridge_input": "ephemeral five-row JSONL using the existing evaluation runner schema",
+  "context_availability": "unavailable",
+  "context_supplied_to_model": false,
+  "dataset": "AI4Bharat Samanantar",
+  "evaluation_track": "sentence_level",
+  "exclusions": [],
+  "expected_split_count": 492751,
+  "generation_settings": {
+    "checkpoint_generation_config": {
+      "_from_model_config": true,
+      "bos_token_id": 0,
+      "decoder_start_token_id": 2,
+      "eos_token_id": 2,
+      "max_length": 200,
+      "pad_token_id": 1,
+      "transformers_version": "4.27.0.dev0"
+    },
+    "do_sample": false,
+    "max_input_length": 512,
+    "max_new_tokens": 256,
+    "note": "The backend passes max_new_tokens; this takes precedence over checkpoint max_length when both are set.",
+    "num_beams": 1,
+    "seed": 42
+  },
+  "metric_methodology": {
+    "bertscore": {
+      "model": "bert-base-multilingual-cased",
+      "requested": false
+    },
+    "bleu": "SacreBLEU corpus BLEU; tokenizer 13a for English target, none for Telugu target; unsmoothed.",
+    "chrf++": "SacreBLEU corpus chrF++; char_order=6, word_order=2, beta=2; other options use library defaults.",
+    "comet": {
+      "enabled_setting": false,
+      "model": "Unbabel/wmt22-comet-da",
+      "requested": false
+    },
+    "normalization": "No additional normalization; source/reference strings are preserved."
+  },
+  "model_checkpoint": "facebook/nllb-200-distilled-600M",
+  "prepared_files": {
+    "test": "test.en-te.jsonl",
+    "train": "train.en-te.jsonl",
+    "val": "val.en-te.jsonl"
+  },
+  "preprocessing_run_id": "samanantar-en-te-2026-09-30T10:05:19Z-seed-42",
+  "preprocessing_seed": 42,
+  "records": [
+    {
+      "alignment_location": "data/processed/test.en-te.jsonl#L1:id,source_language,target_language,source_text,target_text",
+      "context_available": false,
+      "document_id": null,
+      "original_line_index": 0,
+      "record_id": 3721378,
+      "reference_location": "data/processed/test.en-te.jsonl#L1:target_text",
+      "source_location": "data/processed/test.en-te.jsonl#L1:source_text",
+      "track": "sentence_level",
+      "unit": "sentence"
+    },
+    {
+      "alignment_location": "data/processed/test.en-te.jsonl#L2:id,source_language,target_language,source_text,target_text",
+      "context_available": false,
+      "document_id": null,
+      "original_line_index": 1,
+      "record_id": 1224290,
+      "reference_location": "data/processed/test.en-te.jsonl#L2:target_text",
+      "source_location": "data/processed/test.en-te.jsonl#L2:source_text",
+      "track": "sentence_level",
+      "unit": "sentence"
+    },
+    {
+      "alignment_location": "data/processed/test.en-te.jsonl#L3:id,source_language,target_language,source_text,target_text",
+      "context_available": false,
+      "document_id": null,
+      "original_line_index": 2,
+      "record_id": 4848531,
+      "reference_location": "data/processed/test.en-te.jsonl#L3:target_text",
+      "source_location": "data/processed/test.en-te.jsonl#L3:source_text",
+      "track": "sentence_level",
+      "unit": "sentence"
+    },
+    {
+      "alignment_location": "data/processed/test.en-te.jsonl#L4:id,source_language,target_language,source_text,target_text",
+      "context_available": false,
+      "document_id": null,
+      "original_line_index": 3,
+      "record_id": 3802270,
+      "reference_location": "data/processed/test.en-te.jsonl#L4:target_text",
+      "source_location": "data/processed/test.en-te.jsonl#L4:source_text",
+      "track": "sentence_level",
+      "unit": "sentence"
+    },
+    {
+      "alignment_location": "data/processed/test.en-te.jsonl#L5:id,source_language,target_language,source_text,target_text",
+      "context_available": false,
+      "document_id": null,
+      "original_line_index": 4,
+      "record_id": 4166298,
+      "reference_location": "data/processed/test.en-te.jsonl#L5:target_text",
+      "source_location": "data/processed/test.en-te.jsonl#L5:source_text",
+      "track": "sentence_level",
+      "unit": "sentence"
+    }
+  ],
+  "reference_granularity": "sentence",
+  "rows_inspected": 5,
+  "run_id": "20261003T090243Z-7da220b9",
+  "sample_count": 5,
+  "sample_ids": [
+    3721378,
+    1224290,
+    4848531,
+    3802270,
+    4166298
+  ],
+  "schema_version": 1,
+  "source_file": "data/processed/test.en-te.jsonl",
+  "source_language": "en",
+  "split": "test",
+  "target_language": "te",
+  "upstream_revision": "ead34c5b22a0354d350e7dfdd6aece7df5a48f37",
+  "upstream_source_url": "https://indicnlp.ai4bharat.org/samanantar/"
+}

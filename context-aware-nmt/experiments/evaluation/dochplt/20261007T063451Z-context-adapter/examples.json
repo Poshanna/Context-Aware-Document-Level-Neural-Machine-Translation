@@ -1,0 +1,266 @@
+[
+  {
+    "evaluation_index": 1,
+    "manual_review_index": 1,
+    "source_document_id": "http___1nejora.top_en_kobo-rakuten_.xml",
+    "target_document_id": "http___1nejora.top_te_kobo-rakuten__1.xml",
+    "source_sentence_id": "60.1",
+    "target_sentence_id": "59.1",
+    "source_sentence": "Your screen name furnished will be at least 2 characters long.",
+    "target_reference": "నమోదిత మీ స్క్రీన్ పేరు కనీసం ఉంటుంది 2 అక్షరాల పొడవు.",
+    "context": [
+      {
+        "id": "58.1",
+        "text": "The title furnished will be at least 4 characters long."
+      },
+      {
+        "id": "59.1",
+        "text": "Screen Name *"
+      }
+    ],
+    "context_text": "The title furnished will be at least 4 characters long. Screen Name *",
+    "hypothesis": "మీ ఎ Your screen name furnished Your screen name name shall be at least 2 characters of at least 2 characters of at least 2 characters.",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 2,
+    "manual_review_index": 10,
+    "source_document_id": "http___androkelv.top_en_casino-barriere-le-ruhl_.xml",
+    "target_document_id": "http___androkelv.top_te_casino-barriere-le-ruhl__1.xml",
+    "source_sentence_id": "10.1",
+    "target_sentence_id": "11.1",
+    "source_sentence": "Thank you for taking the time to a re-circumvention was the establishment, we are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Ruhl.",
+    "target_reference": "ఏర్పాటుచేయటం రీ-అధిగమనాన్ని సమయం తీసుకున్నందుకు ధన్యవాదాలు, మేము మీరు మాకు మీ సమయం ఆనందించారు ఆనందపరిచింది ఉంటాయి, మరియు మేము Ruhl మీరు స్వాగతం ఒక కోరిక ఎదురుచూస్తున్నాము.",
+    "context": [
+      {
+        "id": "8.1",
+        "text": "Thank you for taking the time to a share your experience with us."
+      },
+      {
+        "id": "9.1",
+        "text": "We are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Casino Ruhl."
+      }
+    ],
+    "context_text": "Thank you for taking the time to a share your experience with us. We are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Casino Ruhl.",
+    "hypothesis": "థ Thank you for taking the time to a re------ circumventionation was the establishment, we're glad you enjoyed your time with us, and we look forward to a desire to to a wish to welcome you to a to the Ruhl.",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 3,
+    "manual_review_index": 12,
+    "source_document_id": "http___antoniocampos.no-ip.com_en_tag_vulnerabilidades_.xml",
+    "target_document_id": "http___antoniocampos.no-ip.com_te_tag_vulnerabilidades__1.xml",
+    "source_sentence_id": "33.1",
+    "target_sentence_id": "33.1",
+    "source_sentence": "Microsoft Office 2003 Standard Edition",
+    "target_reference": "Microsoft Office 2003 ప్రామాణిక ఎడిషన్",
+    "context": [
+      {
+        "id": "31.1",
+        "text": "Microsoft Office 2003 Professional Edition"
+      },
+      {
+        "id": "32.1",
+        "text": "Microsoft Office 2003 Small Business Edition"
+      }
+    ],
+    "context_text": "Microsoft Office 2003 Professional Edition Microsoft Office 2003 Small Business Edition",
+    "hypothesis": "Microsoft Office 2003 ప్రామాణిక ఎడిషన్",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 4,
+    "manual_review_index": 14,
+    "source_document_id": "http___autocarandinsurance.com_af_tag_car-insurance-rates_.xml",
+    "target_document_id": "http___autocarandinsurance.com_te_tag_car-insurance-rates__1.xml",
+    "source_sentence_id": "2.1",
+    "target_sentence_id": "2.1",
+    "source_sentence": "Car insurance rates",
+    "target_reference": "కార్ భీమా రేట్లు",
+    "context": [
+      {
+        "id": "1.1",
+        "text": "Car insurance rates-Factors that affect"
+      }
+    ],
+    "context_text": "Car insurance rates-Factors that affect",
+    "hypothesis": "వాహన భీమా రేట్లు",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 5,
+    "manual_review_index": 15,
+    "source_document_id": "http___autocarandinsurance.com_auto-insurance-companies_.xml",
+    "target_document_id": "http___autocarandinsurance.com_te_tag_auto-insurance-companies__1.xml",
+    "source_sentence_id": "2.1",
+    "target_sentence_id": "2.1",
+    "source_sentence": "Auto insurance companies",
+    "target_reference": "ఆటో భీమా సంస్థలు",
+    "context": [
+      {
+        "id": "1.1",
+        "text": "Auto insurance companies-With you always"
+      }
+    ],
+    "context_text": "Auto insurance companies-With you always",
+    "hypothesis": "వాహన భీమా సంస్థలు",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 6,
+    "manual_review_index": 18,
+    "source_document_id": "http___biglauncher.com_help_en__1.xml",
+    "target_document_id": "http___biglauncher.com_help_te__1.xml",
+    "source_sentence_id": "5.1",
+    "target_sentence_id": "5.1",
+    "source_sentence": "How to set-up the SMS notifications in BIG Launcher / BIG SMS on Android 10",
+    "target_reference": "Android 10 లో BIG Launcher / BIG SMS లో SMS నోటిఫికేషన్లను ఎలా సెటప్ చేయాలి",
+    "context": [
+      {
+        "id": "3.2",
+        "text": "How to set BIG SMS as a default SMS app"
+      },
+      {
+        "id": "4.1",
+        "text": "How to show the BIG Launcher Preferences menu"
+      }
+    ],
+    "context_text": "How to set BIG SMS as a default SMS app How to show the BIG Launcher Preferences menu",
+    "hypothesis": "BIG Launcher / BIG SMS SMS న BIG Launcher / BIG SMS notifications on Android 10 on Android 10 (BIG Launcher / BIG SMS) లో SMS notifications (SMS) న How to setup and run and run and run and run and run and run and run and run and run and run and run and run and run and run and run and run and run and run and run and run (BIG Launcher / BIG Launcher / BIG SMS) (BIG Launcher) (BIG Launcher",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 7,
+    "manual_review_index": 19,
+    "source_document_id": "http___blog.teesupport.com_remove-jsd-pathjava-net-popup-ads-removal-tips_.xml",
+    "target_document_id": "http___blog.teesupport.com_te_remove-jsd-pathjava-net-popup-ads-removal-tips__1.xml",
+    "source_sentence_id": "18.1",
+    "target_sentence_id": "18.1",
+    "source_sentence": "Method 3 Remove Jsd.pathjava.net popup from PC using Manual Removal",
+    "target_reference": "పద్ధతి 3 మాన్యువల్ తొలగింపు ఉపయోగించి PC నుండి Jsd.pathjava.net పాపప్ తొలగించడానికి",
+    "context": [
+      {
+        "id": "16.1",
+        "text": "Method 1 Remove Jsd.pathjava.net popup from PC using MalwareBytes"
+      },
+      {
+        "id": "17.1",
+        "text": "Method 2 Remove Jsd.pathjava.net popup from PC using SpyHunter"
+      }
+    ],
+    "context_text": "Method 1 Remove Jsd.pathjava.net popup from PC using MalwareBytes Method 2 Remove Jsd.pathjava.net popup from PC using SpyHunter",
+    "hypothesis": "Method 3 PC నుండి Jsd.pathjava.net popup ని తీసివేయండి మాన్యువల్ Removal",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 8,
+    "manual_review_index": 20,
+    "source_document_id": "http___blog.teesupport.com_useful-tips-on-ridding-files4-mirror4-net-popup-removal-guide_.xml",
+    "target_document_id": "http___blog.teesupport.com_te_useful-tips-on-ridding-files4-mirror4-net-popup-removal-guide__1.xml",
+    "source_sentence_id": "17.1",
+    "target_sentence_id": "17.1",
+    "source_sentence": "Solution 2: Remove Files4.mirror4.net Ads automatically (with SpyHunter)",
+    "target_reference": "పరిష్కారము 2: స్వయంచాలకంగా Files4.mirror4.net ప్రకటనలను తొలగించు (SpyHunter తో)",
+    "context": [
+      {
+        "id": "15.1",
+        "text": "Remove Files4.mirror4.net Popup With Efficiency"
+      },
+      {
+        "id": "16.1",
+        "text": "Solution 1: Remove Files4.mirror4.net Ads manually"
+      }
+    ],
+    "context_text": "Remove Files4.mirror4.net Popup With Efficiency Solution 1: Remove Files4.mirror4.net Ads manually",
+    "hypothesis": "పరిష్కారం 2: ఫైల్లులు 4.mirror4.net Ads (SpyHunter) స్వయంచాలకంగా Remove",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 9,
+    "manual_review_index": 23,
+    "source_document_id": "http___businessdiary.com.ph_9181_mongo-mung-bean-production-guide_.xml",
+    "target_document_id": "http___businessdiary.com.ph_te_9181_mongo-mung-bean-production-guide__1.xml",
+    "source_sentence_id": "23.1",
+    "target_sentence_id": "23.1",
+    "source_sentence": "37-40 seeds/ha (75-80% germination)",
+    "target_reference": "37-40 విత్తనాలు / ha (75-80% అంకురుంచడము)",
+    "context": [
+      {
+        "id": "21.1",
+        "text": "30 kgs seeds/ha (90-95% germination)"
+      },
+      {
+        "id": "22.1",
+        "text": "35 kgs seeds/ha (80-85% germination)"
+      }
+    ],
+    "context_text": "30 kgs seeds/ha (90-95% germination) 35 kgs seeds/ha (80-85% germination)",
+    "hypothesis": "37-40 విత్తనాలు/ha (75-80% germination)",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 10,
+    "manual_review_index": 24,
+    "source_document_id": "http___checkunivresults.in_2016_01_05_kalahandi-district-collector-magistrate-recruitment-2016-www-kalahandi-nic-in_.xml",
+    "target_document_id": "http___checkunivresults.in_te_2016_01_05_kalahandi-district-collector-magistrate-recruitment-2016-www-kalahandi-nic-in__1.xml",
+    "source_sentence_id": "2.1",
+    "target_sentence_id": "2.1",
+    "source_sentence": "Kalahandi District Collector Magistrate Recruitment 2016",
+    "target_reference": "కలహండి జిల్లా కలెక్టర్ మేజిస్ట్రేట్ రిక్రూట్మెంట్ 2016",
+    "context": [
+      {
+        "id": "1.1",
+        "text": "Kalahandi Area Enthusiast Magistrate Recruitment 2016 ,Kalahandi District Debt collector Magistrate Employment 2016 Application & Application Refine ,Kalahandi Area Debt collector Magistrate Recruitment 2016 online Application ,How to use Kalahandi District Debt collector Magistrate Employment 2016 ,www.kalahandi.nic.in."
+      }
+    ],
+    "context_text": "Kalahandi Area Enthusiast Magistrate Recruitment 2016 ,Kalahandi District Debt collector Magistrate Employment 2016 Application & Application Refine ,Kalahandi Area Debt collector Magistrate Recruitment 2016 online Application ,How to use Kalahandi District Debt collector Magistrate Employment 2016 ,www.kalahandi.nic.in.",
+    "hypothesis": "Kalahandiandi District Collector Magistrate Recruitment 2016",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 11,
+    "manual_review_index": 46,
+    "source_document_id": "http___crushthenclex.com_kaplan-nclex-review_.xml",
+    "target_document_id": "http___crushthenclex.com_kaplan-nclex-review__lang_te_1.xml",
+    "source_sentence_id": "32.1",
+    "target_sentence_id": "31.1",
+    "source_sentence": "- 1,000+ practice questions (NCLEX-PN Review)",
+    "target_reference": "- 1,000+ ఆచరణలో ప్రశ్నలు (NCLEX-PN రివ్యూ)",
+    "context": [
+      {
+        "id": "30.1",
+        "text": "Learning Materials"
+      },
+      {
+        "id": "31.1",
+        "text": "- 3,000+ practice questions (NCLEX-RN Review)"
+      }
+    ],
+    "context_text": "Learning Materials - 3,000+ practice questions (NCLEX-RN Review)",
+    "hypothesis": "- - - + 1000+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +",
+    "status": "success"
+  },
+  {
+    "evaluation_index": 12,
+    "manual_review_index": 50,
+    "source_document_id": "https___whatmaster.com_what-is-the-ozone-layer_.xml",
+    "target_document_id": "http___azgaralimd.blogspot.com_2019_09_2019-world-ozone-day-2019-history.html_1.xml",
+    "source_sentence_id": "4.1",
+    "target_sentence_id": "46.1",
+    "source_sentence": "What is the ozone layer?",
+    "target_reference": "ఏమిటి What is Ozone Layer?",
+    "context": [
+      {
+        "id": "2.1",
+        "text": "We explain what the ozone layer is and what is its importance for planet Earth."
+      },
+      {
+        "id": "2.2",
+        "text": "Also, what are the holes in the ozone layer."
+      }
+    ],
+    "context_text": "We explain what the ozone layer is and what is its importance for planet Earth. Also, what are the holes in the ozone layer.",
+    "hypothesis": "ఓజోన్ పొ What is the ozone layer?",
+    "status": "success"
+  }
+]

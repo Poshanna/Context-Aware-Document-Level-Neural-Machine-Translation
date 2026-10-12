@@ -1,0 +1,1976 @@
+[
+  {
+    "evaluation_index": 1,
+    "source_sentence": "Although the tribe agreed that it had derogation its sovereign immunity, provde the A argue that the Superior Court did not have jurisdiction over the matter, and moved avskedigelse.",
+    "reference": "దాని సార్వభౌమ రోగనిరోధక శక్తి తక్కువ చేయుట ఉందని తెగ అంగీకరించింది ఉన్నప్పటికీ, ఒక సుపీరియర్ కోర్ట్ విషయం పై అధికారము కలిగి లేదని వాదిస్తారు provde, మరియు avskedigelse తరలించబడింది.",
+    "baseline_prediction": "ఈ విషయంపై సుప్రీం కోర్టుకు అధికార పరిధి లేదని, ఆపై ఈ విషయంలో విచారణకు వెళ్లాలని ఆదేశించినట్లు ఆదివాసీలు పేర్కొన్నారు.",
+    "adapter_prediction": "ఈ ట్రిబ్ తన పౌరసత్వ రోగనిరోధకత నుండి మినహాయింపు ఉందని అంగీకరించినప్పటికీ, ఎస్పీయర్ కోర్ట్ ఈ విషయంపై అధికార పరిధిని కలిగి లేదని వాదిస్తుంది మరియు మరొక నిర్ణయం తీసుకుంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "6.1",
+        "text": "The company made payments for about a year for it went into default, kicked off the first of three deals would do with Outsource Services Management, a lane company.",
+        "similarity": 0.1114821508526802
+      },
+      {
+        "id": "6.2",
+        "text": "After the casino failed make payments under each agreement, saksokte Outsource for kontraktbrudd i Whatcom County Superior Court.",
+        "similarity": 0.2582262456417084
+      }
+    ]
+  },
+  {
+    "evaluation_index": 2,
+    "source_sentence": "6 Restrepo",
+    "reference": "5 నిష్క్రమించు:? రైజ్ అండ్ ఫాల్ ఎలియట్ స్పిట్జేర్",
+    "baseline_prediction": "6 రెస్ట్ర్పో",
+    "adapter_prediction": "6 Restrepo",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "17.1",
+        "text": "eighth Who is Harry Nilsson - And Why is Everybody Talkin About Him?",
+        "similarity": 0.09645441174507141
+      },
+      {
+        "id": "18.1",
+        "text": "7th The Lottery",
+        "similarity": 0.2614171802997589
+      }
+    ]
+  },
+  {
+    "evaluation_index": 3,
+    "source_sentence": "Mature Renaissance courts to find great Italian gentleman of the time, who liked to surround people in arts and culture, with their presence gave luster to that environment, and in return enjoyed the protection, charity and reward.",
+    "reference": "తమ ఉనికిని కళలు మరియు సంస్కృతి లో సరౌండ్ ప్రజలకు మెచ్చుకున్నారు ఎవరు సమయం గొప్ప ఇటాలియన్ పెద్దమనిషి,, కనుగొనేందుకు పునర్జన్మ కోర్టులు ఆ పర్యావరణానికి వెలుగు ఇచ్చాడు మరియు తిరిగి రక్షణ, స్వచ్ఛంద మరియు రివార్డ్ ఆనందించారు.",
+    "baseline_prediction": "ఆ సమయంలో గొప్ప ఇటాలియన్ జెంటిల్మెన్ కనుగొనేందుకు పరిణతి కోర్టులు, కళలు మరియు సంస్కృతిలో ప్రజలు చుట్టూ ఇష్టం, వారి ఉనికిని ఆ వాతావరణం ప్రకాశం ఇచ్చింది, మరియు బదులుగా రక్షణ, స్వచ్ఛంద మరియు బహుమతి ఆనందించారు.",
+    "adapter_prediction": "పరిణతి పునరుజ్జీవన కోర్టులు ఆ సమయంలో గొప్ప ఇటాలియన్ జెంటిల్మెన్ కనుగొనేందుకు, ఆర్ట్స్ మరియు సంస్కృతిలో ప్రజలు చుట్టూ ఇష్టం, వారి ఉనికిని ఆ వాతావరణం ప్రకాశవంతమైన ఇచ్చింది, మరియు తిరిగి రక్షణ, ఛారిటీ మరియు బహుమతి ఆనందించారు.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "6.2",
+        "text": "Renaissance is born in Italy in the 15th century, and exhausted at the end of the same century.",
+        "similarity": 0.4229435920715332
+      },
+      {
+        "id": "6.3",
+        "text": "From Italy it spread throughout Europe, everywhere renewing interest in learning and the arts.",
+        "similarity": 0.35984593629837036
+      }
+    ]
+  },
+  {
+    "evaluation_index": 4,
+    "source_sentence": "You've never really ...",
+    "reference": "A trend can actuall...",
+    "baseline_prediction": "మీరు నిజంగా ఎప్పుడూ ...",
+    "adapter_prediction": "మీరు నిజంగా ఎప్పుడూ ...",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "102.6",
+        "text": "What's that?",
+        "similarity": 0.09298558533191681
+      }
+    ]
+  },
+  {
+    "evaluation_index": 5,
+    "source_sentence": "- World History",
+    "reference": "- World History",
+    "baseline_prediction": "- ప్రపంచ చరిత్ర",
+    "adapter_prediction": "- ప్రపంచ చరిత్ర",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "32.1",
+        "text": "- 60+APPSC Previous Papers",
+        "similarity": 0.12883414328098297
+      },
+      {
+        "id": "33.1",
+        "text": "- Data Interpretation",
+        "similarity": 0.21343985199928284
+      }
+    ]
+  },
+  {
+    "evaluation_index": 6,
+    "source_sentence": "6 Mavis Staples, You Are Not Alone",
+    "reference": "3 సాడ్,",
+    "baseline_prediction": "6 మావిస్ స్టెప్ల్స్, మీరు ఒంటరిగా లేరు",
+    "adapter_prediction": "6 మావిస్ స్టెప్ల్స్, మీరు ఒంటరిగా లేరు",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "47.1",
+        "text": "8th Janelle Monae feat Big Boi, Tightrope",
+        "similarity": 0.07965540885925293
+      },
+      {
+        "id": "48.1",
+        "text": "seventh Vampire Weekend White Sky",
+        "similarity": 0.10945635288953781
+      }
+    ]
+  },
+  {
+    "evaluation_index": 7,
+    "source_sentence": "MIND Path to Thalamus Enhanced Edition PC Game 2017 Overview Wrapped in a mind-bending story, …",
+    "reference": "MIND Path to Thalamus Enhanced Edition PC Game 2017 Overview Wrapped in a mind-bending story, …",
+    "baseline_prediction": "మైండ్ పాత్ టు తాలిమస్ ఎన్హెచ్ఎన్ ఎడిషన్ PC గేమ్ 2017 అవలోకనం మనస్సును కదిలించే కథలో మునిగిపోయింది, . . .",
+    "adapter_prediction": "MIND Path to Thalamus Enhanced Edition PC Game 2017 Overview Mind-Bending Story, ...",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "9.2",
+        "text": "MIND Path to Thalamus Enhanced Edition Free Download PC Game setup in single direct hyperlink for Windows.",
+        "similarity": 0.6917064189910889
+      },
+      {
+        "id": "9.3",
+        "text": "It is an incredible journey and indie recreation.",
+        "similarity": 0.24260857701301575
+      }
+    ]
+  },
+  {
+    "evaluation_index": 8,
+    "source_sentence": "- Right Hand Bat / Right Arm Offbreak",
+    "reference": "జె. బోథా",
+    "baseline_prediction": "- కుడి చేతి బ్యాట్ / కుడి చేతి ఆఫ్బ్రేక్",
+    "adapter_prediction": "- కుడి చేతి బాట్ / కుడి చేతి Offbreak",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "8.1",
+        "text": "- Left Hand Bat / Right Arm Fast Medium",
+        "similarity": 0.7328941822052002
+      },
+      {
+        "id": "9.1",
+        "text": "J Botha",
+        "similarity": 0.19260592758655548
+      }
+    ]
+  },
+  {
+    "evaluation_index": 9,
+    "source_sentence": "Telugu man to become the President of Indian National Congress.",
+    "reference": "భారత జాతీయ కాంగ్రెస్ కు అధ్యక్షత వహించిన తొలి తెలుగువారు? ఆనందాచార్యులు",
+    "baseline_prediction": "తెలుగు వ్యక్తి భారత జాతీయ కాంగ్రెస్ అధ్యక్షుడిగా ఎన్నికయ్యారు.",
+    "adapter_prediction": "Telugu Man to become the President of Indian National Congress. భారత జాతీయ కాంగ్రెస్ అధ్యక్షుడిగా తెలంగాణకు చెందిన వ్యక్తి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "75.1",
+        "text": "Ananda",
+        "similarity": 0.09058870375156403
+      },
+      {
+        "id": "76.1",
+        "text": "Charyulu was the 1st",
+        "similarity": 0.14513300359249115
+      }
+    ]
+  },
+  {
+    "evaluation_index": 10,
+    "source_sentence": "- February 5, 2007 at 6:17:00 PM PST",
+    "reference": "- Thu Nov 20, 11:07:00 PM PST",
+    "baseline_prediction": "- ఫిబ్రవరి 5, 2007 రాత్రి 6:17:00 PST",
+    "adapter_prediction": "- ఫిబ్రవరి 5, 2007 at 6:17:00 PM PST",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "14.2",
+        "text": "Thanks for sharing the idea.",
+        "similarity": 0.0287211611866951
+      },
+      {
+        "id": "14.3",
+        "text": "Beautiful color for your scarf, too, by the way.",
+        "similarity": 0.02144169993698597
+      }
+    ]
+  },
+  {
+    "evaluation_index": 11,
+    "source_sentence": "A Notification for the civil services examination is published by Union Public Service Commission (UPSC) in all the daily newspapers and the Rozgar Samachar/ Employment News by the end of December each year.",
+    "reference": "A Notification for the civil services examination is published by Union Public Service Commission (UPSC) in all the daily newspapers and the Rozgar Samachar/ Employment News by the end of December each year.",
+    "baseline_prediction": "ప్రతి సంవత్సరం డిసెంబర్ చివరి నాటికి అన్ని వార్తాపత్రికలు, రోజ్గర్ సమాచార్/ఉద్యోగ వార్తాపత్రికలలో పబ్లిక్ సర్వీసెస్ పరీక్షకు నోటిఫికేషన్ విడుదల చేస్తుంది.",
+    "adapter_prediction": "ప్రతి సంవత్సరం డిసెంబర్ చివరి నాటికి అన్ని వార్తాపత్రికలు మరియు రోజ్గర్ సమచార్ / ఎంప్లాయ్మెంట్ న్యూస్లో సివిల్ సర్వీసెస్ పరీక్ష కోసం నోటిఫికేషన్ ప్రచురిస్తుంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "36.2",
+        "text": "Preliminary Test.",
+        "similarity": 0.20772486925125122
+      },
+      {
+        "id": "37.1",
+        "text": "The First StageAll India Combined Competitive Examination is conducted by the Union Public Service Commission (UPSC) at different centers spread all over the country for Preliminary test.",
+        "similarity": 0.445123553276062
+      }
+    ]
+  },
+  {
+    "evaluation_index": 12,
+    "source_sentence": "Step3: Remove harmful extensions added by CelebSauce from your browsers:",
+    "reference": "Step3: మీ బ్రౌజర్ నుండి CelebSauce ద్వారా జోడించవచ్చు హానికరమైన పొడిగింపులు తొలగించు:",
+    "baseline_prediction": "దశ 3: CelebSauce చేర్చిన హానికరమైన పొడిగింపులను మీ బ్రౌజర్ల నుండి తొలగించండిః",
+    "adapter_prediction": "Step3: CelebSauce చేరి హానికరమైన పొడిగింపులు మీ బ్రౌజర్స్ నుండి తొలగించుః",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "24.1",
+        "text": "Select Uninstall a program.",
+        "similarity": 0.28713613748550415
+      },
+      {
+        "id": "25.1",
+        "text": "Remove the any suspicious progarams..",
+        "similarity": 0.3871687650680542
+      }
+    ]
+  },
+  {
+    "evaluation_index": 13,
+    "source_sentence": "Ass to Mouth Porn Videos",
+    "reference": "పరిపక్వ సేడుసుస్ యంగ్ Porn Videos",
+    "baseline_prediction": "నోటి నుండి మొడ్డకు పోర్న్ వీడియోలు",
+    "adapter_prediction": "Porn Videos",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "34.1",
+        "text": "Loves Black Cock Porn Videos",
+        "similarity": 0.4848825931549072
+      },
+      {
+        "id": "35.1",
+        "text": "Swallowing Compilation Porn Videos",
+        "similarity": 0.6258487701416016
+      }
+    ]
+  },
+  {
+    "evaluation_index": 14,
+    "source_sentence": "Choosing the Right Prepaid Calling Card in Making Calls",
+    "reference": "Missing Out on the Opportunity of a Lifetime",
+    "baseline_prediction": "కాల్స్ చేసేటప్పుడు సరైన ప్రీపెయిడ్ కాల్ కార్డును ఎంచుకోవడం",
+    "adapter_prediction": "కాల్స్ చేయడంలో సరైన ప్రీపెయిడ్ కాల్ కార్డ్ ఎంచుకోవడం",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "19.2",
+        "text": "You got to demand yourself to an answer to this.",
+        "similarity": 0.008053254336118698
+      },
+      {
+        "id": "19.3",
+        "text": "Why the heck on earth would anybody pay for what you're selling?",
+        "similarity": 0.06333333998918533
+      }
+    ]
+  },
+  {
+    "evaluation_index": 15,
+    "source_sentence": "Supply chain restructuring based on economic factors",
+    "reference": "ఆర్ధిక కారకాలపై ఆధారపడి సరఫరా గొలుసు పునర్నిర్మాణం.",
+    "baseline_prediction": "ఆర్థిక అంశాల ఆధారంగా సరఫరా గొలుసు పునర్నిర్మాణం",
+    "adapter_prediction": "ఆర్థిక కారకాల ఆధారంగా సరఫరా గొలుసు పునర్నిర్మాణం",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "15.4",
+        "text": "But in GST regime, since the consideration for taxable event is supply, the same manufacturer can now go for a single registration for all 10 units within a single state.",
+        "similarity": 0.13787855207920074
+      },
+      {
+        "id": "15.5",
+        "text": "So, no more separate registration for the same taxable manufacturer in a State.",
+        "similarity": 0.11803598701953888
+      }
+    ]
+  },
+  {
+    "evaluation_index": 16,
+    "source_sentence": "Type either the email address or phone number that you used to register for Aadhaar.",
+    "reference": "తరువాతి స్టెప్లో భాగంగా ఆధార్ కార్డు కోసం మీరిచ్చిన మెయిల్ లేదా ఫోన్ నెంబర్ను ఎంటర్ చేయండి.",
+    "baseline_prediction": "ఆధార్ కోసం మీరు నమోదు చేసుకున్న ఇమెయిల్ చిరునామా లేదా ఫోన్ నంబర్ను టైప్ చేయండి.",
+    "adapter_prediction": "మీరు ఆధార్ కోసం రిజిస్టర్ చేయడానికి ఉపయోగించిన ఇమెయిల్ చిరునామా లేదా ఫోన్ నంబర్ను టైప్ చేయండి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "10.1",
+        "text": "Make sure that Aadhaar No (UID) is selected from the two options near the top of the screen.",
+        "similarity": 0.7244410514831543
+      },
+      {
+        "id": "11.1",
+        "text": "Type in your full name, as printed on the Aadhaar card.",
+        "similarity": 0.771841824054718
+      }
+    ]
+  },
+  {
+    "evaluation_index": 17,
+    "source_sentence": "Smoking Pussy Porn Videos",
+    "reference": "కొరియన్ Anal Porn Videos",
+    "baseline_prediction": "ధూమపానం పిల్లి పోర్న్ వీడియోలు",
+    "adapter_prediction": "ధూమపానం పిల్లి పోర్న్ వీడియోలు",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "22.1",
+        "text": "Lesbian Lessons Porn Videos",
+        "similarity": 0.6561597585678101
+      },
+      {
+        "id": "23.1",
+        "text": "Hard Double Anal Porn Videos",
+        "similarity": 0.637567937374115
+      }
+    ]
+  },
+  {
+    "evaluation_index": 18,
+    "source_sentence": "We also respect Muslim heroes like APJ Abdul Kalam who are our role models.",
+    "reference": "We also respect Muslim heroes like APJ Abdul Kalam who are our role models.",
+    "baseline_prediction": "మన ఆదర్శంగా ఉన్న ఎపిజె అబ్దుల్ కలాం వంటి ముస్లిం హీరోల ను కూడా మేము గౌరవిస్తాము.",
+    "adapter_prediction": "మన ఆదర్శాలుగా ఉన్న ఏపీజె అబ్దుల్ కలాం వంటి ముస్లిం హీరోలను కూడా మేము గౌరవించుకుంటున్నాము.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "88.2",
+        "text": "We only refer to interpretations made by fanatics and terrorists to justify their kill and rape.",
+        "similarity": 0.2637142837047577
+      },
+      {
+        "id": "88.3",
+        "text": "We highly respect the original Quran, Hadiths and their creators.",
+        "similarity": 0.5282956957817078
+      }
+    ]
+  },
+  {
+    "evaluation_index": 19,
+    "source_sentence": "Followers exist in multiple time zones and it is imperative to use Twitter analysis tools to get your best strategic time.",
+    "reference": "Followers exist in multiple time zones and it is imperative to use Twitter analysis tools to get your best strategic time.",
+    "baseline_prediction": "అనుచరులు బహుళ సమయ మండలాలలో ఉన్నారు మరియు మీ ఉత్తమ వ్యూహాత్మక సమయాన్ని పొందడానికి ట్విట్టర్ విశ్లేషణ సాధనాలను ఉపయోగించడం చాలా అవసరం.",
+    "adapter_prediction": "అనుచరులు బహుళ సమయ మండలాలలో ఉనికిలో మరియు మీ ఉత్తమ వ్యూహాత్మక సమయాన్ని పొందడానికి ట్విట్టర్ విశ్లేషణ సాధనాలను ఉపయోగించడం చాలా అవసరం.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "18.1",
+        "text": "To get more retweets, tweet at the optimal time.",
+        "similarity": 0.5911528468132019
+      },
+      {
+        "id": "19.1",
+        "text": "Intensive studies have been conducted on retweet timings and practically speaking, there are no invariable, sacred statistics for retweets.",
+        "similarity": 0.4827771782875061
+      }
+    ]
+  },
+  {
+    "evaluation_index": 20,
+    "source_sentence": "comments.",
+    "reference": "వ్యాఖ్యలు.",
+    "baseline_prediction": "వ్యాఖ్యలు.",
+    "adapter_prediction": "వ్యాఖ్యలు.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "32.1",
+        "text": "Canadians with higher risk of hack, thanks re their smart devices: report.",
+        "similarity": 0.15419647097587585
+      },
+      {
+        "id": "33.1",
+        "text": "Union outbreak automation eats up 400 oil sands jobs - and that's just the beginning.",
+        "similarity": 0.12666046619415283
+      }
+    ]
+  },
+  {
+    "evaluation_index": 21,
+    "source_sentence": "Win32的:Aluroot [RTK] Identified as Security Threat by Impressions",
+    "reference": "Win32:Aluroot [Rtk] Identified as Security Threat by Impressions",
+    "baseline_prediction": "Win32 的:Aluroot [RTK] ముద్రల ద్వారా భద్రతా ముప్పుగా గుర్తించబడింది",
+    "adapter_prediction": "Win32的:Aluroot [RTK] Security Threat by Impressions",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "4.5",
+        "text": "Win32的:Aluroot [RTK] can make your mouse or keyboard bad.",
+        "similarity": 0.6700601577758789
+      },
+      {
+        "id": "4.6",
+        "text": "你已经尝试了木马扫描器didnt清除病毒, 你自己也尝试去通prossess,但检查的价值时, “外壳”, the virus its already set as explorer.exe and not giving you the location of the virus in Windows XP, Vista或赢 7.",
+        "similarity": 0.3894556760787964
+      }
+    ]
+  },
+  {
+    "evaluation_index": 22,
+    "source_sentence": "Most of the people forget Windows 7, Windows XP, Windows Server 2003, 2008, Vista adminstrator passwords and in a frustration",
+    "reference": "Most of the pc users work with Microsoft Word for their documentation needs.",
+    "baseline_prediction": "చాలామంది విండోస్ 7, విండోస్ ఎక్స్ పి, విండోస్ సర్వర్ 2003, 2008, విస్టా అడ్మినిస్ట్రేటర్ పాస్వర్డ్లను మర్చిపోతారు మరియు విసుగుతో",
+    "adapter_prediction": "చాలా మంది ప్రజలు Windows 7, Windows XP, Windows Server 2003, 2008, Vista నిర్వాహకుడు పాస్వర్డ్లు మర్చిపోతే మరియు ఒక నిరాశ లో",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "2.1",
+        "text": "Windows Tip : How to Reset Windows 7, Vista, XP Administrator password Full HD Nallamothu telugu",
+        "similarity": 0.5637784004211426
+      },
+      {
+        "id": "3.1",
+        "text": "1.16K Views1 Comments0 Likes",
+        "similarity": 0.018715225160121918
+      }
+    ]
+  },
+  {
+    "evaluation_index": 23,
+    "source_sentence": "We only refer to interpretations made by fanatics and terrorists to justify their kill and rape.",
+    "reference": "Make a contribution and help bring change.",
+    "baseline_prediction": "మేము కేవలం వారి హత్యలు మరియు అత్యాచారాలను సమర్థించేందుకు అభిమానులు మరియు తీవ్రవాదులు చేసిన వ్యాఖ్యానాలకు మాత్రమే ప్రస్తావిస్తున్నాము.",
+    "adapter_prediction": "మేము కేవలం వారి హత్య మరియు అత్యాచారం సమర్థించడానికి ఫ్యానిక్లు మరియు తీవ్రవాదులు చేసిన వివరణలను సూచిస్తున్నాయి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "4.1",
+        "text": "Facebook Comments",
+        "similarity": 0.17131370306015015
+      },
+      {
+        "id": "5.1",
+        "text": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+        "similarity": 0.4743024408817291
+      }
+    ]
+  },
+  {
+    "evaluation_index": 24,
+    "source_sentence": "It is also suitable for screen printing and for variable information systems such as dot matrix, thermal transfer and certain types of ink-jet printing.",
+    "reference": "It is also suitable for screen printing and for variable information systems such as dot matrix, thermal transfer and certain types of ink-jet printing.",
+    "baseline_prediction": "ఇది స్క్రీన్ ప్రింటింగ్ మరియు డాట్ మాట్రిక్స్, థర్మల్ ట్రాన్స్ఫర్ మరియు కొన్ని రకాల ఇంక్-జెట్ ప్రింటింగ్ వంటి వేరియబుల్ ఇన్ఫర్మేషన్ సిస్టమ్లకు కూడా అనుకూలంగా ఉంటుంది.",
+    "adapter_prediction": "ఇది స్క్రీన్ ప్రింటింగ్ మరియు డాట్ మాట్రిక్స్, థర్మ్ ట్రాన్స్ఫర్ మరియు కొన్ని రకాల ఇంక్-జెట్ ప్రింటింగ్ వంటి వేరియబుల్ ఇన్ఫర్మేషన్ సిస్టమ్లకు కూడా అనుకూలంగా ఉంటుంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "48.1",
+        "text": "Syntetyske fellen foar alle seizoenen",
+        "similarity": 0.016852330416440964
+      },
+      {
+        "id": "49.1",
+        "text": "A company has introduced Polylitho self-adhesive sheets as a ready-to-print product designed for conventional litho and letter-press processes.",
+        "similarity": 0.44432520866394043
+      }
+    ]
+  },
+  {
+    "evaluation_index": 25,
+    "source_sentence": "February 1: Budget 2022-23 (Rupee Comes from and Rupee Goes to)",
+    "reference": "February 1: బడ్జెట్ 2022-23 (రూపాయి రాక రూపాయి పోక)",
+    "baseline_prediction": "ఫిబ్రవరి 1: 2022-23 బడ్జెట్ (రూపీలు వస్తాయి, రూపీలు వెళ్తాయి)",
+    "adapter_prediction": "February 1: Budget 2022-23 (Rupee Comes from and Rupee Goes to)",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "12.1",
+        "text": "January 31: Economic Survey 2022 (Basics and Highlights)",
+        "similarity": 0.47226035594940186
+      },
+      {
+        "id": "13.1",
+        "text": "February 2022",
+        "similarity": 0.627689778804779
+      }
+    ]
+  },
+  {
+    "evaluation_index": 26,
+    "source_sentence": "Tee Support is an award-winning online tech service with over 5-year dedicated experience.",
+    "reference": "Tee Support is an award-winning online tech service with over 5-year dedicated experience.",
+    "baseline_prediction": "టీ సపోర్ట్ అనేది 5 సంవత్సరాల ప్రత్యేక అనుభవం కలిగిన బహుమతి పొందిన ఆన్లైన్ టెక్ సేవ.",
+    "adapter_prediction": "Tee Support అనేది 5 సంవత్సరాల ప్రత్యేక అనుభవాన్ని కలిగిన బహుమతి-ప్ర",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "29.1",
+        "text": "Still having trouble on dealing with tricky virus infections, stubborn errors, unwanted programs or any other headachy computer problems?",
+        "similarity": 0.0452883243560791
+      },
+      {
+        "id": "29.2",
+        "text": "Then, you definitely need a more specific, accurate and customized solution toward your specific issue in your specific computer system.",
+        "similarity": 0.05273006111383438
+      }
+    ]
+  },
+  {
+    "evaluation_index": 27,
+    "source_sentence": "Amol Rathod’s rich cinematography, Devi Sri Prasad’s titillating tunes and stylish overall look adds positively to the film.",
+    "reference": "Amol Rathod’s rich cinematography, Devi Sri Prasad’s titillating tunes and stylish overall look adds positively to the film.",
+    "baseline_prediction": "అమోల్ రాథోద్ చిత్రీకరణ, దేవీ శ్రీ ప్రసాద్ చిత్రీకరణ, శైలి శైలి చిత్రీకరణ ఈ చిత్రానికి సానుకూలంగా జోడించాయి.",
+    "adapter_prediction": "ఆమోల్ రాథోద్ యొక్క గొప్ప సినిమాటోగ్రఫీ, దేవీ శ్రీప్రసాద్ యొక్క టైటిల్లేటింగ్ ట్యూన్స్ మరియు స్టైలిష్ మొత్తం లుక్ సినిమాకు సానుకూలంగా జోడిస్తుంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "15.3",
+        "text": "Puri, who wrote hilarious comedy tracks before lost complete grip there.",
+        "similarity": 0.2738936245441437
+      },
+      {
+        "id": "16.1",
+        "text": "Technical aspects shine very much this time.",
+        "similarity": 0.2661653459072113
+      }
+    ]
+  },
+  {
+    "evaluation_index": 28,
+    "source_sentence": "piece block ... technical reserves in half so short sides meet.",
+    "reference": "ఒక క్రిస్మస్చెట్టు baubles తో క్రిస్మస్ కార్డులు తయారు చేసేందుకు ఎలా",
+    "baseline_prediction": "ముక్క బ్లాక్ ... సాంకేతిక నిల్వలు సగం కాబట్టి చిన్న వైపులా కలిసే.",
+    "adapter_prediction": "ముక్క బ్లాక్ ... సాంకేతిక నిల్వలు సగం కాబట్టి చిన్న వైపుల కలుస్తాయి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "1.1",
+        "text": "Christmas cards and gifts, Christmas decorations, chocolates and candies for Easter, postcards from holidays.",
+        "similarity": 0.06075029820203781
+      },
+      {
+        "id": "2.1",
+        "text": "nothing like a handmade card mutual benefit, because happy and obdarowujÄ…cy and recipient Below you will find an easy project to do a Christmas card",
+        "similarity": 0.0951148122549057
+      }
+    ]
+  },
+  {
+    "evaluation_index": 29,
+    "source_sentence": "From the scene where he enters the screen with his dad Chiranjeevi’s poster on background and till the moment, Vijay curbs the oil Mafia, there is no look back.",
+    "reference": "From the scene where he enters the screen with his dad Chiranjeevi’s poster on background and till the moment, Vijay curbs the oil Mafia, there is no look back.",
+    "baseline_prediction": "తన తండ్రి చిరంజీవి పోస్టర్ను నేపథ్యంలో ఉంచినప్పుడు తెరపైకి ప్రవేశించిన క్షణం నుంచి, ఇప్పుడు వరకు, విజయ్ చమురు మాఫియాను అరికట్టాడు.",
+    "adapter_prediction": "ఈ సందర్భంగా, అతను తన తండ్రి చిరింజీవీ పోస్టర్ నేపథ్యంలో తెరపైకి ప్రవేశించిన మరియు ఈ క్షణం వరకు, విజయ్ చమురు మాఫియా అరికట్టడానికి, అక్కడ తిరిగి చూడండి లేదు.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "107.1",
+        "text": "Crisply remade….",
+        "similarity": 0.1667242795228958
+      },
+      {
+        "id": "108.1",
+        "text": "Toofan or Zanjeer tells the story very crisply… wastes just a reel at max.",
+        "similarity": 0.23089630901813507
+      }
+    ]
+  },
+  {
+    "evaluation_index": 30,
+    "source_sentence": "Cumin Seeds - 1/2 tea spoon",
+    "reference": "మిరియాలు - 1/2 tea spoon (semi-smashed)",
+    "baseline_prediction": "కామిన్ సీడ్స్ - 1/2 టీ స్పూన్",
+    "adapter_prediction": "కామిన్ సీడ్స్ - 1/2 టీ స్పూన్",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "3.1",
+        "text": "Green Chili - 4 (adjust to taste)",
+        "similarity": 0.29285287857055664
+      },
+      {
+        "id": "4.1",
+        "text": "Coconut - 2 table spoons",
+        "similarity": 0.5087723731994629
+      }
+    ]
+  },
+  {
+    "evaluation_index": 31,
+    "source_sentence": "HD Video Emo",
+    "reference": "అభిలాషి శృంగార HD వీడియో",
+    "baseline_prediction": "HD వీడియో ఎమో",
+    "adapter_prediction": "HD వీడియో ఎమో",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "18.1",
+        "text": "HD Video, Sex in the woods, Old + Young, Teens, Latina",
+        "similarity": 0.5083601474761963
+      },
+      {
+        "id": "19.1",
+        "text": "Ass, hardcore",
+        "similarity": 0.3494524359703064
+      }
+    ]
+  },
+  {
+    "evaluation_index": 32,
+    "source_sentence": "Have a look at http://jalleda.com/en",
+    "reference": "Have a look at http://jalleda.com/en",
+    "baseline_prediction": "http://jalleda.com/en లో చూడండి",
+    "adapter_prediction": "http://jalleda.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "3.1",
+        "text": "We are proud to announce Jalleda English blog aggrator for Indians writing in English.",
+        "similarity": 0.42400774359703064
+      },
+      {
+        "id": "4.1",
+        "text": "We are still experimenting with this, please expect glitches.",
+        "similarity": 0.08214149624109268
+      }
+    ]
+  },
+  {
+    "evaluation_index": 33,
+    "source_sentence": "E, it can show up various commercial popup ads while searching and cannot stop these ads.",
+    "reference": "E, ఇది వెతుకుతున్నప్పుడు వివిధ వాణిజ్య పాపప్ ప్రకటనలు ప్రదర్శిస్తాయి మరియు ఈ ప్రకటనలను ఆపడానికి కాదు.",
+    "baseline_prediction": "E, శోధన సమయంలో వివిధ వాణిజ్య ప్రకటనలను ప్రదర్శించవచ్చు మరియు ఈ ప్రకటనలను ఆపలేరు.",
+    "adapter_prediction": "E, ఇది శోధన సమయంలో వివిధ వాణిజ్య పాప్అప్ ప్రకటనలు ప్రదర్శిస్తుంది మరియు ఈ ప్రకటనలు ఆపడానికి కాదు.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "12.1",
+        "text": "C, it hijacks the start-up page and search into search.frontier.com other unknown sites.",
+        "similarity": 0.5088251829147339
+      },
+      {
+        "id": "13.1",
+        "text": "D, this program change your search results to unwanted ones.",
+        "similarity": 0.4976654052734375
+      }
+    ]
+  },
+  {
+    "evaluation_index": 34,
+    "source_sentence": "- Have ability to trace GPS realtime (for example every 10 seconds).",
+    "reference": "- GPS ను ట్రేస్చేసే ప్రశ్నిస్తున్నాం (ఉదాహరణకు ప్రతి 10 సెకన్లు).",
+    "baseline_prediction": "- నిజ సమయంలో GPS ట్రాకింగ్ సామర్థ్యాన్ని కలిగి ఉండండి (ఉదాహరణకు ప్రతి 10 సెకన్లకు ఒకసారి).",
+    "adapter_prediction": "- GPS నిజ సమయంలో ట్రాక్ సామర్థ్యం (ఉదాహరణకు ప్రతి 10 సెకన్లు).",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "13.2",
+        "text": "Export data to TXT (CVS) file.",
+        "similarity": 0.012149503454566002
+      },
+      {
+        "id": "14.1",
+        "text": "- View the logs (old logs) without internet connection.",
+        "similarity": 0.3554496169090271
+      }
+    ]
+  },
+  {
+    "evaluation_index": 35,
+    "source_sentence": "- StatComm (an advanced statistics plugin which is easier to read than Google Analytics and requires no account creation)",
+    "reference": "- StatComm (Google Analytics కంటే చదవడానికి సులభంగా ఉంటుంది మరియు ఇది ఒక ఆధునిక గణాంకాలు ప్లగ్ఇన్ ఏవీ సృష్టి అవసరం)",
+    "baseline_prediction": "- StatComm (అధునాతన గణాంక ప్లగ్ఇన్, ఇది గూగుల్ అనలిటిక్స్ కంటే సులభంగా చదవబడుతుంది మరియు ఖాతా సృష్టించాల్సిన అవసరం లేదు)",
+    "adapter_prediction": "- StatComm (ఒక ఆధునిక గణాంకాలు ప్లగ్ఇన్ ఇది Google Analytics కంటే చదవడానికి సులభం మరియు ఖాతా సృష్టించడం అవసరం లేదు)",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "8.1",
+        "text": "- Akismet (spam blocking for your comments)",
+        "similarity": 0.09723708033561707
+      },
+      {
+        "id": "9.1",
+        "text": "- Google Analytics (to track visits to your site, including browser, OS, and country; requires a Google Analytics account, which is free)",
+        "similarity": 0.47411948442459106
+      }
+    ]
+  },
+  {
+    "evaluation_index": 36,
+    "source_sentence": "Geographical distribution: Globally Distributed",
+    "reference": "భౌగోళిక పంపిణీ: ప్రపంచవ్యాప్తంగా పంపిణీ",
+    "baseline_prediction": "భౌగోళిక పంపిణీః ప్రపంచవ్యాప్తంగా పంపిణీ",
+    "adapter_prediction": "Geographical Distribution: ప్రపంచవ్యాప్తంగా పంపిణీ",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "7.1",
+        "text": "Operating Environment: Windows platform",
+        "similarity": 0.16246414184570312
+      },
+      {
+        "id": "8.1",
+        "text": "Number of Corruption: More than 70 files at a time",
+        "similarity": 0.01159711554646492
+      }
+    ]
+  },
+  {
+    "evaluation_index": 37,
+    "source_sentence": "Like last year, this time regained the rapid guys from.",
+    "reference": "గత సంవత్సరం మాదిరిగానే ఈ సారి వేగంగా చేజిక్కించుకున్నారు నుండి guys.",
+    "baseline_prediction": "గత సంవత్సరం వంటి, ఈ సమయంలో వేగవంతమైన అబ్బాయిలు తిరిగి.",
+    "adapter_prediction": "గత సంవత్సరం వంటి, ఈ సమయం నుండి వేగవంతమైన అబ్బాయిలు తిరిగి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "2.1",
+        "text": "The story of Gregory's 10.",
+        "similarity": 0.08541394025087357
+      },
+      {
+        "id": "3.1",
+        "text": "after 2006 and the advent race was i this year in Blue I for teams gemдЯ.",
+        "similarity": 0.24851886928081512
+      }
+    ]
+  },
+  {
+    "evaluation_index": 38,
+    "source_sentence": "Monk is scared of heights.",
+    "reference": "Monk is scared of heights.",
+    "baseline_prediction": "మన్ ఎత్తు భయపడ్డారు ఉంది.",
+    "adapter_prediction": "Monk ఎత్తు భయపడ్డారు ఉంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "222.1",
+        "text": "Monk is good at putting facts together and he smiles a peculiar laugh when he got the last part of the puzzle which solves the case under investigation.",
+        "similarity": 0.4256132245063782
+      },
+      {
+        "id": "223.1",
+        "text": "Monk has enemies from the cases he successfully solved.",
+        "similarity": 0.5163525938987732
+      }
+    ]
+  },
+  {
+    "evaluation_index": 39,
+    "source_sentence": "Question: Why do we need such large computational meshes?",
+    "reference": "ప్రశ్న: ఎందుకు మేము పెద్ద గణన జాలికలు చేయాలి?",
+    "baseline_prediction": "ప్రశ్నః మనకు ఇంత పెద్ద గణన మెష్ ఎందుకు అవసరం?",
+    "adapter_prediction": "ప్రశ్నః ఎందుకు మేము అంత పెద్ద గణన mesh అవసరం?",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "37.3",
+        "text": "Here, we implemented new technologies in the architecture of the software and its main components, which enables the calculation of computational meshes as large as 100 million nodes on a PC.",
+        "similarity": 0.6895041465759277
+      },
+      {
+        "id": "37.4",
+        "text": "To demonstrate the extraordinary performance of the newest version of Frost 3D Universal, we conducted the thermal analysis of a long section of pipeline lying on permafrost, with a mesh consisting of 58.5 million nodes.",
+        "similarity": 0.3176679015159607
+      }
+    ]
+  },
+  {
+    "evaluation_index": 40,
+    "source_sentence": "- Mercury Retrograde In Virgo: Avoid Doing These Tasks During This Period!",
+    "reference": "- Grahan 2022",
+    "baseline_prediction": "- వర్జిన్ లో మెర్క్యూరియస్ రిట్రోగ్రేడ్ః ఈ కాలంలో ఈ పనులను చేయకుండా ఉండండి!",
+    "adapter_prediction": "- Mercury Retrograde In Virgo: ఈ కాలంలో ఈ పనులను చేయకుండా ఉండండి!",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "22.1",
+        "text": "- Numerology Weekly Horoscope 11-17 September, 2022",
+        "similarity": 0.40235111117362976
+      },
+      {
+        "id": "23.1",
+        "text": "- Follow Your Favorite Astrologers Now, Be A Part Of Their Network",
+        "similarity": 0.43096423149108887
+      }
+    ]
+  },
+  {
+    "evaluation_index": 41,
+    "source_sentence": "Like Loading...",
+    "reference": "Like Loading...",
+    "baseline_prediction": "లాడ్ వంటివి.",
+    "adapter_prediction": "వంటి లోడింగ్ ...",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "20.1",
+        "text": "Thanks TREVOR",
+        "similarity": 0.11170373857021332
+      },
+      {
+        "id": "21.1",
+        "text": "Like this:",
+        "similarity": 0.3014332950115204
+      }
+    ]
+  },
+  {
+    "evaluation_index": 42,
+    "source_sentence": "So you can safely add this to your to-do list if you have leisure weekend.",
+    "reference": "So you can safely add this to your to-do list if you have leisure weekend.",
+    "baseline_prediction": "కాబట్టి మీరు విశ్రాంతి వారాంతంలో ఉంటే మీరు సురక్షితంగా మీ చేయవలసిన జాబితాకు ఈ జోడించవచ్చు.",
+    "adapter_prediction": "కాబట్టి మీరు సురక్షితంగా మీ టాస్ టాక్ జాబితాకు ఈ జోడించవచ్చు మీరు విశ్రాంతి వారాంతంలో కలిగి ఉంటే.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "15.3",
+        "text": "He tells a seemingly predictable tale in full speed screenplay.",
+        "similarity": 0.12226086854934692
+      },
+      {
+        "id": "15.4",
+        "text": "Decent first half, nice scenes post interval and hilarious and extremely cinematic pre-climax and a wholesome lighter vein entertainer.",
+        "similarity": 0.09638289362192154
+      }
+    ]
+  },
+  {
+    "evaluation_index": 43,
+    "source_sentence": "Pune vs",
+    "reference": "రాజీవ్ గాంధీ ఇంటర్నేషనల్ స్టేడియం 18 May 2014",
+    "baseline_prediction": "పూణే vs",
+    "adapter_prediction": "Pune vs.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "20.1",
+        "text": "Subrata Roy Sahara Stadium 11 May 2013",
+        "similarity": 0.2175942212343216
+      },
+      {
+        "id": "21.1",
+        "text": "Mumbai won by 5 wickets.",
+        "similarity": 0.3491831421852112
+      }
+    ]
+  },
+  {
+    "evaluation_index": 44,
+    "source_sentence": "- Gujarati Horoscope 2022",
+    "reference": "- Gujarati Horoscope 2022",
+    "baseline_prediction": "- గుజరాతీ రాశిచక్రం 2022",
+    "adapter_prediction": "- Gujarati Horoscope 2022",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "28.1",
+        "text": "- Tamil Horoscope 2022",
+        "similarity": 0.8003345727920532
+      },
+      {
+        "id": "29.1",
+        "text": "- Kannada Horoscope 2022",
+        "similarity": 0.7955371141433716
+      }
+    ]
+  },
+  {
+    "evaluation_index": 45,
+    "source_sentence": "The most important may be closed on the following seven principles: in Subject / u - as I write",
+    "reference": "ఎలా ఇ-మెయిల్ ఉపయోగించి లేకుండా ఇంటర్నెట్ ఉపయోగించడానికి",
+    "baseline_prediction": "ఈ క్రింది ఏడు సూత్రాల మీద అత్యంత ముఖ్యమైనవి ముగుస్తాయిః",
+    "adapter_prediction": "ప్రధానమైనవి క్రింది ఏడు సూత్రాలపై ముగుస్తాయిః",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "2.2",
+        "text": "We use it at work and private contacts Not everyone understands, but how to use it, to respect and not insult our recipients and the more you make a good impression on them .",
+        "similarity": 0.11118267476558685
+      },
+      {
+        "id": "3.1",
+        "text": "top of this we have gathered a few basic principles regarding the use of electronic mail, which we then on the effective use of communication tools, and with respect for other people.",
+        "similarity": 0.4223816990852356
+      }
+    ]
+  },
+  {
+    "evaluation_index": 46,
+    "source_sentence": "Try birthday, anniversary, cards for children, wedding, sympathy, holiday or get well.",
+    "reference": "Try birthday, anniversary, cards for children, wedding, sympathy, holiday or get well. 2.",
+    "baseline_prediction": "పుట్టినరోజు, వార్షికోత్సవం, పిల్లల కార్డులు, వివాహాలు, సానుభూతి, సెలవులు లేదా మంచిగా మారడానికి ప్రయత్నించండి.",
+    "adapter_prediction": "పుట్టినరోజు, వార్షికోత్సవం, పిల్లల కార్డులు, వివాహ, సానుభూతి, సెలవు లేదా మంచి పొందడానికి ప్రయత్నించండి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "53.1",
+        "text": "There are many types of cards you can choose from .",
+        "similarity": 0.36006617546081543
+      },
+      {
+        "id": "53.2",
+        "text": "Design the ones that you need or that sound the most interesting to you.",
+        "similarity": 0.24194324016571045
+      }
+    ]
+  },
+  {
+    "evaluation_index": 47,
+    "source_sentence": "Step 2: Find the “File Download” dialog box, and press “Save” to save SpyHunter file to your desktop.",
+    "reference": "దశ 2: కనుగొనండి “దస్త్రం డౌన్లోడ్” డైలాగ్ బాక్స్, మరియు ప్రెస్ “సేవ్” మీ డెస్క్టాప్ SpyHunter ఫైల్ సేవ్.",
+    "baseline_prediction": "దశ 2: File Download డైలాగ్ బాక్స్ను కనుగొనండి, మరియు మీ డెస్క్టాప్లో SpyHunter ఫైల్ను సేవ్ చేయడానికి Save నొక్కండి.",
+    "adapter_prediction": "దశ 2: File Download డైలాగ్ బాక్స్ కనుగొని, మీ డెస్క్టాప్కు SpyHunter ఫైల్ సేవ్ చేయడానికి Save నొక్కండి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "46.1",
+        "text": "The following steps explain how to install SpyHunter on your computer:",
+        "similarity": 0.7887952923774719
+      },
+      {
+        "id": "47.1",
+        "text": "Step 1: SpyHunter’s download link.",
+        "similarity": 0.76448655128479
+      }
+    ]
+  },
+  {
+    "evaluation_index": 48,
+    "source_sentence": "Manju Warrier & Amala Akineni C/O Saira Banu (Mala..",
+    "reference": "Manju Warrier & Amala Akineni C/O Saira Banu (Mala..",
+    "baseline_prediction": "మంజు వార్యర్ & అమలా అకినెని సి/ఓ సయారా బను (మాలా. . .",
+    "adapter_prediction": "Manju Warrior & Amala Akineni C/O Saira Banu (Mala..",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "1.5",
+        "text": "Megastar is returning to silver screen as lead hero after nine long years.",
+        "similarity": 0.12288060784339905
+      },
+      {
+        "id": "2.1",
+        "text": "Baahubali 2 – The Conclusion - Motion Poster 2",
+        "similarity": 0.19106538593769073
+      }
+    ]
+  },
+  {
+    "evaluation_index": 49,
+    "source_sentence": "Akshay Kumar PADMAN Official Trailer",
+    "reference": "Akshay Kumar PADMAN Official Trailer",
+    "baseline_prediction": "అక్షయ్ కుమార్ పాడ్మాన్ అధికారిక ట్రైలర్",
+    "adapter_prediction": "Akshay Kumar PADMAN అధికారిక ట్రైలర్",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "3.1",
+        "text": "Agnyaathavaasi Official Teaser",
+        "similarity": 0.3922582268714905
+      },
+      {
+        "id": "4.1",
+        "text": "Balakrishna Jai Simha Trailer",
+        "similarity": 0.518966555595398
+      }
+    ]
+  },
+  {
+    "evaluation_index": 50,
+    "source_sentence": "> Music 80s The best songs of the eighties",
+    "reference": "> బాస్ గిటార్ ప్లే ఎలా, ఉత్తమ bassists",
+    "baseline_prediction": "80 ల సంగీతం ఎనిమిదవ దశాబ్దపు ఉత్తమ పాటలు",
+    "adapter_prediction": "> 80 ల సంగీతం ఎనిమిదవ ఉత్తమ పాటలు",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "87.1",
+        "text": "> How to play bass guitar, the best bassists",
+        "similarity": 0.19135542213916779
+      },
+      {
+        "id": "88.1",
+        "text": "> A list of the best guitarist, best guitarists of all time, playing the guitar",
+        "similarity": 0.2654985785484314
+      }
+    ]
+  },
+  {
+    "evaluation_index": 51,
+    "source_sentence": "Apart from the higher rate of interest provided by this scheme, there are also some other benefits that you can avail such as premature withdrawal.",
+    "reference": "ఈ పథకం ద్వారా అత్యదిక వడ్డీ తో పాటు ముందస్తు నగదు ఉపసంహరణ వంటి కొన్ని అదనపు లాభాలు కూడా.అందుకే నేడే పొదుపు చెయ్యండి 10 సంవత్సరాల ఫ్లెక్సీ పొదుపు పథకంలో మొదలుపెట్టండి లాభాలు పొందడం.",
+    "baseline_prediction": "ఈ పథకం ద్వారా అందించే వడ్డీ రేటు కంటే ఎక్కువ కాకుండా, మీరు ముందుగానే ఉపసంహరించుకోవడం వంటి ఇతర ప్రయోజనాలు కూడా ఉన్నాయి.",
+    "adapter_prediction": "ఈ పథకం ద్వారా అందించే అధిక వడ్డీ రేటుతో పాటు, మీరు ముందుగానే ఉపసంహరించుకోవడం వంటి కొన్ని ఇతర ప్రయోజనాలు కూడా ఉన్నాయి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "19.1",
+        "text": "This 10-year flexi deposit scheme is exclusively available for the members of Adarsh Credit Co-operative Society, providing an interest rate varying from 13.50% to 15.00% depending on the invested amount.",
+        "similarity": 0.43349313735961914
+      },
+      {
+        "id": "19.2",
+        "text": "In this 10-year flexi deposit scheme, the minimum investment amount is Rs.1000 and after that, you can invest in multiples of Rs.1000.",
+        "similarity": 0.38559621572494507
+      }
+    ]
+  },
+  {
+    "evaluation_index": 52,
+    "source_sentence": "Raghu Ram (Sharwanand) is an aspiring runner from a poor background with a single mother Parvathi (Pavithra Lokesh), who teaches music to earn daily bread for the family.",
+    "reference": "Raghu Ram (Sharwanand) is an aspiring runner from a poor background with a single mother Parvathi (Pavithra Lokesh), who teaches music to earn daily bread for the family.",
+    "baseline_prediction": "రఘు రామ్ (శర్వానంద) పేద నేపథ్యం నుండి ఒక ఆశతో నడుస్తున్నవాడు. కుటుంబానికి రోజువారీ బ్రెడ్ సంపాదించడానికి సంగీతం నేర్పించే ఒంటరి తల్లి పార్వతి (పవిత్రా లోకేష్).",
+    "adapter_prediction": "రఘు రామ్ (షర్వానంద) పేద నేపథ్యం నుండి ఒక ఆశతో రన్నర్ ఒక ఒంటరి తల్లి Parvathi (పవిత్రా లోకేష్), కుటుంబం కోసం రోజువారీ బ్రెడ్ సంపాదించడానికి సంగీతం నేర్పిస్తుంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "6.1",
+        "text": "2nd half: 3/5",
+        "similarity": 0.054097242653369904
+      },
+      {
+        "id": "7.1",
+        "text": "Story",
+        "similarity": 0.053669046610593796
+      }
+    ]
+  },
+  {
+    "evaluation_index": 53,
+    "source_sentence": "State Public Defender makes sign of the inhabitants of the New Paradise and communities Frederick Vega ontem, 05 Feb., morning in the Auditorium Mother Paula.",
+    "reference": "రాష్ట్రం ప్రజా రక్షకుడి న్యూ స్వర్గం మరియు కమ్యూనిటీలు ఫ్రెడరిక్ వేగా ontem నివాసితుల సైన్ చేస్తుంది, 05 ఫిబ్రవరి, ఆడిటోరియం తల్లి పౌలా లో ఉదయం.",
+    "baseline_prediction": "రాష్ట్ర పబ్లిక్ డిఫెండర్ న్యూ పారడైజ్ నివాసుల మరియు కమ్యూనిటీల గురించి సంకేతాలు ఇచ్చారు ఫ్రెడెరిక్ వెగా నిన్న, ఫిబ్రవరి 05 ఉదయం, ఆడిటోరియం మాదర్ పౌలాలో.",
+    "adapter_prediction": "రాష్ట్ర ప్రజా రక్షకుడు న్యూ పారడైజ్ మరియు కమ్యూనిటీల నివాసితులు సంకేతం ఫ్రెడెరిక్ వెగా నిన్న, 05 ఫిబ్రవరి, ఉదయం Auditorium తల్లి పౌలా.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "11.1",
+        "text": "The Training Programme Faith and Citizenship in the city of Manacapuru, metropolitan region of Manaus, inicioo on 06 de abril e conta com apoio",
+        "similarity": 0.21016225218772888
+      },
+      {
+        "id": "12.1",
+        "text": "Families and communities Novo Paraíso Frederick Veiga are registered",
+        "similarity": 0.21964485943317413
+      }
+    ]
+  },
+  {
+    "evaluation_index": 54,
+    "source_sentence": "Google Chrome",
+    "reference": "Google Chrome",
+    "baseline_prediction": "గూగుల్ క్రోమ్",
+    "adapter_prediction": "Google Chrome",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "22.1",
+        "text": "4) Go to ‘Tools’ -> ‘Internet Options’; select ‘General tab’ and click website, e.g. Google.com.",
+        "similarity": 0.4235870838165283
+      },
+      {
+        "id": "22.2",
+        "text": "Click OK to save changes.",
+        "similarity": 0.2782759368419647
+      }
+    ]
+  },
+  {
+    "evaluation_index": 55,
+    "source_sentence": "do DWORD decimal value and com 30, If the problem persists we must increase the value until it is resolved.",
+    "reference": "మరియు రకం DWORD దశాంశ విలువ 30, సమస్య కొనసాగితే అది పరిష్కారం వరకు మేము విలువ పెరుగుదల తప్పక.",
+    "baseline_prediction": "DWORD దశాంశ విలువ మరియు com 30 ను చేయండి, సమస్య కొనసాగితే అది పరిష్కరించబడే వరకు విలువను పెంచాలి.",
+    "adapter_prediction": "DWORD దశాంశ విలువ మరియు com 30 చేయండి, సమస్య కొనసాగితే అది పరిష్కరించబడే వరకు విలువను పెంచాలి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "27.1",
+        "text": "Solution: Change the time Windows (customer) delay is not to conclude that the DC, in other words change the timeout, it is enough to create the following key in the registry:",
+        "similarity": 0.2810284197330475
+      },
+      {
+        "id": "28.1",
+        "text": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\GpNetworkStartTimeoutPolicyValue",
+        "similarity": 0.0948113426566124
+      }
+    ]
+  },
+  {
+    "evaluation_index": 56,
+    "source_sentence": "The reason we go to this movie..",
+    "reference": "The reason we go to this movie..",
+    "baseline_prediction": "మేము ఈ సినిమాకు వెళ్ళే కారణం ..",
+    "adapter_prediction": "మేము ఈ సినిమా వెళ్ళడానికి కారణం ..",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "4.5",
+        "text": "So naturally there comes a conflict this time …",
+        "similarity": 0.3117487132549286
+      },
+      {
+        "id": "5.1",
+        "text": "Let me talk about the Boy..",
+        "similarity": 0.24922749400138855
+      }
+    ]
+  },
+  {
+    "evaluation_index": 57,
+    "source_sentence": "Cite this Simulator:",
+    "reference": "Cite this Simulator:",
+    "baseline_prediction": "ఈ సిమ్యులేటర్ను పేర్కొనండిః",
+    "adapter_prediction": "ఈ సిమ్యులేటర్ పేర్కొనండిః",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "7.3",
+        "text": "Hence area of curved surface area - 2πr X h",
+        "similarity": 0.0734224021434784
+      },
+      {
+        "id": "8.1",
+        "text": "Total surface area of cylinder = curved surface area (c) + 2 (area of base circle)",
+        "similarity": 0.05175327509641647
+      }
+    ]
+  },
+  {
+    "evaluation_index": 58,
+    "source_sentence": "ANSYS with finite-element method analysis is used for ground thawing analysis.",
+    "reference": "పరిమిత మూలకం పద్ధతి విశ్లేషణ తో ANSYS గ్రౌండ్ ద్రవీభవన విశ్లేషణ కోసం ఉపయోగిస్తారు.",
+    "baseline_prediction": "గ్రౌండ్ త్రాగుట విశ్లేషణ కోసం ఎన్ఎస్ఐఎస్ఐఎస్ ఫైనట్ ఎలిమెంట్ పద్ధతి విశ్లేషణతో ఉపయోగిస్తారు.",
+    "adapter_prediction": "గ్రౌండ్ మంచు విశ్లేషణ కోసం finite-element పద్ధతి విశ్లేషణతో ANSYS ఉపయోగించబడుతుంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "46.1",
+        "text": "Note that this issue has also been addressed by various specialists in dedicated forums and conferences.",
+        "similarity": 0.02078719064593315
+      },
+      {
+        "id": "47.1",
+        "text": "Claims by the ANSYS distributor:",
+        "similarity": 0.240012064576149
+      }
+    ]
+  },
+  {
+    "evaluation_index": 59,
+    "source_sentence": "How to Practice",
+    "reference": "ఎలా సాధన",
+    "baseline_prediction": "ఎలా సాధన చేయాలి",
+    "adapter_prediction": "ఎలా సాధన చేయాలి",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "7.2",
+        "text": "It’s important to cultivate a posture that allows your cellozilla mojo to flow smoothly, keep your body in balance, and allow the breath to move freely.",
+        "similarity": 0.23372015357017517
+      },
+      {
+        "id": "7.3",
+        "text": "Good posture has a great effect on the setup of your arms; check out my Posture and setup video for some ideas.",
+        "similarity": 0.25235190987586975
+      }
+    ]
+  },
+  {
+    "evaluation_index": 60,
+    "source_sentence": "Read daily news paper, competitive magazine and see various news channel.",
+    "reference": "Read daily news paper, competitive magazine and see various news channel.",
+    "baseline_prediction": "రోజువారీ వార్తాపత్రిక, పోటీ పత్రికలను చదవండి, వివిధ వార్తా ఛానెల్లను చూడండి.",
+    "adapter_prediction": "Read daily news newspaper, competitive magazine and see various news channel.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "51.2",
+        "text": "Indian History, Polity, Indian Economy, India and World Geography, General Science and Current Events are main components.",
+        "similarity": 0.25862061977386475
+      },
+      {
+        "id": "51.3",
+        "text": "For the GS always read NCERT and other school books for basic facts.",
+        "similarity": 0.2672562897205353
+      }
+    ]
+  },
+  {
+    "evaluation_index": 61,
+    "source_sentence": "Produce Unlimited Gold",
+    "reference": "అపరిమిత గోల్డ్ ఉత్పత్తి",
+    "baseline_prediction": "అపరిమిత బంగారాన్ని ఉత్పత్తి చేయండి",
+    "adapter_prediction": "అపరిమిత బంగారం ఉత్పత్తి",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "12.1",
+        "text": "Empire War Hack Features:",
+        "similarity": 0.04755783826112747
+      },
+      {
+        "id": "13.1",
+        "text": "Make Infinite Resources",
+        "similarity": 0.4132111668586731
+      }
+    ]
+  },
+  {
+    "evaluation_index": 62,
+    "source_sentence": "‘Of Capital and Other Punishments’ by K Balagopal (a compilation of articles in English on the death penalty).",
+    "reference": "1. ‘Of Capital and Other Punishments’ by K Balagopal (a compilation of articles in English on the death penalty).",
+    "baseline_prediction": "ఆఫ్ క్యాపిటల్ అండ్ అఫ్ అతర్ పెనాల్టీస్ క. బాలగోపాల్ (చాతురస్రావం గురించి ఆంగ్లంలో వ్యాసాల సంకలనం).",
+    "adapter_prediction": "Of Capital and Other Punishments by K Balagopal (death penalty on English articles compilation).",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "72.1",
+        "text": "The 4th talk is by Supreme Court lawyer Nitya Ramakrishnan on “Role of the law in social change”.",
+        "similarity": 0.2789141833782196
+      },
+      {
+        "id": "73.1",
+        "text": "Two books will be released on the occasion:",
+        "similarity": 0.26403939723968506
+      }
+    ]
+  },
+  {
+    "evaluation_index": 63,
+    "source_sentence": "governor issued the promise of a contract of employment that the employer must then ensure that the Polish consulate.",
+    "reference": "ఫార్మాలిటీలు ఆఫీసు ను సందర్శించిన ప్రారంభమవుతాయి తప్పక ఒక విదేశీయుడిని అమలు ఆశించింది పోలిష్ యజమానులు ద్వారా కలుసుకున్నారు వుంటుంది seafront",
+    "baseline_prediction": "పోలిష్ కాన్సులేట్ కు యజమాని ఆ తర్వాత హామీ ఇవ్వాలి అని ఒక ఉపాధి ఒప్పందం యొక్క గవర్నర్ వాగ్దానం చేసింది.",
+    "adapter_prediction": "గవర్నర్ ఒక ఉపాధి ఒప్పందం యొక్క వాగ్దానం చేసింది యజమాని అప్పుడు పోలిష్ కాన్సులేట్ నిర్ధారించడానికి ఉండాలి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "15.1",
+        "text": "photocopies Tax and public document attesting to the qualifications of candidates, copies of passport pages.",
+        "similarity": 0.23039157688617706
+      }
+    ]
+  },
+  {
+    "evaluation_index": 64,
+    "source_sentence": "Are you satisfied with waist size, but would like to get rid of excess fat on the thighs or upper arm, or vice versa",
+    "reference": "మీరు నడుము పరిమాణం సంతృప్తి, కానీ వదిలించుకోవాలని చేయాలనుకుంటున్నారు. .",
+    "baseline_prediction": "మీరు నడుము పరిమాణంతో సంతృప్తి చెందారా, కానీ thighs లేదా upper arm లో అదనపు కొవ్వు వదిలించుకోవటం లేదా దీనికి విరుద్ధంగా",
+    "adapter_prediction": "మీరు నడుము పరిమాణం తో సంతృప్తి, కానీ thighs లేదా upper arm లో అదనపు కొవ్వు వదిలించుకోవటం, లేదా విరుద్ధంగా",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "3.1",
+        "text": "How to Lose Weight on a particular body part",
+        "similarity": 0.46906429529190063
+      },
+      {
+        "id": "4.1",
+        "text": "How to Lose Weight on a particular body part.",
+        "similarity": 0.46471673250198364
+      }
+    ]
+  },
+  {
+    "evaluation_index": 65,
+    "source_sentence": "Today scientists know that the Nitric oxide pokretačimunološkog main system to fight disease.",
+    "reference": "నేడు శాస్త్రవేత్తలు నైట్రిక్ ఆక్సైడ్ వ్యాధి పోరాడటానికి ప్రధాన వ్యవస్థ pokretačimunološkog తెలుసు.",
+    "baseline_prediction": "ఈ రోజు శాస్త్రవేత్తలు నైట్రిక్ ఆక్సైడ్ పోక్రేటచిమ్మన్లోస్కోగ్ వ్యాధిని పోరాడటానికి ప్రధాన వ్యవస్థ అని తెలుసు.",
+    "adapter_prediction": "నేడు శాస్త్రవేత్తలు నైట్రిక్ ఆక్సైడ్ pokretačimunološkog వ్యాధి పోరాడటానికి ప్రధాన వ్యవస్థ అని తెలుసు.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "3.1",
+        "text": "And before some believe that the makeup could actually protect odbolesti, but given the fact that its composition was in the lead, otherwise kojeje toxic, this option is rejected.",
+        "similarity": 0.20024552941322327
+      },
+      {
+        "id": "3.2",
+        "text": "But by far the šminkiEgipćanki able to isolate four different lead compounds, and novaistraživanja revealed the substance to 240 percent povećavajuproizvodnju nitric oxide in skin cells.",
+        "similarity": 0.41337621212005615
+      }
+    ]
+  },
+  {
+    "evaluation_index": 66,
+    "source_sentence": "The Q6 is powered by a quad-core Qualcomm Snapdragon 435 processor and has 3GB of RAM and 32GB of expandable storage.",
+    "reference": "LG Q6 స్మార్ట్ ఫోన్ 3GB RAM అండ్ 32GB ఇంటర్నల్ స్టోరేజ్ తో లాంచ్ అయ్యింది .",
+    "baseline_prediction": "Q6 క్వాడ్-కోర్ క్వాల్కామ్ స్నాప్డ్రాగన్ 435 ప్రాసెసర్తో శక్తినిస్తుంది మరియు 3GB ర్యామ్ మరియు 32GB విస్తరించదగిన నిల్వను కలిగి ఉంటుంది.",
+    "adapter_prediction": "Q6 క్వాడ్-కోర్ క్వాల్కామ్ స్నాప్డ్రాగన్ 435 ప్రాసెసర్తో శక్తినిస్తుంది మరియు 3GB RAM మరియు 32GB విస్తరించదగిన నిల్వను కలిగి ఉంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "3.3",
+        "text": "It's worth mentioning here though that while the Q6 display will have extra height, the surface area of the display will still be less than competing 5.5-inch 16:9 displays due to the way aspect ratios work.",
+        "similarity": 0.5200989246368408
+      },
+      {
+        "id": "4.1",
+        "text": "The rest of the spec sheet will likely not blow you away.",
+        "similarity": 0.11806132644414902
+      }
+    ]
+  },
+  {
+    "evaluation_index": 67,
+    "source_sentence": "1) Click here or the icon to download RegCure Pro",
+    "reference": "1) ఇక్కడ లేదా చిహ్నం క్లిక్ చెయ్యండి RegCure ప్రో డౌన్లోడ్",
+    "baseline_prediction": "1) ఇక్కడ క్లిక్ చేయండి లేదా RegCure Pro డౌన్లోడ్ చిహ్నం",
+    "adapter_prediction": "1) ఇక్కడ క్లిక్ చేయండి లేదా RegCure Pro డౌన్లోడ్ చిహ్నం",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "39.2",
+        "text": "With this optimizer which can deeply figure out and fix various windows registry errors in your system, you can greatly avoid potential risk so as to ensure your computer security.)",
+        "similarity": 0.3201115131378174
+      },
+      {
+        "id": "40.1",
+        "text": "Step C. Download PC optimizer RegCure Pro",
+        "similarity": 0.5993958711624146
+      }
+    ]
+  },
+  {
+    "evaluation_index": 68,
+    "source_sentence": "Tesla Coil Plays Jean Michel Jarre.",
+    "reference": "టెస్లా కాయిల్ జీన్ మైకేల్ Jarre పోషిస్తుంది. ఏమి?!",
+    "baseline_prediction": "టెస్లా కోయిల్ జీన్ మిచెల్ జార్ యొక్క పాత్ర.",
+    "adapter_prediction": "టెస్లా కోయిల్ Jean Michel Jarre పోషిస్తుంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "48.1",
+        "text": "Video from Sonic State.",
+        "similarity": 0.23261381685733795
+      },
+      {
+        "id": "48.2",
+        "text": "Nice to check out.",
+        "similarity": 0.20135429501533508
+      }
+    ]
+  },
+  {
+    "evaluation_index": 69,
+    "source_sentence": "- National Family Health Survey (NFHS):",
+    "reference": "నిర్వహించిన జాతీయ కుటుంబ ఆరోగ్య సర్వే (NFHS5) డేటా ప్రకారం ముస్లింల సంతానోత్పత్తి",
+    "baseline_prediction": "- జాతీయ కుటుంబ ఆరోగ్య సర్వే (NFHS):",
+    "adapter_prediction": "- జాతీయ కుటుంబ ఆరోగ్య సర్వే (NFHS):",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "4.1",
+        "text": "- 13 min read",
+        "similarity": 0.005764376372098923
+      },
+      {
+        "id": "5.1",
+        "text": "About",
+        "similarity": 0.07100774347782135
+      }
+    ]
+  },
+  {
+    "evaluation_index": 70,
+    "source_sentence": "Aerobics and music.",
+    "reference": "తరగతి గమనాన్ని ఉంచడం ఆధారపడి ఉంటుంది, ఇది చాలా తరచుగా సంగీతం యొక్క ఎంపిక మరియు తరగతి కృతి యొక్క పనితీరు నిర్ణయిస్తుంది.",
+    "baseline_prediction": "ఏరోబిక్స్ మరియు సంగీతం.",
+    "adapter_prediction": "ఏరోబిక్స్ మరియు సంగీతం.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "1.1",
+        "text": "Read about sports - football, handball, basketball, skiing - and all kinds of recreation - swimming, walking, aerobics, plan of exercise and pilates benefits.",
+        "similarity": 0.4932872951030731
+      },
+      {
+        "id": "3.1",
+        "text": "Aerobics and music",
+        "similarity": 0.968489408493042
+      }
+    ]
+  },
+  {
+    "evaluation_index": 71,
+    "source_sentence": "It may come along with other bad programs or computer threats.",
+    "reference": "2. ఇది ఇతర చెడ్డ కార్యక్రమాలు లేదా కంప్యూటర్ బెదిరింపులు పాటు రావచ్చు.",
+    "baseline_prediction": "ఇది ఇతర చెడు ప్రోగ్రామ్లతో లేదా కంప్యూటర్ బెదిరింపులతో పాటు రావచ్చు.",
+    "adapter_prediction": "ఇది ఇతర చెడు ప్రోగ్రామ్లు లేదా కంప్యూటర్ బెదిరింపులు తో వస్తుంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "12.1",
+        "text": "Possible Threats of Shopsearchers.com",
+        "similarity": 0.4156889319419861
+      },
+      {
+        "id": "13.1",
+        "text": "It ukufakwa kumakhompyutha aphume kwemvume nesaziso.",
+        "similarity": 0.058268044143915176
+      }
+    ]
+  },
+  {
+    "evaluation_index": 72,
+    "source_sentence": "Organisation: West Bengal State Electricity Distribution Company Limited",
+    "reference": "సంస్థ: West Bengal State Electricity Distribution Company Limited",
+    "baseline_prediction": "సంస్థః పశ్చిమ బెంగాల్ రాష్ట్ర విద్యుత్ పంపిణీ సంస్థ లిమిటెడ్",
+    "adapter_prediction": "సంస్థః పశ్చిమ బెంగాల్ స్టేట్ ఎలక్ట్రిక్ డిస్ట్రిబ్యూషన్ కంపెనీ లిమిటెడ్",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "2.3",
+        "text": "The details regarding educational requirements, Age limit, selection process and other details given below.",
+        "similarity": 0.14985531568527222
+      },
+      {
+        "id": "2.4",
+        "text": "Interested candidates for this opening may go through this website, and more updates will be made available soon on this site.",
+        "similarity": 0.08036980032920837
+      }
+    ]
+  },
+  {
+    "evaluation_index": 73,
+    "source_sentence": "The non-breaking space is also known as a hard space or fixed space.",
+    "reference": "The non-breaking space is also known as a hard space or fixed space.",
+    "baseline_prediction": "విచ్ఛిన్నం కాని స్థలం కూడా హార్డ్ స్పేస్ లేదా స్థిర స్థలం అని పిలుస్తారు.",
+    "adapter_prediction": "బ్రేకింగ్ స్పేస్ కూడా హార్డ్ స్పేస్ లేదా స్థిర స్పేస్ అని పిలుస్తారు.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "15.1",
+        "text": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+        "similarity": 0.6376792192459106
+      },
+      {
+        "id": "15.2",
+        "text": "In certain formats (such as HTML), it also prevents the “collapsing” of multiple consecutive whitespace characters into a single space.",
+        "similarity": 0.39942342042922974
+      }
+    ]
+  },
+  {
+    "evaluation_index": 74,
+    "source_sentence": "Valentines Day is approaching, so if you still do not know what to give your partner the gift we offer you the top 100 best love songs, so maybe not a bad idea to make a good compilation",
+    "reference": "వాలెంటైన్ డే కాబట్టి ఉండవచ్చు, మీరు ఇంకా మీ భాగస్వామి మేము మీరు మొదటి 100 ఉత్తమ ప్రేమ పాటలు అందిస్తున్నాయి బహుమతి ఇవ్వాలని ఏమి లేదు కనుక మంచి సంగ్రహం చేయడానికి ఒక చెడు ఆలోచన కాదు సమీపించే ఉంది",
+    "baseline_prediction": "వాలెంటైన్స్ డే సమీపిస్తోంది, కాబట్టి మీరు ఇప్పటికీ మీ భాగస్వామికి ఏమి ఇవ్వాలో తెలియకపోతే మేము మీకు ఉత్తమ 100 ప్రేమ పాటలు అందిస్తున్నాము, కాబట్టి బహుశా ఒక మంచి సంకలనం చేయడానికి ఒక చెడ్డ ఆలోచన కాదు",
+    "adapter_prediction": "వాలెంటైన్స్ డే సమీపిస్తోంది, కాబట్టి మీరు ఇప్పటికీ మీ భాగస్వామికి ఏమి ఇవ్వాలో తెలియదు ఉంటే, మేము మీరు టాప్ 100 ఉత్తమ ప్రేమ పాటలు అందిస్తున్నాయి, కాబట్టి బహుశా ఒక మంచి సంకలనం చేయడానికి ఒక చెడ్డ ఆలోచన కాదు",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "1.2",
+        "text": "List of music player, songs and lyrics of the songs.",
+        "similarity": 0.27866652607917786
+      },
+      {
+        "id": "3.1",
+        "text": "The most beautiful love songs of all time",
+        "similarity": 0.5177382230758667
+      }
+    ]
+  },
+  {
+    "evaluation_index": 75,
+    "source_sentence": "If you have a doubts about the choice of topic, you should consult your supervisor.",
+    "reference": "మీరు ఒక కలిగి ఉంటే విషయం యొక్క ఎంపిక గురించి సందేహాలు, మీ పర్యవేక్షక సంప్రదించాలి. ఉమ్మడి చర్చలు ఖచ్చితంగా ఒక ఆసక్తికరమైన విషయం బాధ్యతలు మరియు విద్యార్ధుల ప్రయోజనాలను రెండు ప్రమోటర్కు సంబంధిత, అప్ వచ్చింది.",
+    "baseline_prediction": "మీరు మీ ఎంపిక అంశంపై సందేహాలు ఉంటే, మీ అధిపతితో సంప్రదించండి.",
+    "adapter_prediction": "మీరు మీ ఎంపిక గురించి సందేహాలు ఉంటే, మీరు మీ అధిపతి సంప్రదించాలి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "5.1",
+        "text": "thesis topic should be well thought out, because after its approval is usually not possible for any changes.",
+        "similarity": 0.5872931480407715
+      },
+      {
+        "id": "5.2",
+        "text": "In addition, writing is not about misses the point, and this work will not be approved.",
+        "similarity": 0.2963203191757202
+      }
+    ]
+  },
+  {
+    "evaluation_index": 76,
+    "source_sentence": "19th They Reminisce Over You - TROY - CL Smooth & Pete Rock",
+    "reference": "21 వ స్టాన్ - - ఎమినెం",
+    "baseline_prediction": "19వ వారు నిన్ను గుర్తుచేస్తారు - ట్రోయ్ - CL స్మూత్ & పీట్ రాక్",
+    "adapter_prediction": "19 వ వారు మీ గురించి గుర్తు - TROY - CL Smooth & Pete Rock",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "21.1",
+        "text": "17th Check the Rhim - A Tribe Called Quest Keep",
+        "similarity": 0.2884242832660675
+      },
+      {
+        "id": "22.1",
+        "text": "18th Ya Head Up - 2 Pac",
+        "similarity": 0.3573611080646515
+      }
+    ]
+  },
+  {
+    "evaluation_index": 77,
+    "source_sentence": "Rumour has it that there once was an underground corridor connecting Bhongir Fort to Golconda Fort.",
+    "reference": "Rumour has it that there once was an underground corridor connecting Bhongir Fort to Golconda Fort.",
+    "baseline_prediction": "భూంగీర్ కోటను గోల్కాండ కోటకు అనుసంధానించే భూగర్భ కారిడార్ ఉందని పుకార్లు ఉన్నాయి.",
+    "adapter_prediction": "ఒకప్పుడు భూగర్భ కారిడార్ లో భూంగీర్ కోటను గోల్కాండ కోటకు లింక్ చేసే ఒక పుకారు ఉంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "5.7",
+        "text": "The Bala Hisar or citadel on the top of the hill gives a bird's eye view of the neighbouring area.",
+        "similarity": 0.14908520877361298
+      },
+      {
+        "id": "5.8",
+        "text": "The fort is associated with the rule of the heroic queen Rudramadevi and her grandson Prataparudra.",
+        "similarity": 0.3608180284500122
+      }
+    ]
+  },
+  {
+    "evaluation_index": 78,
+    "source_sentence": "About Lose Weight – Slimming:",
+    "reference": "బరువు లూస్ గురించి – Slimming:",
+    "baseline_prediction": "బరువు తగ్గడం గురించి  బరువు తగ్గడంః",
+    "adapter_prediction": "About Weight Loss  Slimming:",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "20.1",
+        "text": "Absolutely no trojans and infections in this program",
+        "similarity": 0.07726360857486725
+      }
+    ]
+  },
+  {
+    "evaluation_index": 79,
+    "source_sentence": "To play Alphabear never was so easy since today.",
+    "reference": "Alphabear నేడు నుండి చాలా సులభం ఎన్నడూ ఆడటానికి.",
+    "baseline_prediction": "ఆల్ఫాబెర్ ఆడటం ఈ రోజు నుండి అంత సులభం కాదు.",
+    "adapter_prediction": "ఆల్ఫాబీర్ ఆడటం ఈ రోజు నుండి అంత సులభం కాదు.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "1.3",
+        "text": "By using the Alphabear Hack gamer will get unlimited Coins Honey!",
+        "similarity": 0.46931886672973633
+      },
+      {
+        "id": "1.4",
+        "text": "Alphabear Cheat Tool is not hard to use plus truly absolute helpful.",
+        "similarity": 0.5309723615646362
+      }
+    ]
+  },
+  {
+    "evaluation_index": 80,
+    "source_sentence": "Film’s second ...",
+    "reference": "Film’s second ...",
+    "baseline_prediction": "సినిమా రెండవ .",
+    "adapter_prediction": "సినిమా రెండవ ...",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "15.2",
+        "text": "Allu arjun’s performance, styling, dances and dialogue delivery were altogether at different levels and are huge plus points for this movie.",
+        "similarity": 0.27033939957618713
+      },
+      {
+        "id": "15.3",
+        "text": "Shruti Haasan looked very pretty and chemistry between the two worked out very well in the movie.",
+        "similarity": 0.2955015301704407
+      }
+    ]
+  },
+  {
+    "evaluation_index": 81,
+    "source_sentence": "Ibiza Gran Hotel - Balearene.",
+    "reference": "ఐబిజా గ్రాన్ హోటల్ - Balearene.",
+    "baseline_prediction": "ఇబిజా గ్రాన్ హోటల్ - బాలేరిన్.",
+    "adapter_prediction": "Ibiza Gran Hotel - Balearene.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "19.2",
+        "text": "The star very true to its name.",
+        "similarity": 0.07969342172145844
+      },
+      {
+        "id": "19.3",
+        "text": "It has sophisticated shopping malls, best restaurants offering some of the finest dishes with a kind of entertainment for anyone visiting place.",
+        "similarity": 0.3432505130767822
+      }
+    ]
+  },
+  {
+    "evaluation_index": 82,
+    "source_sentence": "Pawan has become very insensitive towards the family and one person is being highly accused for this separation aspect.",
+    "reference": "Pawan has become very insensitive towards the family and one person is being highly accused for this separation aspect.",
+    "baseline_prediction": "పవన్ కుటుంబానికి చాలా అసున్నితత్వం చూపించాడు. ఈ విభజన విషయంలో ఒక వ్యక్తిపై తీవ్రంగా ఆరోపణలు వస్తున్నాయి.",
+    "adapter_prediction": "Pawan కుటుంబం పట్ల చాలా అస మరియు ఒక వ్యక్తి ఈ వేరు కారక కోసం తీవ్రంగా ఆరోపణలు.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "1.1",
+        "text": "The rifts between mega family and pawan kalyan are being talked about everywhere now.",
+        "similarity": 0.44943928718566895
+      },
+      {
+        "id": "1.2",
+        "text": "The gap between both the parties is getting widened as the time’s progressing.",
+        "similarity": 0.22140994668006897
+      }
+    ]
+  },
+  {
+    "evaluation_index": 83,
+    "source_sentence": "Horny Black Porn Videos",
+    "reference": "వేడి 50 Porn Videos",
+    "baseline_prediction": "హార్నీ బ్లాక్ పోర్న్ వీడియోలు",
+    "adapter_prediction": "Horny బ్లాక్ పోర్న్ వీడియోలు",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "24.1",
+        "text": "White Gloves Porn Videos",
+        "similarity": 0.6431404948234558
+      },
+      {
+        "id": "25.1",
+        "text": "Face Fucking Porn Videos",
+        "similarity": 0.6500681638717651
+      }
+    ]
+  },
+  {
+    "evaluation_index": 84,
+    "source_sentence": "To enjoy gt racing 2 never was so pleasing till now.",
+    "reference": "GT రేసింగ్ ఆస్వాదించడానికి 2 ఇప్పుడు వరకు కాబట్టి ఆనందము ఎప్పుడూ.",
+    "baseline_prediction": "GT రేసింగ్ 2 ఆనందించండి ఇప్పటివరకు ఎప్పుడూ అంత ఆహ్లాదకరంగా ఉంది.",
+    "adapter_prediction": "GT రేసింగ్ 2 ఆనందించండి ఎప్పుడూ ఇంత pleasantly ఉంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "10.3",
+        "text": "Together with the gt racing 2 Hack you’ll be able to obtain endless Credits, Coins!",
+        "similarity": 0.4045346975326538
+      },
+      {
+        "id": "10.4",
+        "text": "Gt racing 2 Cheat Tool is very user-friendly and really very effective.",
+        "similarity": 0.532492458820343
+      }
+    ]
+  },
+  {
+    "evaluation_index": 85,
+    "source_sentence": "Voyeur, Group, porn, Vintage",
+    "reference": "Milfs, పాత + యువ, పరిపక్వ",
+    "baseline_prediction": "వోయర్, గ్రూప్, పోర్న్, వింటేజ్",
+    "adapter_prediction": "Voyeur, గ్రూప్, పోర్న్, వింటేజ్",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "5.1",
+        "text": "Hairy pussy Moms",
+        "similarity": 0.20455092191696167
+      },
+      {
+        "id": "6.1",
+        "text": "Fetish porn legs, Amateur porn, Massage with sex",
+        "similarity": 0.4438781142234802
+      }
+    ]
+  },
+  {
+    "evaluation_index": 86,
+    "source_sentence": "Method for making comparison among available rates through insurance quotes",
+    "reference": "భీమా కోట్స్ ద్వారా అందుబాటులో రేట్లు మధ్య పోలిక చేసినందుకు విధానం",
+    "baseline_prediction": "బీమా కోట్స్ ద్వారా అందుబాటులో ఉన్న రేట్ల మధ్య పోలిక చేసే పద్ధతి",
+    "adapter_prediction": "బీమా కోట్స్ ద్వారా అందుబాటులో ఉన్న రేట్ల మధ్య పోలిక చేయడానికి పద్ధతి",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "9.2",
+        "text": "Many of them will invite you free but can charge you for information they provide you.",
+        "similarity": 0.10680016875267029
+      },
+      {
+        "id": "9.3",
+        "text": "You should select the website of the company who are offering you free quotes with free information.",
+        "similarity": 0.393324613571167
+      }
+    ]
+  },
+  {
+    "evaluation_index": 87,
+    "source_sentence": "- Left Hand Bat / Slow Left Arm Orthodox",
+    "reference": "- లెఫ్ట్ హ్యాండ్ బ్యాట్ / స్లో లెఫ్ట్ ఆర్మ్ ఆర్తోడాక్స్",
+    "baseline_prediction": "- ఎడమ చేతి బాట్ / నెమ్మదిగా ఎడమ చేతి ఆర్థోడాక్స్",
+    "adapter_prediction": "- ఎడమ చేతి బాట్ / నెమ్మదిగా ఎడమ చేతి ఆర్థోడాక్స్",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "3.1",
+        "text": "Team squad of Bangladesh",
+        "similarity": 0.12961454689502716
+      },
+      {
+        "id": "4.1",
+        "text": "S A Hasan",
+        "similarity": 0.13213171064853668
+      }
+    ]
+  },
+  {
+    "evaluation_index": 88,
+    "source_sentence": "By a part in the competition, grants participants avkald on any right to claim ambiguity or error in the official konkurranseglene, or actual competition, and agree a v re bound by these Official Rules and by all decisions of Hollywood Casino Baton Rouge , if avgjorelser are final and binding in all respects.",
+    "reference": "21. పోటీలో భాగంగా ద్వారా, నిధుల పాల్గొనే అధికారిక konkurranseglene సందిగ్ధత లేదా లోపం దావా ఏదైనా కుడివైపు avkald, లేదా అసలు పోటీ, మరియు ఈ అధికారిక నియమాలు మరియు హాలీవుడ్ అన్ని నిర్ణయాలు కట్టుబడి ఒక v తిరిగి అంగీకరిస్తున్నారు క్యాసినో బటాన్ రూజ్ , avgjorelser అంతిమం మరియు అన్ని విధాలుగా బైండింగ్ ఉంటే.",
+    "baseline_prediction": "పోటీలో పాల్గొన్నవారికి, అధికారిక పోటీలో లేదా వాస్తవ పోటీలో అస్పష్టత లేదా తప్పును క్లెయిమ్ చేసే హక్కును, మరియు ఈ అధికారిక నియమాల ద్వారా మరియు హాలీవుడ్ క్యాసినో బాటన్ రూజ్ యొక్క అన్ని నిర్ణయాల ద్వారా కట్టుబడి ఉండటానికి అంగీకరిస్తుంది, నిర్ణయాలు అన్ని విధాలుగా తుది మరియు కట్టుబడి ఉంటాయి.",
+    "adapter_prediction": "పోటీలో పాల్గొనేవారికి, అధికారిక పోటీలో లేదా వాస్తవ పోటీలో అస్పష్టత లేదా లోపం యొక్క వాదనను అభ్యర్థించే హక్కును ఇస్తుంది మరియు ఈ అధికారిక నియమాలు మరియు హాలీవుడ్ క్యాసినో బాటన్ రూజ్ యొక్క అన్ని నిర్ణయాలు ద్వారా కట్టుబడి ఉన్న ఒక ఒప్పందం కుదుర్చుతుంది, అయితే నిర్ణయాలు అన్ని విధాలుగా తుది మరియు కట్టుబడి ఉంటాయి.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "25.2",
+        "text": "Participants may be contacted by Hollywood Casino Baton Rouge via telemarketing for additional information and / or offers Scheme of this campaign.",
+        "similarity": 0.34126392006874084
+      },
+      {
+        "id": "25.3",
+        "text": "This contest is subject to these Official Rules, to be displayed prominently on the Premier Club.",
+        "similarity": 0.28931325674057007
+      }
+    ]
+  },
+  {
+    "evaluation_index": 89,
+    "source_sentence": "certainly many of you are going to have viruses on USB drives - the flash memory, memory card etc. - Which is constantly spreading from computer to computer.",
+    "reference": "ఖచ్చితంగా మీరు అనేక ఉంటాయి ఫ్లాష్ మెమరీ, మెమరీ కార్డ్ మొదలైనవి - USB డ్రైవ్ లో వైరస్ లు పొందబోతున్నారు.",
+    "baseline_prediction": "మీలో చాలా మందికి USB డ్రైవ్లలో వైరస్లు ఉంటాయి - ఫ్లాష్ మెమరీ, మెమరీ కార్డ్ మొదలైనవి - ఇది కంప్యూటర్ నుండి కంప్యూటర్కు నిరంతరం వ్యాప్తి చెందుతోంది.",
+    "adapter_prediction": "ఖచ్చితంగా మీలో చాలా మందికి USB డ్రైవ్లలో వైరస్లు ఉంటాయి - ఫ్లాష్ మెమరీ, మెమరీ కార్డ్ మొదలైనవి - ఇది నిరంతరం కంప్యూటర్ నుండి కంప్యూటర్కు వ్యాపిస్తుంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "4.1",
+        "text": "How to use the program Panda USB Vaccine.",
+        "similarity": 0.29256319999694824
+      },
+      {
+        "id": "4.2",
+        "text": "Surely many of you are going to have viruses on USB drives",
+        "similarity": 0.9042308330535889
+      }
+    ]
+  },
+  {
+    "evaluation_index": 90,
+    "source_sentence": "Solution One:Step by Step Guide to Manually Remove SafeUpdate.technology Pop-up",
+    "reference": "పరిష్కారం ఒక:మాన్యువల్ తొలగింపు సూచనలు బై స్టెప్ Passport.game321.com దశ వదిలించుకోవటం ఎలా",
+    "baseline_prediction": "పరిష్కారం 1: సురక్షిత అప్డేట్ను మానవీయంగా తొలగించడానికి దశల వారీ మార్గదర్శిని",
+    "adapter_prediction": "పరిష్కారం 1:Step by Step Guide to Manually Remove SafeUpdate.technology Pop-up",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "8.1",
+        "text": "Since it can disguise its related files, many computer users have tried to locate the related files of the SafeUpdate.technology on the control panel or task manager but SafeUpdate.technology ads also keep coming back again and again.",
+        "similarity": 0.6479050517082214
+      },
+      {
+        "id": "8.2",
+        "text": "to completely get rid of this SafeUpdate.technology pop-up, you are welcome to follow the removal guide listed below:",
+        "similarity": 0.9337281584739685
+      }
+    ]
+  },
+  {
+    "evaluation_index": 91,
+    "source_sentence": "Bab.",
+    "reference": "Bab.",
+    "baseline_prediction": "బాబ్.",
+    "adapter_prediction": "బాబ్.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "60.2",
+        "text": "Hilch, Tophilla, c. 6.",
+        "similarity": 0.11368443071842194
+      },
+      {
+        "id": "60.3",
+        "text": "sect.",
+        "similarity": 0.18642538785934448
+      }
+    ]
+  },
+  {
+    "evaluation_index": 92,
+    "source_sentence": "problem is i like this: light, show konfiguratia computer and then restart & # 8230; It remains same time as open til stirrer.",
+    "reference": "సమస్య ఏమిటంటే నేను దీన్ని ఇష్టపడుతున్నాను ఉంది: కాంతి, konfiguratia కంప్యూటర్ మరియు అప్పుడు పునఃప్రారంభమైన చూపించు & # 8230; ఇది గరిట టిల్ ఓపెన్ అదే సమయంలో ఉంది.",
+    "baseline_prediction": "సమస్య నేను ఈ వంటిదిః కాంతి, కాన్ఫిగరేషన్ కంప్యూటర్ చూపించు మరియు అప్పుడు పునఃప్రారంభించుము & # 8230; ఇది తెరిచి స్మిరర్ వరకు అదే సమయంలో ఉంటుంది.",
+    "adapter_prediction": "సమస్య నేను ఈ వంటిః లైట్, కాన్ఫిగరేషన్ కంప్యూటర్ చూపించు మరియు అప్పుడు పునఃప్రారంభించుము & # 8230; ఇది తెరిచి స్టీరర్ వరకు అదే సమయంలో ఉంటుంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "16.1",
+        "text": "Can someone help me?",
+        "similarity": 0.15792672336101532
+      },
+      {
+        "id": "17.1",
+        "text": "I have problems with a calculating and Features",
+        "similarity": 0.07876121997833252
+      }
+    ]
+  },
+  {
+    "evaluation_index": 93,
+    "source_sentence": "by itself, affect:",
+    "reference": ", ప్రభావితం:.",
+    "baseline_prediction": "దానితో పాటు, ప్రభావితంః",
+    "adapter_prediction": "స్వయంగా, ప్రభావితంః",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "8.1",
+        "text": "of music depends on keeping the pace of class, and very often determines the choice of music and the performance of class work.",
+        "similarity": 0.08616315573453903
+      },
+      {
+        "id": "9.1",
+        "text": "Certainly, the music must not be so fast that you can not train properly.",
+        "similarity": 0.03697940707206726
+      }
+    ]
+  },
+  {
+    "evaluation_index": 94,
+    "source_sentence": "Question: Do you check the companies that will be contacting me?",
+    "reference": "ప్రశ్న: హీరోయిన్ ఓరియంటెడ్ చిత్రాలు కమర్షియల్గా విజయం సాధించడం లేదనే కామెంట్పై మీ స్పందన?",
+    "baseline_prediction": "ప్రశ్నః నన్ను సంప్రదించే కంపెనీల గురించి మీరు తెలుసుకున్నారా?",
+    "adapter_prediction": "ప్రశ్నః మీరు నన్ను సంప్రదించే కంపెనీలను తనిఖీ చేస్తారా?",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "8.1",
+        "text": "Question: What if the companies have the same price?",
+        "similarity": 0.2331857532262802
+      },
+      {
+        "id": "9.1",
+        "text": "Answer: You must assess which company best suits your needs.",
+        "similarity": 0.3942275047302246
+      }
+    ]
+  },
+  {
+    "evaluation_index": 95,
+    "source_sentence": "This is one of the problems of the Muslim community: there is no forgiveness, only revenge.",
+    "reference": "త్రిత్వం అనే సిద్ధాంతం యొక్క సారం ఏమిటంటే - బైబిలు ప్రకటించే దేవుడు ఒక్కడే, అయితే ఆయన ముగ్గురు వ్యక్తులలో మమేకమై ఉన్నాడు.",
+    "baseline_prediction": "ఇది ముస్లిం సమాజం ఎదుర్కొంటున్న సమస్యలలో ఒకటి. క్షమాపణ లేదు, ప్రతీకారం మాత్రమే.",
+    "adapter_prediction": "ఇది ముస్లిం సమాజం యొక్క సమస్యలలో ఒకటిః క్షమాపణ లేదు, కేవలం ప్రతీకారం.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "44.7",
+        "text": "Jesus loves not only the Jews, but He also loves you.",
+        "similarity": 0.28024405241012573
+      },
+      {
+        "id": "44.8",
+        "text": "Why should one hold grudges against a people for what their fathers did?",
+        "similarity": 0.3111337125301361
+      }
+    ]
+  },
+  {
+    "evaluation_index": 96,
+    "source_sentence": "Buy Standard License – Music Maker Buy Premium License – Music Maker",
+    "reference": "ప్రామాణిక లైసెన్స్ కొనుగోలు – సంగీతం Maker ప్రీమియం కొనండి లైసెన్సు – సంగీతం Maker",
+    "baseline_prediction": "ప్రామాణిక లైసెన్స్ కొనుగోలు  సంగీత తయారీదారు ప్రీమియం లైసెన్స్ కొనుగోలు  సంగీత తయారీదారు",
+    "adapter_prediction": "Buy Standard License  Music Maker Buy Premium License  Music Maker",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "29.1",
+        "text": "BONUS GRAPHIC PACK of 42 FREE and Royalty Free Marketing Graphics (Video screens, Timelines, Banners, Logo’s, Business cards and more)",
+        "similarity": 0.2849423885345459
+      },
+      {
+        "id": "30.1",
+        "text": "If you want to know more about the Music Maker Theme, please see the following links;",
+        "similarity": 0.4178825318813324
+      }
+    ]
+  },
+  {
+    "evaluation_index": 97,
+    "source_sentence": "Open Labs For Sale",
+    "reference": "అమ్మకానికి ఓపెన్ ల్యాబ్స్",
+    "baseline_prediction": "అమ్మకానికి తెరిచిన ప్రయోగశాలలు",
+    "adapter_prediction": "అమ్మకానికి Open Labs",
+    "context_window": 2,
+    "selected_context": []
+  },
+  {
+    "evaluation_index": 98,
+    "source_sentence": "- Internet Marketing (2)",
+    "reference": "- జుట్టు ఊడటం (1)",
+    "baseline_prediction": "- ఇంటర్నెట్ మార్కెటింగ్ (2)",
+    "adapter_prediction": "- ఇంటర్నెట్ మార్కెటింగ్ (2)",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "10.1",
+        "text": "- Hair Care Products (1)",
+        "similarity": 0.3175979256629944
+      },
+      {
+        "id": "11.1",
+        "text": "- Hair Loss (1)",
+        "similarity": 0.19944903254508972
+      }
+    ]
+  },
+  {
+    "evaluation_index": 99,
+    "source_sentence": "1)In fact, Sastryji, there is so much to write about Radhakrishna’s lackadaisical write-up.",
+    "reference": "1)In fact, Sastryji, there is so much to write about Radhakrishna’s lackadaisical write-up.",
+    "baseline_prediction": "1. నిజానికి, సాస్త్రిజీ, రాధా కృష్ణుడి నిర్లక్ష్యమైన రచనల గురించి వ్రాయడానికి చాలా ఉంది.",
+    "adapter_prediction": "1) నిజానికి, Sastryji, రాధా కృష్ణ యొక్క నిర్లక్ష్య రచన గురించి వ్రాయడానికి చాలా ఉంది.",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "4.2",
+        "text": "As I mentioned in my introduction, I value you more and I keep on telling many budding journalists to work under you once in their lifetime.",
+        "similarity": 0.1788104772567749
+      },
+      {
+        "id": "4.3",
+        "text": "I had a wonderful opportunity to work under your tutelage, which I cherish a lot.",
+        "similarity": 0.08826664835214615
+      }
+    ]
+  },
+  {
+    "evaluation_index": 100,
+    "source_sentence": "- Study Time: 21 hours (RN)/14 hours (PN) of in-class instruction for live options",
+    "reference": "- స్టడీ సమయం: 21 గంటల (RN)/14 గంటల (PN) ప్రత్యక్ష ఎంపికలు కోసం లో-తరగతి బోధన",
+    "baseline_prediction": "- అధ్యయనం సమయంః లైవ్ ఎంపికల కోసం 21 గంటలు (RN) / 14 గంటలు (PN) తరగతి గదిలో బోధన",
+    "adapter_prediction": "- అధ్యయనం సమయంః 21 గంటలు (RN) / 14 గంటలు (PN) లైవ్ ఎంపికల కోసం తరగతిలో బోధన",
+    "context_window": 2,
+    "selected_context": [
+      {
+        "id": "24.1",
+        "text": "- Price Range: $249-$499",
+        "similarity": 0.12904098629951477
+      },
+      {
+        "id": "25.1",
+        "text": "- Instructors for In Person and Live Online courses",
+        "similarity": 0.4650401771068573
+      }
+    ]
+  }
+]

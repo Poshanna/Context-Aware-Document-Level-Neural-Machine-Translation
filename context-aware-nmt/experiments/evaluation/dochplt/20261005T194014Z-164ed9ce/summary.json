@@ -1,0 +1,132 @@
+{
+  "label": "deterministic held-out evaluation subset from the DocHPLT training corpus",
+  "dataset": "DocHPLT",
+  "config": "en-te",
+  "split": "train",
+  "revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+  "source_shard": "train-00000-of-00030.parquet",
+  "seed": 42,
+  "context_window": 2,
+  "aligner_score_threshold": 0.7,
+  "requested_sample_count": 20,
+  "actual_sample_count": 20,
+  "unique_source_documents": 18,
+  "unique_target_documents": 17,
+  "duplicate_count": 2,
+  "inference_failure_count": 0,
+  "baseline_metrics": {
+    "bleu": {
+      "status": "computed",
+      "score": 1.6619175976349587,
+      "num_examples": 20,
+      "details": {
+        "aggregation": "corpus",
+        "tokenizer": "none"
+      },
+      "metric_name": "bleu"
+    },
+    "chrf++": {
+      "status": "computed",
+      "score": 9.989579801539795,
+      "num_examples": 20,
+      "details": {
+        "aggregation": "corpus",
+        "char_order": 6,
+        "word_order": 2,
+        "beta": 2,
+        "lowercase": false,
+        "whitespace": false,
+        "eps_smoothing": false
+      },
+      "metric_name": "chrf++"
+    }
+  },
+  "context_metrics": {
+    "bleu": {
+      "status": "computed",
+      "score": 2.180416421652478,
+      "num_examples": 20,
+      "details": {
+        "aggregation": "corpus",
+        "tokenizer": "none"
+      },
+      "metric_name": "bleu"
+    },
+    "chrf++": {
+      "status": "computed",
+      "score": 10.579197818173858,
+      "num_examples": 20,
+      "details": {
+        "aggregation": "corpus",
+        "char_order": 6,
+        "word_order": 2,
+        "beta": 2,
+        "lowercase": false,
+        "whitespace": false,
+        "eps_smoothing": false
+      },
+      "metric_name": "chrf++"
+    }
+  },
+  "paired_comparison": {
+    "bleu": {
+      "mean_difference": -6.902095451188588,
+      "improved": 2,
+      "worse": 10,
+      "tied": 8,
+      "paired_examples": 20
+    },
+    "chrf++": {
+      "mean_difference": -1.2004120439451604,
+      "improved": 5,
+      "worse": 12,
+      "tied": 3,
+      "paired_examples": 20
+    }
+  },
+  "alignment_score_statistics": {
+    "min": 0.7117879986763,
+    "max": 1.0,
+    "mean": 0.9059344500303268,
+    "median": 1.0
+  },
+  "provenance": {
+    "dataset_name": "DocHPLT",
+    "dataset_config": "en-te",
+    "split": "train",
+    "revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+    "source_shard": "train-00000-of-00030.parquet",
+    "source_path": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\dochplt\\en-te\\train-00000-of-00030.parquet",
+    "adapter_name": "dochplt_parquet_v1",
+    "threshold": 0.7,
+    "context_window": 2,
+    "seed": 42
+  },
+  "model_name": "nllb200",
+  "document_level_evaluation": false,
+  "context_conditioning": "prefix",
+  "examples_per_document": {
+    "http___astrosage.com_festival_navratri_navdurga-astrology.asp.xml": 1,
+    "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml": 3,
+    "https___www.astrosage.com_festival_diwali_diwali-cards.asp.xml": 1,
+    "http___agniveer.com_support-bangladeshi-hindus-agniveer_.xml": 1,
+    "http___www.astrosage.com_calculators__1.xml": 1,
+    "http___agniveer.com_elements-social-subversion-part-1-subversion-demoralization__1.xml": 1,
+    "http___bhimalapuram.co.in_freesoft_livecds_readme.html.xml": 1,
+    "https___www.astrosage.com_horoscope_sagittarius-libra-compatibility.asp.xml": 1,
+    "http___www.astrosage.com_2017_scorpio-horoscope-2017.asp_2.xml": 1,
+    "http___blog.epapercatalog.com_2014_01_danish-woman-gang-raped-for-3-hours-in.html.xml": 1,
+    "http___astrosage.com_psychic_.xml": 1,
+    "http___balagopal.org__cat_8_2.xml": 1,
+    "http___insightdesigns.co.uk_Privacy-Policy.htm.xml": 1,
+    "http___blogs.tallysolutions.com_gu_goods-returned-after-gst_.xml": 1,
+    "http___article.wn.com_view_2015_03_17_NPP_To_State_Its_Official_Position_On_Woyome_Case_Today_.xml": 1,
+    "http___www.astrosage.com_hindi__1.xml": 1,
+    "http___agniveer.com_hidden-hate-exposed-open-challenge-islam-means-peace-brigade__1.xml": 1,
+    "http___www.astrosage.com_numerology_namecompatibility.asp_2.xml": 1
+  },
+  "min_examples_per_document": 1,
+  "max_examples_per_document": 3,
+  "inference_failures": [],
+  "run_id": "20261005T194014Z-164ed9ce"
+}

@@ -1,0 +1,24 @@
+{
+  "model": "facebook/nllb-200-distilled-600M",
+  "context_encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "device": "cpu",
+  "train_examples_available": 1000,
+  "validation_examples_available": 100,
+  "train_limit": 1000,
+  "validation_limit": 100,
+  "epochs": 1,
+  "batch_size": 1,
+  "learning_rate": 0.0001,
+  "trainable_parameters": 2494464,
+  "training_losses": [
+    1.9976804350018502
+  ],
+  "successful_steps": 1000,
+  "official_test_set": false,
+  "purpose": "context adapter training experiment using native M2M100 label shifting",
+  "nllb_frozen": true,
+  "context_encoder_frozen": true,
+  "adapter_trainable": true,
+  "manual_decoder_input_ids": false,
+  "native_label_shift": true
+}

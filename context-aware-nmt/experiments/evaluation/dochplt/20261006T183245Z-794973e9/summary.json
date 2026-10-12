@@ -1,0 +1,35 @@
+{
+  "label": "DocHPLT deterministic held-out evaluation subset smoke run",
+  "dataset": {
+    "name": "DocHPLT",
+    "config": "en-te",
+    "split": "train",
+    "revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+    "source_shard": "train-00000-of-00030.parquet",
+    "source_path": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\dochplt\\en-te\\train-00000-of-00030.parquet",
+    "aligner_score_threshold": 0.7
+  },
+  "model_name": "facebook/nllb-200-distilled-600M",
+  "document_level_evaluation": false,
+  "context_conditioning": "prefix",
+  "seed": 42,
+  "context_window": 2,
+  "threshold": 0.7,
+  "max_samples": 12,
+  "sample_count": 12,
+  "selection_mode": "explicit_manual_review_manifest",
+  "manifest_path": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\experiments\\evaluation\\dochplt\\final_eval_manifest.json",
+  "results": {
+    "baseline": {
+      "bleu": 41.27782044840121,
+      "chrf++": 53.482361839304126
+    },
+    "context_conditioned": {
+      "bleu": 10.21926721578879,
+      "chrf++": 37.024279422389014
+    }
+  },
+  "inference_failures": [],
+  "run_id": "20261006T183245Z-794973e9",
+  "created_at_utc": "2026-10-06T18:35:30.836528+00:00"
+}

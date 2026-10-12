@@ -1,0 +1,119 @@
+{
+  "run_id": "20261003T170339Z-4d7d6c5c",
+  "timestamp": "2026-10-03T17:03:39.460643+00:00",
+  "dataset": "IndicDISCO-MT",
+  "revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+  "component": "Indicdisco_MT",
+  "split": "test",
+  "source_lang": "te",
+  "target_lang": "en",
+  "requested_max_samples": 5,
+  "actual_sample_count": 1,
+  "successful_hypothesis_count": 1,
+  "seed": 42,
+  "sampling_strategy": "random_without_replacement_from_bounded_prefix",
+  "candidate_row_count": 1,
+  "bytes_read": 16384,
+  "sample_row_locators": [
+    "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=0"
+  ],
+  "exclusions": [],
+  "per_sample": [
+    {
+      "dataset": "IndicDISCO-MT",
+      "revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+      "component": "Indicdisco_MT",
+      "split": "test",
+      "row_locator": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=0",
+      "source_language": "Telugu",
+      "target_language": "English",
+      "source": "గ్రాఫ్ థియరీలో, ఒక ట్రీ అనేది డైరెక్టెడ్ గ్రాఫ్, దీనిలో ఏదైనా రెండు వెర్టెక్స్‌లు ఖచ్చితంగా ఒక మార్గం ద్వారా లేదా సమానంగా కనెక్ట్ చేయబడిన ఎసిక్లిక్ అన్‌డైరెక్టెడ్ గ్రాఫ్ ద్వారా అనుసంధానించబడి ఉంటాయి. ఫారెస్ట్ అనేది అన్‌డైరెక్టెడ్ గ్రాఫ్, దీనిలో ఏవైనా రెండు వెర్టెక్స్‌లు గరిష్టంగా ఒక మార్గం ద్వారా లేదా సమానంగా ఒక అసైక్లిక్ అన్‌డైరెక్టెడ్ గ్రాఫ్ లేదా సమానమైన ట్రీ కలయికతో అనుసంధానించబడి ఉంటాయి. పాలీట్రీ (లేదా డైరెక్ట్ ట్రీ లేదా ఓరియెంటెడ్ ట్రీ లేదా సింగిల్‌గా కనెక్ట్ చేయబడిన నెట్‌వర్క్) అనేది డైరెక్ట్ ఎసిక్లిక్ గ్రాఫ్ (డిఎజి), దీని అంతర్లీన అన్‌డైరెక్టెడ్ గ్రాఫ్ ఒక ట్రీ. పాలీఫారెస్ట్ (లేదా డైరెక్ట్ ఫారెస్ట్ లేదా ఓరియెంటెడ్ ఫారెస్ట్) అనేది డైరెక్ట్ ఎసిక్లిక్ గ్రాఫ్, దీని అంతర్లీన ట్రీ గ్రాఫ్ ఒక ఫారెస్ట్.",
+      "reference": "In graph theory, a tree is an undirected graph in which any two vertices are connected by exactly one path, or equivalently a connected acyclic undirected graph. A forest is an undirected graph in which any two vertices are connected by at most one path, or equivalently an acyclic undirected graph, or equivalently a disjoint union of trees. A polytree (or directed tree or oriented tree or singly connected network) is a directed acyclic graph (DAG) whose underlying undirected graph is a tree. A polyforest (or directed forest or oriented forest) is a directed acyclic graph whose underlying undirected graph is a forest.",
+      "hypothesis": "In graph theory, a tree is a directed graph in which any two vertices are connected exactly by one path or by an equally connected acyclic undirected graph. A forest is an undirected graph in which any two vertices are connected by a single path or equivalent to an asynchronous undirected graph or an equivalent tree combination. A polytri (or direct tree or oriented tree or single-connected network) is a directed acyclic graph (DAG) whose underlying undirected graph is a tree. A polyforest (or direct forest or oriented forest) is a direct acyclic graph whose underlying tree graph is a forest.",
+      "inference_status": "succeeded",
+      "document_id": null,
+      "context_used": false,
+      "metric_eligibility": {
+        "paragraph_bleu": true,
+        "paragraph_chrf++": true
+      }
+    }
+  ],
+  "metrics": {
+    "corpus_bleu": {
+      "status": "computed",
+      "score": 60.16091533316394,
+      "details": {
+        "aggregation": "corpus",
+        "tokenizer": "13a"
+      },
+      "num_examples": 1
+    },
+    "corpus_chrf++": {
+      "status": "computed",
+      "score": 78.75842427920672,
+      "details": {
+        "aggregation": "corpus",
+        "char_order": 6,
+        "word_order": 2,
+        "beta": 2,
+        "lowercase": false,
+        "whitespace": false,
+        "eps_smoothing": false
+      },
+      "num_examples": 1
+    }
+  },
+  "metric_configuration": {
+    "aggregation": "corpus",
+    "normalization": "none; preserve source, reference, and hypothesis strings",
+    "bleu": {
+      "implementation": "app.evaluation.bleu_metric.BLEUMetric via SacreBLEU",
+      "tokenizer": "13a",
+      "smoothing": "none"
+    },
+    "chrf++": {
+      "implementation": "app.evaluation.chrf_metric.CHRFMetric via SacreBLEU",
+      "char_order": 6,
+      "word_order": 2,
+      "beta": 2,
+      "lowercase": false,
+      "whitespace": false,
+      "eps_smoothing": false
+    },
+    "sacrebleu_version": "2.6.0"
+  },
+  "model_name": "facebook/nllb-200-distilled-600M",
+  "model_configuration": {
+    "model": "nllb200",
+    "checkpoint": "facebook/nllb-200-distilled-600M",
+    "input_max_length": 512,
+    "max_new_tokens": 256,
+    "max_length": 200,
+    "max_length_semantics": "existing checkpoint/default metadata; NLLB service explicitly passes max_new_tokens",
+    "do_sample": false,
+    "num_beams": 1,
+    "checkpoint_generation_config": {
+      "_from_model_config": true,
+      "bos_token_id": 0,
+      "decoder_start_token_id": 2,
+      "eos_token_id": 2,
+      "max_length": 200,
+      "pad_token_id": 1,
+      "transformers_version": "4.27.0.dev0"
+    },
+    "input_handling": "complete paragraph passed to baseline service; service retains its existing sentence segmentation and joins sentence translations back into one paragraph hypothesis; no preceding context"
+  },
+  "device": "cpu",
+  "rights_status": "unresolved",
+  "evaluation_granularity": "paragraph",
+  "document_level_evaluation": false,
+  "context_used": false,
+  "context_available": false,
+  "sentence_alignment_available": false,
+  "document_identity_available": false,
+  "no_fabricated_document_ids": true,
+  "inference_performed": true,
+  "no_inference": false,
+  "metrics_computed": true
+}

@@ -1,0 +1,347 @@
+[
+  {
+    "evaluation_index": 1,
+    "source_sentence": "Your screen name furnished will be at least 2 characters long.",
+    "target_reference": "నమోదిత మీ స్క్రీన్ పేరు కనీసం ఉంటుంది 2 అక్షరాల పొడవు.",
+    "available_context": [
+      {
+        "sentence_id": "58.1",
+        "text": "The title furnished will be at least 4 characters long."
+      },
+      {
+        "sentence_id": "59.1",
+        "text": "Screen Name *"
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "58.1",
+        "text": "The title furnished will be at least 4 characters long.",
+        "similarity": 0.6704071760177612
+      },
+      {
+        "sentence_id": "59.1",
+        "text": "Screen Name *",
+        "similarity": 0.5383905172348022
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nThe title furnished will be at least 4 characters long.\nScreen Name *\n\nCURRENT SENTENCE:\nYour screen name furnished will be at least 2 characters long.",
+    "hypothesis": "సవరణః మీ సవరణలో ఉన్న సవరణలో ఉన్న సవరణలో సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు, సవరణలు,",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 2,
+    "source_sentence": "Thank you for taking the time to a re-circumvention was the establishment, we are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Ruhl.",
+    "target_reference": "ఏర్పాటుచేయటం రీ-అధిగమనాన్ని సమయం తీసుకున్నందుకు ధన్యవాదాలు, మేము మీరు మాకు మీ సమయం ఆనందించారు ఆనందపరిచింది ఉంటాయి, మరియు మేము Ruhl మీరు స్వాగతం ఒక కోరిక ఎదురుచూస్తున్నాము.",
+    "available_context": [
+      {
+        "sentence_id": "8.1",
+        "text": "Thank you for taking the time to a share your experience with us."
+      },
+      {
+        "sentence_id": "9.1",
+        "text": "We are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Casino Ruhl."
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "8.1",
+        "text": "Thank you for taking the time to a share your experience with us.",
+        "similarity": 0.31089743971824646
+      },
+      {
+        "sentence_id": "9.1",
+        "text": "We are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Casino Ruhl.",
+        "similarity": 0.7407252788543701
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nThank you for taking the time to a share your experience with us.\nWe are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Casino Ruhl.\n\nCURRENT SENTENCE:\nThank you for taking the time to a re-circumvention was the establishment, we are delighted that you enjoyed your time with us, and we look forward to a desire to welcome you to Ruhl.",
+    "hypothesis": "CONTEXT: మీ అనుభవాన్ని మాతో పంచుకోవడానికి సమయం తీసుకున్నందుకు ధన్యవాదాలు. మీరు మాతో మీ సమయాన్ని ఆస్వాదించినందుకు మేము సంతోషిస్తున్నాము, మరియు మేము మిమ్మల్ని కాసినో రూల్కు స్వాగతం పలకాలని ఎదురుచూస్తున్నాము.",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 3,
+    "source_sentence": "Microsoft Office 2003 Standard Edition",
+    "target_reference": "Microsoft Office 2003 ప్రామాణిక ఎడిషన్",
+    "available_context": [
+      {
+        "sentence_id": "31.1",
+        "text": "Microsoft Office 2003 Professional Edition"
+      },
+      {
+        "sentence_id": "32.1",
+        "text": "Microsoft Office 2003 Small Business Edition"
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "31.1",
+        "text": "Microsoft Office 2003 Professional Edition",
+        "similarity": 0.9237154722213745
+      },
+      {
+        "sentence_id": "32.1",
+        "text": "Microsoft Office 2003 Small Business Edition",
+        "similarity": 0.8247954845428467
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nMicrosoft Office 2003 Professional Edition\nMicrosoft Office 2003 Small Business Edition\n\nCURRENT SENTENCE:\nMicrosoft Office 2003 Standard Edition",
+    "hypothesis": "CONTEXT: Microsoft Office 2003 ప్రొఫెషనల్ ఎడిషన్ Microsoft Office 2003 స్మాల్ బిజినెస్ ఎడిషన్ ప్రస్తుత విచారణ: Microsoft Office 2003 ప్రామాణిక ఎడిషన్",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 4,
+    "source_sentence": "Car insurance rates",
+    "target_reference": "కార్ భీమా రేట్లు",
+    "available_context": [
+      {
+        "sentence_id": "1.1",
+        "text": "Car insurance rates-Factors that affect"
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "1.1",
+        "text": "Car insurance rates-Factors that affect",
+        "similarity": 0.8860625624656677
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nCar insurance rates-Factors that affect\n\nCURRENT SENTENCE:\nCar insurance rates",
+    "hypothesis": "సందర్భంః వాహన బీమా రేట్లు-ప్రస్తుత శిక్షను ప్రభావితం చేసే కారకాలు",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 5,
+    "source_sentence": "Auto insurance companies",
+    "target_reference": "ఆటో భీమా సంస్థలు",
+    "available_context": [
+      {
+        "sentence_id": "1.1",
+        "text": "Auto insurance companies-With you always"
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "1.1",
+        "text": "Auto insurance companies-With you always",
+        "similarity": 0.8941211700439453
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nAuto insurance companies-With you always\n\nCURRENT SENTENCE:\nAuto insurance companies",
+    "hypothesis": "సందర్భంః వాహన బీమా సంస్థలు-మీతో ఎల్లప్పుడూ CURRENT SENTENCE: వాహన బీమా సంస్థలు",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 6,
+    "source_sentence": "How to set-up the SMS notifications in BIG Launcher / BIG SMS on Android 10",
+    "target_reference": "Android 10 లో BIG Launcher / BIG SMS లో SMS నోటిఫికేషన్లను ఎలా సెటప్ చేయాలి",
+    "available_context": [
+      {
+        "sentence_id": "3.2",
+        "text": "How to set BIG SMS as a default SMS app"
+      },
+      {
+        "sentence_id": "4.1",
+        "text": "How to show the BIG Launcher Preferences menu"
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "3.2",
+        "text": "How to set BIG SMS as a default SMS app",
+        "similarity": 0.734196662902832
+      },
+      {
+        "sentence_id": "4.1",
+        "text": "How to show the BIG Launcher Preferences menu",
+        "similarity": 0.46669241786003113
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nHow to set BIG SMS as a default SMS app\nHow to show the BIG Launcher Preferences menu\n\nCURRENT SENTENCE:\nHow to set-up the SMS notifications in BIG Launcher / BIG SMS on Android 10",
+    "hypothesis": "CONTEXT: BIG SMS ను డిఫాల్ట్ SMS యాప్గా ఎలా సెట్ చేయాలి BIG Launcher ప్రాధాన్యతల మెనుని ఎలా చూపించాలి ప్రస్తుత వాక్యం: Android 10 లో BIG Launcher / BIG SMS లో SMS నోటిఫికేషన్లను ఎలా సెటప్ చేయాలి",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 7,
+    "source_sentence": "Method 3 Remove Jsd.pathjava.net popup from PC using Manual Removal",
+    "target_reference": "పద్ధతి 3 మాన్యువల్ తొలగింపు ఉపయోగించి PC నుండి Jsd.pathjava.net పాపప్ తొలగించడానికి",
+    "available_context": [
+      {
+        "sentence_id": "16.1",
+        "text": "Method 1 Remove Jsd.pathjava.net popup from PC using MalwareBytes"
+      },
+      {
+        "sentence_id": "17.1",
+        "text": "Method 2 Remove Jsd.pathjava.net popup from PC using SpyHunter"
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "16.1",
+        "text": "Method 1 Remove Jsd.pathjava.net popup from PC using MalwareBytes",
+        "similarity": 0.9084902405738831
+      },
+      {
+        "sentence_id": "17.1",
+        "text": "Method 2 Remove Jsd.pathjava.net popup from PC using SpyHunter",
+        "similarity": 0.8592562079429626
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nMethod 1 Remove Jsd.pathjava.net popup from PC using MalwareBytes\nMethod 2 Remove Jsd.pathjava.net popup from PC using SpyHunter\n\nCURRENT SENTENCE:\nMethod 3 Remove Jsd.pathjava.net popup from PC using Manual Removal",
+    "hypothesis": "CONTEXT: పద్ధతి 1 MalwareBytes పద్ధతి 2 ఉపయోగించి PC నుండి Jsd.pathjava.net పాప్అప్ను తొలగించండి SpyHunter CURRENT SENTENCE ఉపయోగించి PC నుండి Jsd.pathjava.net పాప్అప్ను తొలగించండి: పద్ధతి 3 మాన్యువల్ తొలగింపు ఉపయోగించి PC నుండి Jsd.pathjava.net పాప్అప్ను తొలగించండి",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 8,
+    "source_sentence": "Solution 2: Remove Files4.mirror4.net Ads automatically (with SpyHunter)",
+    "target_reference": "పరిష్కారము 2: స్వయంచాలకంగా Files4.mirror4.net ప్రకటనలను తొలగించు (SpyHunter తో)",
+    "available_context": [
+      {
+        "sentence_id": "15.1",
+        "text": "Remove Files4.mirror4.net Popup With Efficiency"
+      },
+      {
+        "sentence_id": "16.1",
+        "text": "Solution 1: Remove Files4.mirror4.net Ads manually"
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "15.1",
+        "text": "Remove Files4.mirror4.net Popup With Efficiency",
+        "similarity": 0.5895744562149048
+      },
+      {
+        "sentence_id": "16.1",
+        "text": "Solution 1: Remove Files4.mirror4.net Ads manually",
+        "similarity": 0.8959582448005676
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nRemove Files4.mirror4.net Popup With Efficiency\nSolution 1: Remove Files4.mirror4.net Ads manually\n\nCURRENT SENTENCE:\nSolution 2: Remove Files4.mirror4.net Ads automatically (with SpyHunter)",
+    "hypothesis": "CONTEXT: ఫైళ్లు 4.mirror4.net పాప్అప్ను సమర్థవంతమైన పరిష్కారం 1: ఫైళ్లు 4.mirror4.net ప్రకటనలను మానవీయంగా తొలగించండి ప్రస్తుత తీర్పుః పరిష్కారం 2: ఫైల్లు 4.mirror4.net ప్రకటనలను స్వయంచాలకంగా తొలగించండి (స్పైహంటర్తో)",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 9,
+    "source_sentence": "37-40 seeds/ha (75-80% germination)",
+    "target_reference": "37-40 విత్తనాలు / ha (75-80% అంకురుంచడము)",
+    "available_context": [
+      {
+        "sentence_id": "21.1",
+        "text": "30 kgs seeds/ha (90-95% germination)"
+      },
+      {
+        "sentence_id": "22.1",
+        "text": "35 kgs seeds/ha (80-85% germination)"
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "21.1",
+        "text": "30 kgs seeds/ha (90-95% germination)",
+        "similarity": 0.8715457916259766
+      },
+      {
+        "sentence_id": "22.1",
+        "text": "35 kgs seeds/ha (80-85% germination)",
+        "similarity": 0.9074530601501465
+      }
+    ],
+    "conditioned_input": "CONTEXT:\n30 kgs seeds/ha (90-95% germination)\n35 kgs seeds/ha (80-85% germination)\n\nCURRENT SENTENCE:\n37-40 seeds/ha (75-80% germination)",
+    "hypothesis": "సారాంశంః 30 కిలోల విత్తనాలు/హెక్టార్ (90-95% మొలకెత్తున) 35 కిలోల విత్తనాలు/హెక్టార్ (80-85% మొలకెత్తున) ప్రస్తుత విచారణః 37-40 విత్తనాలు/హెక్టార్ (75-80% మొలకెత్తున)",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 10,
+    "source_sentence": "Kalahandi District Collector Magistrate Recruitment 2016",
+    "target_reference": "కలహండి జిల్లా కలెక్టర్ మేజిస్ట్రేట్ రిక్రూట్మెంట్ 2016",
+    "available_context": [
+      {
+        "sentence_id": "1.1",
+        "text": "Kalahandi Area Enthusiast Magistrate Recruitment 2016 ,Kalahandi District Debt collector Magistrate Employment 2016 Application & Application Refine ,Kalahandi Area Debt collector Magistrate Recruitment 2016 online Application ,How to use Kalahandi District Debt collector Magistrate Employment 2016 ,www.kalahandi.nic.in."
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "1.1",
+        "text": "Kalahandi Area Enthusiast Magistrate Recruitment 2016 ,Kalahandi District Debt collector Magistrate Employment 2016 Application & Application Refine ,Kalahandi Area Debt collector Magistrate Recruitment 2016 online Application ,How to use Kalahandi District Debt collector Magistrate Employment 2016 ,www.kalahandi.nic.in.",
+        "similarity": 0.8006874918937683
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nKalahandi Area Enthusiast Magistrate Recruitment 2016 ,Kalahandi District Debt collector Magistrate Employment 2016 Application & Application Refine ,Kalahandi Area Debt collector Magistrate Recruitment 2016 online Application ,How to use Kalahandi District Debt collector Magistrate Employment 2016 ,www.kalahandi.nic.in.\n\nCURRENT SENTENCE:\nKalahandi District Collector Magistrate Recruitment 2016",
+    "hypothesis": "సందర్భంః కాలాహండి జిల్లా రుణ సేకరణ మాజిస్ట్రేట్ నియామకం 2016 , కాలాహండి జిల్లా రుణ సేకరణ మాజిస్ట్రేట్ ఉపాధి 2016 అప్లికేషన్ & అప్లికేషన్ శుద్ధి , కాలాహండి జిల్లా రుణ సేకరణ మాజిస్ట్రేట్ నియామకం 2016 ఆన్లైన్ అప్లికేషన్ , కాలాహండి జిల్లా రుణ సేకరణ మాజిస్ట్రేట్ ఉపాధి 2016 ను ఎలా ఉపయోగించాలి , www. kalahandi. nic. in ప్రస్తుత విచారణ: కాలాహండి జిల్లా రుణ సేకరణ మాజిస్ట్రేట్ నియామకం 2016",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 11,
+    "source_sentence": "- 1,000+ practice questions (NCLEX-PN Review)",
+    "target_reference": "- 1,000+ ఆచరణలో ప్రశ్నలు (NCLEX-PN రివ్యూ)",
+    "available_context": [
+      {
+        "sentence_id": "30.1",
+        "text": "Learning Materials"
+      },
+      {
+        "sentence_id": "31.1",
+        "text": "- 3,000+ practice questions (NCLEX-RN Review)"
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "30.1",
+        "text": "Learning Materials",
+        "similarity": 0.2986019551753998
+      },
+      {
+        "sentence_id": "31.1",
+        "text": "- 3,000+ practice questions (NCLEX-RN Review)",
+        "similarity": 0.9358856678009033
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nLearning Materials\n- 3,000+ practice questions (NCLEX-RN Review)\n\nCURRENT SENTENCE:\n- 1,000+ practice questions (NCLEX-PN Review)",
+    "hypothesis": "సందర్భంః అభ్యాస సామగ్రి - 3,000+ ఆచరణాత్మక ప్రశ్నలు (NCLEX-RN సమీక్ష) ప్రస్తుత వాక్యంః - 1,000+ ఆచరణాత్మక ప్రశ్నలు (NCLEX-PN సమీక్ష)",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  },
+  {
+    "evaluation_index": 12,
+    "source_sentence": "What is the ozone layer?",
+    "target_reference": "ఏమిటి What is Ozone Layer?",
+    "available_context": [
+      {
+        "sentence_id": "2.1",
+        "text": "We explain what the ozone layer is and what is its importance for planet Earth."
+      },
+      {
+        "sentence_id": "2.2",
+        "text": "Also, what are the holes in the ozone layer."
+      }
+    ],
+    "selected_context": [
+      {
+        "sentence_id": "2.1",
+        "text": "We explain what the ozone layer is and what is its importance for planet Earth.",
+        "similarity": 0.7308081388473511
+      },
+      {
+        "sentence_id": "2.2",
+        "text": "Also, what are the holes in the ozone layer.",
+        "similarity": 0.786225438117981
+      }
+    ],
+    "conditioned_input": "CONTEXT:\nWe explain what the ozone layer is and what is its importance for planet Earth.\nAlso, what are the holes in the ozone layer.\n\nCURRENT SENTENCE:\nWhat is the ozone layer?",
+    "hypothesis": "ఈ సందర్భంగా, ఓజోన్ పొర అంటే ఏమిటి, భూమికి దాని ప్రాముఖ్యత ఏమిటి అని వివరించారు. అంతేకాకుండా, ఓజోన్ పొరలో ఉన్న రంధ్రాలు ఏమిటి.",
+    "model_backend": "nllb200",
+    "translation_model_type": "sentence_level_pretrained_checkpoint"
+  }
+]

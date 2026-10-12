@@ -1,0 +1,89 @@
+{
+  "run_id": "20261003T111917Z-47061cf1",
+  "timestamp": "2026-10-03T11:19:17.956456+00:00",
+  "dataset": "IndicDISCO-MT",
+  "revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+  "component": "Indicdisco_MT",
+  "split": "test",
+  "source_lang": "te",
+  "target_lang": "en",
+  "requested_max_samples": 5,
+  "actual_sample_count": 0,
+  "successful_hypothesis_count": 0,
+  "seed": 42,
+  "sampling_strategy": "random_without_replacement_from_bounded_prefix",
+  "candidate_row_count": 1,
+  "bytes_read": 16384,
+  "sample_row_locators": [],
+  "exclusions": [
+    {
+      "row_locator": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=0",
+      "reason": "source_not_verified_against_pinned_commit"
+    }
+  ],
+  "per_sample": [],
+  "metrics": {
+    "corpus_bleu": {
+      "status": "unavailable",
+      "score": null,
+      "reason": "no eligible paragraph pairs"
+    },
+    "corpus_chrf++": {
+      "status": "unavailable",
+      "score": null,
+      "reason": "no eligible paragraph pairs"
+    }
+  },
+  "metric_configuration": {
+    "aggregation": "corpus",
+    "normalization": "none; preserve source, reference, and hypothesis strings",
+    "bleu": {
+      "implementation": "app.evaluation.bleu_metric.BLEUMetric via SacreBLEU",
+      "tokenizer": "13a",
+      "smoothing": "none"
+    },
+    "chrf++": {
+      "implementation": "app.evaluation.chrf_metric.CHRFMetric via SacreBLEU",
+      "char_order": 6,
+      "word_order": 2,
+      "beta": 2,
+      "lowercase": false,
+      "whitespace": false,
+      "eps_smoothing": false
+    },
+    "sacrebleu_version": "2.6.0"
+  },
+  "model_name": "facebook/nllb-200-distilled-600M",
+  "model_configuration": {
+    "model": "nllb200",
+    "checkpoint": "facebook/nllb-200-distilled-600M",
+    "input_max_length": 512,
+    "max_new_tokens": 256,
+    "max_length": 200,
+    "max_length_semantics": "existing checkpoint/default metadata; NLLB service explicitly passes max_new_tokens",
+    "do_sample": false,
+    "num_beams": 1,
+    "checkpoint_generation_config": {
+      "_from_model_config": true,
+      "bos_token_id": 0,
+      "decoder_start_token_id": 2,
+      "eos_token_id": 2,
+      "max_length": 200,
+      "pad_token_id": 1,
+      "transformers_version": "4.27.0.dev0"
+    },
+    "input_handling": "complete paragraph passed to baseline service; service retains its existing sentence segmentation and joins sentence translations back into one paragraph hypothesis; no preceding context"
+  },
+  "device": "cpu",
+  "rights_status": "unresolved",
+  "evaluation_granularity": "paragraph",
+  "document_level_evaluation": false,
+  "context_used": false,
+  "context_available": false,
+  "sentence_alignment_available": false,
+  "document_identity_available": false,
+  "no_fabricated_document_ids": true,
+  "inference_performed": false,
+  "no_inference": true,
+  "metrics_computed": false
+}

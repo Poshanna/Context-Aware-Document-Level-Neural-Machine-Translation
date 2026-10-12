@@ -1,0 +1,96 @@
+{
+  "label": "DocHPLT deterministic held-out evaluation subset smoke run",
+  "dataset": {
+    "dataset_name": "DocHPLT",
+    "dataset_config": "en-te",
+    "split": "train",
+    "revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+    "source_shard": "train-00000-of-00030.parquet",
+    "source_path": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\dochplt\\en-te\\train-00000-of-00030.parquet",
+    "alignment_threshold": 0.7,
+    "context_window": 2,
+    "seed": 42,
+    "max_samples": 5
+  },
+  "model_name": "nllb200",
+  "document_level_evaluation": false,
+  "context_conditioning": "prefix",
+  "seed": 42,
+  "context_window": 2,
+  "threshold": 0.7,
+  "sample_count": 5,
+  "results": {
+    "baseline": {
+      "hypotheses": [
+        "- తమిళ హార్సోస్కోప్ 2015",
+        "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+        "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+        "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+        "- విద్యా వృత్తాంతం 2022"
+      ],
+      "metrics": {
+        "bleu": {
+          "status": "computed",
+          "score": 1.85750579991336,
+          "num_examples": 5,
+          "details": {
+            "aggregation": "corpus",
+            "tokenizer": "none"
+          }
+        },
+        "chrf++": {
+          "status": "computed",
+          "score": 4.339604212589925,
+          "num_examples": 5,
+          "details": {
+            "aggregation": "corpus",
+            "char_order": 6,
+            "word_order": 2,
+            "beta": 2,
+            "lowercase": false,
+            "whitespace": false,
+            "eps_smoothing": false
+          }
+        }
+      },
+      "status": "computed"
+    },
+    "context_conditioned": {
+      "hypotheses": [
+        "సందర్భంః - చైనీస్ హార్సోస్కోప్ 2015 - లాల్ కితాబ్ హార్సోస్కోప్ 2015 ప్రస్తుత వాక్యంః - తమిళ హార్సోస్కోప్ 2015",
+        "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+        "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+        "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+        "సందర్భంః - ప్రేమ రాశిచక్రం 2022 - ఆర్థిక రాశిచక్రం 2022 ప్రస్తుత వాక్యంః - విద్య రాశిచక్రం 2022"
+      ],
+      "metrics": {
+        "bleu": {
+          "status": "computed",
+          "score": 0.5792472023854668,
+          "num_examples": 5,
+          "details": {
+            "aggregation": "corpus",
+            "tokenizer": "none"
+          }
+        },
+        "chrf++": {
+          "status": "computed",
+          "score": 2.8925938592054803,
+          "num_examples": 5,
+          "details": {
+            "aggregation": "corpus",
+            "char_order": 6,
+            "word_order": 2,
+            "beta": 2,
+            "lowercase": false,
+            "whitespace": false,
+            "eps_smoothing": false
+          }
+        }
+      },
+      "status": "computed"
+    }
+  },
+  "inference_failures": [],
+  "run_id": "20261005T173359Z-bead0c18"
+}

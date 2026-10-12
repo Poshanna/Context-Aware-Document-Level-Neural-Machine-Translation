@@ -1,0 +1,112 @@
+{
+  "run_id": "20261003T111842Z-dadb6293",
+  "timestamp_utc": "2026-10-03T11:18:42.234106+00:00",
+  "dataset": "IndicDISCO-MT",
+  "repository": "HimangY/IndicDISCO-MT",
+  "pinned_revision": "13f4a8caa71b00859ee4235713aa253c3b2fe193",
+  "component": "Indicdisco_MT",
+  "split": "test",
+  "source": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv",
+  "source_kind": "explicit_local_unverified",
+  "source_provenance_verified": false,
+  "source_language": "Telugu",
+  "target_language": "English",
+  "language_labels_embedded_in_csv": false,
+  "max_rows_requested": 5,
+  "bytes_read": 16384,
+  "observed_schema": [
+    "source",
+    "target"
+  ],
+  "inspected_row_count": 1,
+  "accepted_row_count": 0,
+  "excluded_row_count": 1,
+  "exclusion_reason_counts": {
+    "local_source_not_verified_against_pinned_commit_in_bounded_mode": 1
+  },
+  "accepted_rows": [],
+  "excluded_rows": [
+    {
+      "row_locator": "C:\\Users\\MEDHA TRUST\\Downloads\\Aiml\\Major project\\context-aware-nmt\\data\\raw\\indicdisco\\Indicdisco_MT\\Tel\\tel_indicdisco-mt_test.csv#row=0",
+      "source_language": "Telugu",
+      "target_language": "English",
+      "source_paragraph_field_present": true,
+      "source_paragraph_nonempty": true,
+      "source_paragraph_present": true,
+      "target_paragraph_field_present": true,
+      "target_paragraph_nonempty": true,
+      "target_paragraph_present": true,
+      "same_document_causal_context_available": false,
+      "previous_paragraph_context_available": false,
+      "provenance_status": "unverified",
+      "paragraph_pair_represented_directly_by_row": true,
+      "exclusion_reason": "local_source_not_verified_against_pinned_commit_in_bounded_mode"
+    }
+  ],
+  "parse_status": {
+    "trailing_partial_record": true,
+    "warning": "incomplete_trailing_csv_record: unexpected end of data"
+  },
+  "structural_capabilities": {
+    "explicit_sentence_ids_exist": false,
+    "explicit_document_ids_exist": false,
+    "parent_document_ids_exist": false,
+    "explicit_ordering_fields_exist": false,
+    "sentence_alignment_metadata_exists": false,
+    "paragraph_alignment_represented_directly_by_row": false,
+    "document_identity_available": false,
+    "ordering_available": false,
+    "sentence_alignment_available": false,
+    "context_available": false,
+    "same_document_causal_context_available": false,
+    "previous_paragraph_context_available": false,
+    "cross_row_context_available": false,
+    "within_paragraph_sentence_context_available": false
+  },
+  "metric_eligibility": {
+    "paragraph_bleu": {
+      "eligible": false,
+      "computed": false,
+      "eligible_rows": 0,
+      "reason": "no accepted paragraph pairs"
+    },
+    "paragraph_chrf++": {
+      "eligible": false,
+      "computed": false,
+      "eligible_rows": 0,
+      "reason": "no accepted paragraph pairs"
+    },
+    "sentence_bleu": {
+      "eligible": false,
+      "computed": false,
+      "eligible_rows": 0,
+      "reason": "no accepted paragraph pairs"
+    },
+    "sentence_chrf++": {
+      "eligible": false,
+      "computed": false,
+      "eligible_rows": 0,
+      "reason": "no accepted paragraph pairs"
+    },
+    "document_context_bleu": {
+      "eligible": false,
+      "computed": false,
+      "eligible_rows": 0,
+      "reason": "no accepted paragraph pairs"
+    },
+    "document_context_chrf++": {
+      "eligible": false,
+      "computed": false,
+      "eligible_rows": 0,
+      "reason": "no accepted paragraph pairs"
+    }
+  },
+  "provenance": {
+    "status": "unverified",
+    "row_locator_semantics": "record provenance only; never a document ID",
+    "unit_id": null
+  },
+  "rights_status": "unresolved",
+  "no_inference": true,
+  "no_metrics_computed": true
+}

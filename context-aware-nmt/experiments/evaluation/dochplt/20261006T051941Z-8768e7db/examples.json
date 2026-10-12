@@ -1,0 +1,1902 @@
+[
+  {
+    "example_index": 1,
+    "source_document_id": "http___astrosage.com_festival_navratri_navdurga-astrology.asp.xml",
+    "target_document_id": "http___astrosage.com_2015_rasiphalalu2015.asp_1.xml",
+    "context_sentence_ids": [
+      "12.1",
+      "13.1"
+    ],
+    "context_sentences": [
+      "- Chinese Horoscope 2015",
+      "- Lal Kitab Horoscope 2015"
+    ],
+    "current_source_sentence_id": "14.1",
+    "current_source_sentence": "- Tamil Horoscope 2015",
+    "target_sentence_id": "75.1",
+    "target_reference": "- Tamil Horoscope 2015",
+    "alignment_score": 0.7117879986763,
+    "baseline_hypothesis": "- తమిళ హార్సోస్కోప్ 2015",
+    "context_hypothesis": "సందర్భంః - చైనీస్ హార్సోస్కోప్ 2015 - లాల్ కితాబ్ హార్సోస్కోప్ 2015 ప్రస్తుత వాక్యంః - తమిళ హార్సోస్కోప్ 2015",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Tamil Horoscope 2015",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___astrosage.com_festival_navratri_navdurga-astrology.asp.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 2,
+    "source_document_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+    "target_document_id": "http___abstractextures.blogspot.com__1.xml",
+    "context_sentence_ids": [
+      "20.1",
+      "21.1"
+    ],
+    "context_sentences": [
+      "Writing about my experience is a gift.",
+      "Painting for all to see, is my gift."
+    ],
+    "current_source_sentence_id": "22.1",
+    "current_source_sentence": "Sharing my creation on my website is my gift.",
+    "target_sentence_id": "47.1",
+    "target_reference": "Wednesday, November 5, 2014",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+    "context_hypothesis": "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Wednesday, November 5, 2014",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 3,
+    "source_document_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+    "target_document_id": "http___abstractextures.blogspot.com__2.xml",
+    "context_sentence_ids": [
+      "20.1",
+      "21.1"
+    ],
+    "context_sentences": [
+      "Writing about my experience is a gift.",
+      "Painting for all to see, is my gift."
+    ],
+    "current_source_sentence_id": "22.1",
+    "current_source_sentence": "Sharing my creation on my website is my gift.",
+    "target_sentence_id": "47.1",
+    "target_reference": "Sharing my creation on my website is my gift.",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+    "context_hypothesis": "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Sharing my creation on my website is my gift.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 4,
+    "source_document_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+    "target_document_id": "http___abstractextures.blogspot.com__3.xml",
+    "context_sentence_ids": [
+      "20.1",
+      "21.1"
+    ],
+    "context_sentences": [
+      "Writing about my experience is a gift.",
+      "Painting for all to see, is my gift."
+    ],
+    "current_source_sentence_id": "22.1",
+    "current_source_sentence": "Sharing my creation on my website is my gift.",
+    "target_sentence_id": "47.1",
+    "target_reference": "Link to this article:",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "నా సృష్టిని నా వెబ్ సైట్ లో పంచుకోవడం నా బహుమతి.",
+    "context_hypothesis": "నా అనుభవం గురించి రాయడం ఒక బహుమతి. అందరి కోసం చిత్రలేఖనం చేయడం నా బహుమతి. ప్రస్తుత వాక్యంః నా సృష్టిని నా వెబ్సైట్లో పంచుకోవడం నా బహుమతి.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Link to this article:",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___abstractextures.blogspot.com_2012_04_getting-back-am-i-artist.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 5,
+    "source_document_id": "https___www.astrosage.com_festival_diwali_diwali-cards.asp.xml",
+    "target_document_id": "http___astrosage.com_telugu_rasi-phalalu_next-week_gemini-rasi-phalalu.asp_1.xml",
+    "context_sentence_ids": [
+      "22.1",
+      "23.1"
+    ],
+    "context_sentences": [
+      "- Love Horoscope 2022",
+      "- Finance Horoscope 2022"
+    ],
+    "current_source_sentence_id": "24.1",
+    "current_source_sentence": "- Education Horoscope 2022",
+    "target_sentence_id": "43.1",
+    "target_reference": "- Education Horoscope 2022",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "- విద్యా వృత్తాంతం 2022",
+    "context_hypothesis": "సందర్భంః - ప్రేమ రాశిచక్రం 2022 - ఆర్థిక రాశిచక్రం 2022 ప్రస్తుత వాక్యంః - విద్య రాశిచక్రం 2022",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Education Horoscope 2022",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "https___www.astrosage.com_festival_diwali_diwali-cards.asp.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 6,
+    "source_document_id": "http___agniveer.com_support-bangladeshi-hindus-agniveer_.xml",
+    "target_document_id": "http___agniveer.com_love-jihad-10-unknown-facts-telugu__1.xml",
+    "context_sentence_ids": [
+      "16.2",
+      "16.3"
+    ],
+    "context_sentences": [
+      "We only refer to interpretations made by fanatics and terrorists to justify their kill and rape.",
+      "We highly respect the original Quran, Hadiths and their creators."
+    ],
+    "current_source_sentence_id": "16.4",
+    "current_source_sentence": "We also respect Muslim heroes like APJ Abdul Kalam who are our role models.",
+    "target_sentence_id": "55.4",
+    "target_reference": "We also respect Muslim heroes like APJ Abdul Kalam who are our role models.",
+    "alignment_score": 0.8252490162849426,
+    "baseline_hypothesis": "మన ఆదర్శంగా ఉన్న ఎపిజె అబ్దుల్ కలాం వంటి ముస్లిం హీరోల ను కూడా మేము గౌరవిస్తాము.",
+    "context_hypothesis": "సందర్భంః మేము కేవలం ఉగ్రవాదులు మరియు ఉగ్రవాదులు వారి హత్య మరియు అత్యాచారాలను సమర్థించేందుకు చేసిన వ్యాఖ్యానాలకు మాత్రమే ప్రస్తావిస్తాము. మేము అసలు ఖురాన్, హదీసులు మరియు వాటి సృష్టికర్తలను ఎంతో గౌరవిస్తాము. ప్రస్తుత వాక్యంః మేము మా రోల్ మోడల్ అయిన APJ అబ్దుల్ కలాం వంటి ముస్లిం హీరోలను కూడా గౌరవిస్తాము.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "We also respect Muslim heroes like APJ Abdul Kalam who are our role models.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___agniveer.com_support-bangladeshi-hindus-agniveer_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 7,
+    "source_document_id": "http___www.astrosage.com_calculators__1.xml",
+    "target_document_id": "http___astrosage.com_2013_telugu_rasi-phalalu-2013-telugu-horoscope-2013.asp_1.xml",
+    "context_sentence_ids": [
+      "26.1",
+      "27.1"
+    ],
+    "context_sentences": [
+      "- तिथि को लेकर न हों कनफ्यूज़- इस दिन से शुरू है पितृ पक्ष-नोट कर लें श्राद्ध की सही विधि!",
+      "- एस्ट्रोसेज कुंडली लाइव : असल ज्योतिष और असली ज्योतिषी"
+    ],
+    "current_source_sentence_id": "28.1",
+    "current_source_sentence": "- कन्या में गोचर कर सूर्य अन्य ग्रहों के साथ बनाएंगे कई बड़े योग, पढ़ें सूर्य के कन्या में गोचर का प्रभाव !",
+    "target_sentence_id": "40.1",
+    "target_reference": "- Sarvartha Siddhi Yoga 2015 Muhurat",
+    "alignment_score": 0.8176119923591614,
+    "baseline_hypothesis": "- కన్యలో గోచరిస్తే సూర్యుడు ఇతర గ్రహాలతో కలిసి అనేక పెద్ద యోగాలు చేస్తారు, సూర్యుడి కన్యలో గోచరిస్తే ప్రభావం ఎలా ఉంటుందో చదవండి!",
+    "context_hypothesis": "సందర్భంః - తేదీని తీసుకోకండి కన్ఫ్యూజ్ - ఈ రోజు నుండి ప్రారంభమవుతుంది పితృ పక్ష- గమనిక తీసుకోండి శ్రాద్ధ యొక్క సరైన పద్ధతి! - జ్యోతిషశాస్త్రం కుండలీ లైవ్ః నిజమైన జ్యోతిష్ మరియు నిజమైన జ్యోతిష్ ప్రస్తుత విచారణః - కన్య లో గోచరిస్తూ సూర్యుడు ఇతర గ్రహాలతో కలిసి అనేక పెద్ద యోగాలు చేస్తారు, సూర్యుడు కన్య లో గోచరిస్తూ ప్రభావం చదవండి !",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Sarvartha Siddhi Yoga 2015 Muhurat",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___www.astrosage.com_calculators__1.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 8,
+    "source_document_id": "http___agniveer.com_elements-social-subversion-part-1-subversion-demoralization__1.xml",
+    "target_document_id": "http___agniveer.com_must-know-facts-about-vedas-tel__1.xml",
+    "context_sentence_ids": [
+      "15.1",
+      "16.1"
+    ],
+    "context_sentences": [
+      "Facebook Comments",
+      "Liked the post?"
+    ],
+    "current_source_sentence_id": "16.2",
+    "current_source_sentence": "Make a contribution and help bring change.",
+    "target_sentence_id": "23.2",
+    "target_reference": "Make a contribution and help bring change.",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "ఒక సహకారం అందించండి మరియు మార్పు తీసుకురావడానికి సహాయం చేయండి.",
+    "context_hypothesis": "సాహిత్యంః ఫేస్బుక్ వ్యాఖ్యలు పోస్ట్ను ఇష్టపడ్డారు?",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Make a contribution and help bring change.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___agniveer.com_elements-social-subversion-part-1-subversion-demoralization__1.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 9,
+    "source_document_id": "http___bhimalapuram.co.in_freesoft_livecds_readme.html.xml",
+    "target_document_id": "http___bhimalapuram.co.in_freesoft_livecds_livetelu.html_1.xml",
+    "context_sentence_ids": [
+      "10.3",
+      "11.1"
+    ],
+    "context_sentences": [
+      "So there is no need to worry about installing additional packages subsequently.",
+      "- Puppy Linux-Older Version 4.1retro-series"
+    ],
+    "current_source_sentence_id": "12.1",
+    "current_source_sentence": "- Puppy Linux-New Version 5.2 series",
+    "target_sentence_id": "10.1",
+    "target_reference": "- Puppy Linux-New Version 5.2 series",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "- కుక్కపిల్ల లైనక్స్-న్యూ వెర్షన్ 5.2 సిరీస్",
+    "context_hypothesis": "CONTEXT: కాబట్టి తరువాత అదనపు ప్యాకేజీలను ఇన్స్టాల్ చేయాలనే ఆందోళన అవసరం లేదు. - Puppy Linux-Older Version 4.1retro-series CURRENT SENTENCE: - Puppy Linux-New Version 5.2 series",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Puppy Linux-New Version 5.2 series",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___bhimalapuram.co.in_freesoft_livecds_readme.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 10,
+    "source_document_id": "https___www.astrosage.com_horoscope_sagittarius-libra-compatibility.asp.xml",
+    "target_document_id": "http___astrosage.com_telugu_rasi-phalalu__1.xml",
+    "context_sentence_ids": [
+      "15.1",
+      "16.1"
+    ],
+    "context_sentences": [
+      "Lucky Day: Wednesday and Friday...",
+      "» Sagittarius Compatibility"
+    ],
+    "current_source_sentence_id": "17.1",
+    "current_source_sentence": "Astrological services for accurate answers and better feature",
+    "target_sentence_id": "22.1",
+    "target_reference": "Astrological services for accurate answers and better feature",
+    "alignment_score": 0.7640140056610107,
+    "baseline_hypothesis": "ఖచ్చితమైన సమాధానాలు మరియు మెరుగైన లక్షణాల కోసం జ్యోతిషశాస్త్ర సేవలు",
+    "context_hypothesis": "సందర్భంః అదృష్ట దినంః బుధవారం మరియు శుక్రవారం. . .  Sagittarius అనుకూలత ప్రస్తుత వాక్యం: ఖచ్చితమైన సమాధానాలు మరియు మెరుగైన లక్షణం కోసం ఖగోళ సేవలు",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Astrological services for accurate answers and better feature",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "https___www.astrosage.com_horoscope_sagittarius-libra-compatibility.asp.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 11,
+    "source_document_id": "http___www.astrosage.com_2017_scorpio-horoscope-2017.asp_2.xml",
+    "target_document_id": "http___astrosage.com_2017_rasiphalalu2017.asp_1.xml",
+    "context_sentence_ids": [
+      "31.1",
+      "33.1"
+    ],
+    "context_sentences": [
+      "- Negative side: You need to save yourself from bad addictions.",
+      "- Auspicious color(s): Red, Yellow, Orange, and White"
+    ],
+    "current_source_sentence_id": "34.1",
+    "current_source_sentence": "- Auspicious direction: North",
+    "target_sentence_id": "69.1",
+    "target_reference": "- Chinese Horoscope 2017",
+    "alignment_score": 0.7766929864883423,
+    "baseline_hypothesis": "- మంచి దిశః ఉత్తర",
+    "context_hypothesis": "సందర్భంః - ప్రతికూల వైపుః మీరు చెడు వ్యసనాలకు దూరంగా ఉండాలి. - అనుకూలమైన రంగులు: ఎరుపు, పసుపు, నారింజ మరియు తెలుపు ప్రస్తుత వాక్యంః - అనుకూలమైన దిశః ఉత్తర",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Chinese Horoscope 2017",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___www.astrosage.com_2017_scorpio-horoscope-2017.asp_2.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 12,
+    "source_document_id": "http___blog.epapercatalog.com_2014_01_danish-woman-gang-raped-for-3-hours-in.html.xml",
+    "target_document_id": "http___blog.epapercatalog.com_2014_10_blog-post_95.html_1.xml",
+    "context_sentence_ids": [
+      "5.1",
+      "6.1"
+    ],
+    "context_sentences": [
+      "To read full story, please visit Times Of India ePaper",
+      "To read full story, please visit Times Of India ePaper"
+    ],
+    "current_source_sentence_id": "7.1",
+    "current_source_sentence": "Subscribe to: Post Comments (Atom)",
+    "target_sentence_id": "7.1",
+    "target_reference": "Subscribe to: Post Comments (Atom)",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "Subscribe to: పోస్ట్ వ్యాఖ్యలు (అటమ్)",
+    "context_hypothesis": "CONTEXT: పూర్తి కథనాన్ని చదవడానికి దయచేసి టైమ్స్ ఆఫ్ ఇండియా ఇ-పేపర్ను సందర్శించండి పూర్తి కథనాన్ని చదవడానికి దయచేసి టైమ్స్ ఆఫ్ ఇండియా ఇ-పేపర్ ప్రస్తుత వాక్యాన్ని సందర్శించండిః Subscribe to: Post Comments (Atom)",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Subscribe to: Post Comments (Atom)",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___blog.epapercatalog.com_2014_01_danish-woman-gang-raped-for-3-hours-in.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 13,
+    "source_document_id": "http___astrosage.com_psychic_.xml",
+    "target_document_id": "http___astrosage.com_2015_rasiphalalu2015.asp_1.xml",
+    "context_sentence_ids": [
+      "19.1",
+      "20.1"
+    ],
+    "context_sentences": [
+      "- Urdu Horoscope 2015",
+      "- Malayalam Jathakam 2015"
+    ],
+    "current_source_sentence_id": "21.1",
+    "current_source_sentence": "- Bengali Horoscope 2015",
+    "target_sentence_id": "82.1",
+    "target_reference": "- Bengali Horoscope 2015",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "- బెంగాల్ ఖగోళం 2015",
+    "context_hypothesis": "సందర్భంః - ఉర్దూ హార్స్కోప్ 2015 - మలయాళం జఠామ్ 2015 ప్రస్తుత వాక్యంః - బెంగాల్ హార్స్కోప్ 2015",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Bengali Horoscope 2015",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___astrosage.com_psychic_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 14,
+    "source_document_id": "http___balagopal.org__cat_8_2.xml",
+    "target_document_id": "http___balagopal.org__m_201210_1.xml",
+    "context_sentence_ids": [
+      "74.1",
+      "75.1"
+    ],
+    "context_sentences": [
+      "Place: Sundarayya Vignana Kendram, Bagh Lingampally, Hyd.",
+      "A Chandrasekhar, HRF EC member will welcome the gathering."
+    ],
+    "current_source_sentence_id": "76.1",
+    "current_source_sentence": "HRF president S Jeevan Kumar will preside over the meet.",
+    "target_sentence_id": "71.1",
+    "target_reference": "We warmly invite you and friends to be with us on the day.",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "ఈ సమావేశానికి ఎచ్ఆర్ఎఫ్ అధ్యక్షుడు ఎస్.జీవన్ కుమార్ అధ్యక్షత వహించనున్నారు.",
+    "context_hypothesis": "సందర్భం: స్థానంః సుందరయ విజ్ఞాన కేంద్రాం, బాగ్ లింగంపల్లి, హైదరాబాద్. ఈ సమావేశాన్ని ఒక చంద్రశేఖర్, హెచ్ఆర్ఎఫ్ కమిషన్ సభ్యుడు స్వాగతించనున్నారు.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "We warmly invite you and friends to be with us on the day.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___balagopal.org__cat_8_2.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 15,
+    "source_document_id": "http___insightdesigns.co.uk_Privacy-Policy.htm.xml",
+    "target_document_id": "http___architectureideas.info_privacy-policy__lang_te_1.xml",
+    "context_sentence_ids": [
+      "8.1",
+      "8.2"
+    ],
+    "context_sentences": [
+      "As with most other websites, we collect and use the data contained in log files.",
+      "The information in the log files include your IP (internet protocol) address, your ISP (internet service provider, such as AOL or Shaw Cable), the browser you used to visit our site (such as Internet Explorer or Firefox), the time you visited our site and which pages you visited throughout our site."
+    ],
+    "current_source_sentence_id": "9.1",
+    "current_source_sentence": "Cookies and Web Beacons",
+    "target_sentence_id": "4.1",
+    "target_reference": "కుకీలు మరియు వెబ్ బీకాన్స్:",
+    "alignment_score": 0.7766929864883423,
+    "baseline_hypothesis": "కుకీలు మరియు వెబ్ బేకర్లు",
+    "context_hypothesis": "CONTEXT: ఇతర వెబ్సైట్లలో మాదిరిగానే, లాగ్ ఫైళ్ళలో ఉన్న డేటాను మేము సేకరిస్తాము మరియు ఉపయోగిస్తాము. లాగ్ ఫైళ్ళలో మీ IP (ఇంటర్నెట్ ప్రోటోకాల్), మీ ISP (AOL లేదా Shaw Cable వంటి ఇంటర్నెట్ సర్వీస్ ప్రొవైడర్), మీరు మా సైట్ను సందర్శించడానికి ఉపయోగించిన బ్రౌజర్ (ఇంటర్నెట్ ఎక్స్ప్లోరర్ లేదా ఫైర్ఫాక్స్ వంటివి), మీరు మా సైట్ను సందర్శించిన సమయం మరియు మీరు మా సైట్ అంతటా సందర్శించిన పేజీలు ఉన్నాయి.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "కుకీలు మరియు వెబ్ బీకాన్స్:",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___insightdesigns.co.uk_Privacy-Policy.htm.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 16,
+    "source_document_id": "http___blogs.tallysolutions.com_gu_goods-returned-after-gst_.xml",
+    "target_document_id": "http___blogs.tallysolutions.com_te_gst-tax-refund-claim__1.xml",
+    "context_sentence_ids": [
+      "177.1",
+      "178.1"
+    ],
+    "context_sentences": [
+      "what will happen when GST implemented",
+      "- Tally Solutions April 5, 2017 at 12:26 pm"
+    ],
+    "current_source_sentence_id": "179.1",
+    "current_source_sentence": "We suggest you to refer our blog http://blogs.tallysolutions.com/gst-transition-registered-businesses/",
+    "target_sentence_id": "82.1",
+    "target_reference": "We suggest you to refer our blog http://blogs.tallysolutions.com/gst-invoicing/",
+    "alignment_score": 0.8271700143814087,
+    "baseline_hypothesis": "మీరు మా బ్లాగును http://blogs. tallysolutions. com/gst-transition-registered-businesses/ కు సూచించాలని మేము సూచిస్తున్నాము.",
+    "context_hypothesis": "సందర్భంః జిఎస్టి అమలు అయినప్పుడు ఏమి జరుగుతుంది - టాలీ సొల్యూషన్స్ ఏప్రిల్ 5, 2017 at 12:26 pm ప్రస్తుత తీర్పుః మా బ్లాగును http://blogs.tallysolutions.com/gst-transition-registered-businesses/ కు సూచించాలని మేము సూచిస్తున్నాము",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "We suggest you to refer our blog http://blogs.tallysolutions.com/gst-invoicing/",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___blogs.tallysolutions.com_gu_goods-returned-after-gst_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 17,
+    "source_document_id": "http___article.wn.com_view_2015_03_17_NPP_To_State_Its_Official_Position_On_Woyome_Case_Today_.xml",
+    "target_document_id": "http___article.wn.com_view_WNAT71fe03199321e9fccf4e3f3a7f9e304f__1.xml",
+    "context_sentence_ids": [
+      "12.3",
+      "12.4"
+    ],
+    "context_sentences": [
+      "The former...",
+      "Peace FM Online 2015-03-13"
+    ],
+    "current_source_sentence_id": "13.1",
+    "current_source_sentence": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+    "target_sentence_id": "15.1",
+    "target_reference": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+    "alignment_score": 0.737263023853302,
+    "baseline_hypothesis": "కంప్యూటర్ ఆధారిత టెక్స్ట్ ప్రాసెసింగ్ మరియు డిజిటల్ టైప్ సెట్టింగ్లో, ఒక రద్దు చేయని స్థలం, రద్దు చేయని స్థలం లేదా రద్దు చేయలేని స్థలం (NBSP) అనేది స్థలం అక్షరం యొక్క ఒక వేరియంట్, ఇది దాని స్థానంలో ఆటోమేటిక్ లైన్ బ్రేక్ (లైన్ ప్యాక్) ని నిరోధిస్తుంది.",
+    "context_hypothesis": "CONTEXT: The former... Peace FM Online 2015-03-13 CURRENT SENTENCE: కంప్యూటర్ ఆధారిత టెక్స్ట్ ప్రాసెసింగ్ మరియు డిజిటల్ టైప్ సెట్టింగ్లో, విచ్ఛిన్నం కాని స్థలం, విచ్ఛిన్నం కాని స్థలం లేదా విచ్ఛిన్నం కాని స్థలం (NBSP) అనేది స్థలం అక్షరం యొక్క వేరియంట్, ఇది దాని స్థానంలో ఆటోమేటిక్ లైన్ విచ్ఛిన్నం (లైన్ ప్యాక్) నిరోధిస్తుంది.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___article.wn.com_view_2015_03_17_NPP_To_State_Its_Official_Position_On_Woyome_Case_Today_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 18,
+    "source_document_id": "http___www.astrosage.com_hindi__1.xml",
+    "target_document_id": "http___astrosage.com_2015_rasiphalalu2015.asp_1.xml",
+    "context_sentence_ids": [
+      "30.1",
+      "31.1"
+    ],
+    "context_sentences": [
+      "- Vidyarambh Muhurat 2015",
+      "- Karnvedh Sanskar Ceremony Muhurat 2015"
+    ],
+    "current_source_sentence_id": "32.1",
+    "current_source_sentence": "- House Warming Ceremony - Griha Pravesh Muhurat 2015",
+    "target_sentence_id": "91.1",
+    "target_reference": "- House Warming Ceremony - Griha Pravesh Muhurat 2015",
+    "alignment_score": 0.8822069764137268,
+    "baseline_hypothesis": "- హౌస్ వేడి వేడుక - గ్రీహా ప్రవేష్ ముహూర్త్ 2015",
+    "context_hypothesis": "సందర్భంః - విద్యారమ్భ్ ముహూర్తం 2015 - కర్ణవేద సంస్కర్ వేడుక ముహూర్తం 2015 ప్రస్తుత శిక్షః - హౌస్ వార్మింగ్ వేడుక - గ్రీహా ప్రవేష్ ముహూర్తం 2015",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- House Warming Ceremony - Griha Pravesh Muhurat 2015",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___www.astrosage.com_hindi__1.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 19,
+    "source_document_id": "http___agniveer.com_hidden-hate-exposed-open-challenge-islam-means-peace-brigade__1.xml",
+    "target_document_id": "http___agniveer.com_prophet-puran-telugu__1.xml",
+    "context_sentence_ids": [
+      "17.1",
+      "18.1"
+    ],
+    "context_sentences": [
+      "Indians should prepare for a war within too in near future.",
+      "Mark my words."
+    ],
+    "current_source_sentence_id": "19.1",
+    "current_source_sentence": "Facebook Comments",
+    "target_sentence_id": "39.1",
+    "target_reference": "Facebook Comments",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "ఫేస్బుక్ వ్యాఖ్యలు",
+    "context_hypothesis": "ఈ సందర్భంగా. . . భారతీయులు సమీప భవిష్యత్తులో అంతర్యుద్ధానికి సిద్ధమవుతారు.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Facebook Comments",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___agniveer.com_hidden-hate-exposed-open-challenge-islam-means-peace-brigade__1.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 20,
+    "source_document_id": "http___www.astrosage.com_numerology_namecompatibility.asp_2.xml",
+    "target_document_id": "http___astrosage.com_2015_rasiphalalu2015.asp_1.xml",
+    "context_sentence_ids": [
+      "7.1",
+      "8.1"
+    ],
+    "context_sentences": [
+      "- Horoscope 2015",
+      "- Astrology 2015"
+    ],
+    "current_source_sentence_id": "9.1",
+    "current_source_sentence": "- Rashifal 2015 (Roman)",
+    "target_sentence_id": "70.1",
+    "target_reference": "- Rashifal 2015 (Roman)",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "- రషీఫాల్ 2015 (రోమన్)",
+    "context_hypothesis": "సందర్భంః - ఖగోళశాస్త్రం 2015 - ఖగోళశాస్త్రం 2015 ప్రస్తుత వాక్యంః - రాశిఫలం 2015 (రోమన్)",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Rashifal 2015 (Roman)",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___www.astrosage.com_numerology_namecompatibility.asp_2.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 21,
+    "source_document_id": "http___agniveer.com_10-sharp-differences-rohingya-muslims-pak-hindus_.xml",
+    "target_document_id": "http___agniveer.com_no-beef-vedas-telugu__1.xml",
+    "context_sentence_ids": [
+      "19.3",
+      "19.4"
+    ],
+    "context_sentences": [
+      "We highly respect the original Quran, Hadiths and their creators.",
+      "We also respect Muslim heroes like APJ Abdul Kalam who are our role models."
+    ],
+    "current_source_sentence_id": "19.5",
+    "current_source_sentence": "Our fight is against those who misinterpret them and malign Islam by associating it with terrorism.",
+    "target_sentence_id": "24.5",
+    "target_reference": "Our fight is against those who misinterpret them and malign Islam by associating it with terrorism.",
+    "alignment_score": 0.9075220227241516,
+    "baseline_hypothesis": "ఇస్లాం ను ఉగ్రవాదంతో అనుసంధానించడం ద్వారా దాన్ని తప్పుగా అర్థం చేసుకునే వారిపై మన పోరాటం ఉంది.",
+    "context_hypothesis": "సందర్భంః మేము అసలు ఖురాన్, హదీసులు మరియు వాటి సృష్టికర్తలను ఎంతో గౌరవిస్తాము. మేము మా రోల్ మోడల్ అయిన ఎపిజె అబ్దుల్ కలాం వంటి ముస్లిం హీరోలను కూడా గౌరవిస్తాము. ప్రస్తుత తీర్పుః వాటిని తప్పుగా అర్థం చేసుకునేవారికి వ్యతిరేకంగా మా పోరాటం మరియు దానిని ఉగ్రవాదంతో అనుసంధానించడం ద్వారా ఇస్లాంను అపవిత్రం చేసే వారికి వ్యతిరేకంగా మా పోరాటం.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Our fight is against those who misinterpret them and malign Islam by associating it with terrorism.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___agniveer.com_10-sharp-differences-rohingya-muslims-pak-hindus_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 22,
+    "source_document_id": "http___agniveer.com_laughably-hollow-concept-javeds-literacy-comment-sehwag_.xml",
+    "target_document_id": "http___agniveer.com_no-beef-vedas-telugu__1.xml",
+    "context_sentence_ids": [
+      "32.2",
+      "33.1"
+    ],
+    "context_sentences": [
+      "Make a contribution and help bring change.",
+      "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings."
+    ],
+    "current_source_sentence_id": "33.2",
+    "current_source_sentence": "We only refer to interpretations made by fanatics and terrorists to justify their kill and rape.",
+    "target_sentence_id": "24.2",
+    "target_reference": "We only refer to interpretations made by fanatics and terrorists to justify their kill and rape.",
+    "alignment_score": 0.9074850082397461,
+    "baseline_hypothesis": "మేము కేవలం వారి హత్యలు మరియు అత్యాచారాలను సమర్థించేందుకు అభిమానులు మరియు తీవ్రవాదులు చేసిన వ్యాఖ్యానాలకు మాత్రమే ప్రస్తావిస్తున్నాము.",
+    "context_hypothesis": "సందర్భంః ఒక సహకారం చేయండి మరియు మార్పు తీసుకురావడానికి సహాయం చేయండి. నిరాకరణః ఖురాన్ మరియు హదీసుల ద్వారా, మేము వాటి అసలు అర్థాలను సూచించము. ప్రస్తుత వాక్యంః మేము వారి హత్య మరియు అత్యాచారాలను సమర్థించడానికి ఫానిక్లు మరియు తీవ్రవాదులచే చేసిన వ్యాఖ్యానాలకు మాత్రమే ప్రస్తావిస్తాము.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "We only refer to interpretations made by fanatics and terrorists to justify their kill and rape.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___agniveer.com_laughably-hollow-concept-javeds-literacy-comment-sehwag_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 23,
+    "source_document_id": "http___chiru.in_2009_04_08_chiranjeevi-pleads-with-rebels_.xml",
+    "target_document_id": "http___chiru.in_2009_04_04_chiru-entered-politics-for-money-only-2__1.xml",
+    "context_sentence_ids": [
+      "8.1",
+      "9.1"
+    ],
+    "context_sentences": [
+      "Click Here For PRP Released Third Candidates List",
+      "Click Here For PRP Released Fourth Candidates List"
+    ],
+    "current_source_sentence_id": "10.1",
+    "current_source_sentence": "Click Here For PRP Released Fifth Candidates List",
+    "target_sentence_id": "6.1",
+    "target_reference": "Click Here For PRP Released Fifth Candidates List",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "PRP విడుదల చేసిన ఐదవ అభ్యర్థుల జాబితా కోసం ఇక్కడ క్లిక్ చేయండి",
+    "context_hypothesis": "సందర్భంః PRP విడుదలైన మూడవ అభ్యర్థుల జాబితా కోసం ఇక్కడ క్లిక్ చేయండి PRP విడుదలైన నాల్గవ అభ్యర్థుల జాబితా ప్రస్తుత వాక్యంః PRP విడుదలైన ఐదవ అభ్యర్థుల జాబితా కోసం ఇక్కడ క్లిక్ చేయండి",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Click Here For PRP Released Fifth Candidates List",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___chiru.in_2009_04_08_chiranjeevi-pleads-with-rebels_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 24,
+    "source_document_id": "http___astrosage.com_acupressure_.xml",
+    "target_document_id": "http___astrosage.com_2015_rasiphalalu2015.asp_1.xml",
+    "context_sentence_ids": [
+      "25.1",
+      "26.1"
+    ],
+    "context_sentences": [
+      "- Pushya Amrit Yoga 2015",
+      "- Amrit Siddhi Yoga in 2015"
+    ],
+    "current_source_sentence_id": "27.1",
+    "current_source_sentence": "- Sarvartha Siddhi Yoga 2015 Muhurat",
+    "target_sentence_id": "88.1",
+    "target_reference": "- Sarvartha Siddhi Yoga 2015 Muhurat",
+    "alignment_score": 0.8176119923591614,
+    "baseline_hypothesis": "- సర్వార్థ సిద్ధి యోగా 2015 ముహూర్తం",
+    "context_hypothesis": "సందర్భంః - పుశ్య అమృత్ యోగా 2015 - అమృత్ సిద్ధి యోగా 2015 ప్రస్తుత శిక్షః - సర్వార్థ సిద్ధి యోగా 2015 ముహూర్త్",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Sarvartha Siddhi Yoga 2015 Muhurat",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___astrosage.com_acupressure_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 25,
+    "source_document_id": "http___astrosage.com_acupressure_.xml",
+    "target_document_id": "http___astrosage.com_2015_rasiphalalu2015.asp_1.xml",
+    "context_sentence_ids": [
+      "26.1",
+      "27.1"
+    ],
+    "context_sentences": [
+      "- Amrit Siddhi Yoga in 2015",
+      "- Sarvartha Siddhi Yoga 2015 Muhurat"
+    ],
+    "current_source_sentence_id": "28.1",
+    "current_source_sentence": "- Vidyarambh Muhurat 2015",
+    "target_sentence_id": "89.1",
+    "target_reference": "- Vidyarambh Muhurat 2015",
+    "alignment_score": 0.7766929864883423,
+    "baseline_hypothesis": "- విద్యారమ్భ్ ముహూర్త్ 2015",
+    "context_hypothesis": "సందర్భంః - 2015 లో అమృత్ సిద్ధి యోగ - సర్వార్థ సిద్ధి యోగ 2015 ముహూర్త్ ప్రస్తుత శిక్షః - విద్యారమ్భ్ ముహూర్త్ 2015",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Vidyarambh Muhurat 2015",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___astrosage.com_acupressure_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 26,
+    "source_document_id": "http___agniveer.com_only-for-those-who-believe-in-eeshwar__1.xml",
+    "target_document_id": "http___agniveer.com_no-beef-vedas-telugu__1.xml",
+    "context_sentence_ids": [
+      "13.1",
+      "14.1"
+    ],
+    "context_sentences": [
+      "Facebook Comments",
+      "Liked the post?"
+    ],
+    "current_source_sentence_id": "14.2",
+    "current_source_sentence": "Make a contribution and help bring change.",
+    "target_sentence_id": "23.2",
+    "target_reference": "Make a contribution and help bring change.",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "ఒక సహకారం అందించండి మరియు మార్పు తీసుకురావడానికి సహాయం చేయండి.",
+    "context_hypothesis": "సాహిత్యంః ఫేస్బుక్ వ్యాఖ్యలు పోస్ట్ను ఇష్టపడ్డారు?",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Make a contribution and help bring change.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___agniveer.com_only-for-those-who-believe-in-eeshwar__1.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 27,
+    "source_document_id": "http___article.wn.com_view_WNAT32033649bb05dbe8ef5ece0e547e4b50_.xml",
+    "target_document_id": "http___article.wn.com_view_WNAT5b1e9715620ff27fd05d0497beb6cf5b__1.xml",
+    "context_sentence_ids": [
+      "1.1",
+      "1.2"
+    ],
+    "context_sentences": [
+      "وړاندې د امریکا د ننه د ګوانتانامو زندان پر خلاف مظاهرې شوې وې.",
+      "د ګوانتانامو زندان د بندیانو د دوسیو څېړلو پلاوي ویلي، له القاعدې شبکې او اسامه بن لادن سره د همکارۍ په تور نیول شوی یو بندي محمود مجاهد تر پلټنو وروسته اوس د امریکا لپاره ګواښ نه دی او شاید خوشی یا له دې زندانه ولېږدول شي."
+    ],
+    "current_source_sentence_id": "2.1",
+    "current_source_sentence": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+    "target_sentence_id": "12.1",
+    "target_reference": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+    "alignment_score": 0.737263023853302,
+    "baseline_hypothesis": "కంప్యూటర్ ఆధారిత టెక్స్ట్ ప్రాసెసింగ్ మరియు డిజిటల్ టైప్ సెట్టింగ్లో, ఒక రద్దు చేయని స్థలం, రద్దు చేయని స్థలం లేదా రద్దు చేయలేని స్థలం (NBSP) అనేది స్థలం అక్షరం యొక్క ఒక వేరియంట్, ఇది దాని స్థానంలో ఆటోమేటిక్ లైన్ బ్రేక్ (లైన్ ప్యాక్) ని నిరోధిస్తుంది.",
+    "context_hypothesis": "CONTEXT: పూర్వం అమెరికా డి నేన్ డి గ్వాలతనామో జైలు పై వ్యతిరేక ప్రదర్శనలు జరిగాయి. కరెంట్ సెంటెన్స్ః కంప్యూటర్ ఆధారిత టెక్స్ట్ ప్రాసెసింగ్ మరియు డిజిటల్ టైప్సెటింగ్లో, బ్రేకింగ్ స్పేస్, బ్రేకింగ్ స్పేస్ లేదా బ్రేక్ చేయలేని స్పేస్ (NBSP) అనేది దాని స్థానంలో ఆటోమేటిక్ లైన్ బ్రేక్ (లైన్ మూసివేయడం) నిరోధించే స్పేస్ పాత్ర యొక్క వైవిధ్యం.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___article.wn.com_view_WNAT32033649bb05dbe8ef5ece0e547e4b50_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 28,
+    "source_document_id": "http___classifiedsviral.com_for-sale_home-furniture-garden-supplies_magical-towel-cleans-with-only-water_i71553.xml",
+    "target_document_id": "http___classifiedsviral.com_for-sale_books-magazines_janavamsham-telugu-poetry-by-gunturu-seshendra-sharma_i49150_1.xml",
+    "context_sentence_ids": [
+      "11.1",
+      "11.2"
+    ],
+    "context_sentences": [
+      "- Don't buy or sell outside of your country.",
+      "Don't accept cashier cheques from outside your country"
+    ],
+    "current_source_sentence_id": "12.1",
+    "current_source_sentence": "- This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\"",
+    "target_sentence_id": "61.1",
+    "target_reference": "- This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\"",
+    "alignment_score": 0.8432739973068237,
+    "baseline_hypothesis": "- ఈ సైట్ ఏ లావాదేవీలోనూ పాల్గొనదు, చెల్లింపులు, షిప్పింగ్, హామీ లావాదేవీలు, ఎస్క్రో సేవలు అందించడం లేదా \"కొనుగోలుదారు రక్షణ\" లేదా \"అమ్మకర్త ధృవీకరణ\" అందించడం లేదు",
+    "context_hypothesis": "CONTEXT: - మీ దేశం వెలుపల కొనుగోలు లేదా అమ్మకం చేయవద్దు. మీ దేశం వెలుపల నుండి క్యాషియర్ చెక్కులను అంగీకరించవద్దు ప్రస్తుత తీర్పుః - ఈ సైట్ ఎటువంటి లావాదేవీలో పాల్గొనదు, మరియు చెల్లింపులు, షిప్పింగ్, హామీ లావాదేవీలు, ఎస్కోర్ సేవలను అందించడం లేదా \"కొనుగోలుదారు రక్షణ\" లేదా \"అమ్మకారి ధృవీకరణ\" అందించడం లేదు",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\"",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___classifiedsviral.com_for-sale_home-furniture-garden-supplies_magical-towel-cleans-with-only-water_i71553.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 29,
+    "source_document_id": "http___abstractextures.blogspot.ru_2012_04_getting-back-am-i-artist.html.xml",
+    "target_document_id": "http___abstractextures.blogspot.in__1.xml",
+    "context_sentence_ids": [
+      "24.4",
+      "25.1"
+    ],
+    "context_sentences": [
+      "And after that.",
+      "What about you?"
+    ],
+    "current_source_sentence_id": "25.2",
+    "current_source_sentence": "Are you a winner today?",
+    "target_sentence_id": "90.2",
+    "target_reference": "Are you a winner today?",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "మీరు నేడు ఒక విజేత?",
+    "context_hypothesis": "ఈ రోజు మీరు గెలిచారా?",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Are you a winner today?",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___abstractextures.blogspot.ru_2012_04_getting-back-am-i-artist.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 30,
+    "source_document_id": "http___astrosage.com_planet_.xml",
+    "target_document_id": "http___astrosage.com_2013_telugu_rasi-phalalu-2013-telugu-horoscope-2013.asp_1.xml",
+    "context_sentence_ids": [
+      "19.1",
+      "20.1"
+    ],
+    "context_sentences": [
+      "- Urdu Horoscope 2015",
+      "- Malayalam Jathakam 2015"
+    ],
+    "current_source_sentence_id": "21.1",
+    "current_source_sentence": "- Bengali Horoscope 2015",
+    "target_sentence_id": "34.1",
+    "target_reference": "- Bengali Horoscope 2015",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "- బెంగాల్ ఖగోళం 2015",
+    "context_hypothesis": "సందర్భంః - ఉర్దూ హార్స్కోప్ 2015 - మలయాళం జఠామ్ 2015 ప్రస్తుత వాక్యంః - బెంగాల్ హార్స్కోప్ 2015",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Bengali Horoscope 2015",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___astrosage.com_planet_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 31,
+    "source_document_id": "http___article.wn.com_view_2010_12_24_Regimentation_of_Palestinian_society_.xml",
+    "target_document_id": "http___article.wn.com_view_WNAT1f7ef6b88130b9600fd2165058a9e139__1.xml",
+    "context_sentence_ids": [
+      "4.1",
+      "4.2"
+    ],
+    "context_sentences": [
+      "In computer-based text processing and digital typesetting, a non-breaking space, no-break space or non-breakable space (NBSP) is a variant of the space character that prevents an automatic line break (line wrap) at its position.",
+      "In certain formats (such as HTML), it also prevents the “collapsing” of multiple consecutive whitespace characters into a single space."
+    ],
+    "current_source_sentence_id": "4.3",
+    "current_source_sentence": "The non-breaking space is also known as a hard space or fixed space.",
+    "target_sentence_id": "12.3",
+    "target_reference": "The non-breaking space is also known as a hard space or fixed space.",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "విచ్ఛిన్నం కాని స్థలం కూడా హార్డ్ స్పేస్ లేదా స్థిర స్థలం అని పిలుస్తారు.",
+    "context_hypothesis": "CONTEXT: కంప్యూటర్ ఆధారిత టెక్స్ట్ ప్రాసెసింగ్ మరియు డిజిటల్ టైప్సెట్టింగ్లో, విచ్ఛిన్నం కాని స్థలం, విచ్ఛిన్నం కాని స్థలం లేదా విచ్ఛిన్నం కాని స్థలం (NBSP) అనేది స్థల అక్షరం యొక్క ఒక వేరియంట్, ఇది దాని స్థానంలో ఆటోమేటిక్ లైన్ విచ్ఛిన్నం (లైన్ చుట్టడం) నిరోధిస్తుంది. కొన్ని ఫార్మాట్లలో (HTML వంటివి), ఇది ఒకే స్థలంలో బహుళ వరుస వైట్ స్పేస్ అక్షరాల కోలప్సింగ్  నిరోధిస్తుంది. ప్రస్తుత సెంటెన్స్ః విచ్ఛిన్నం కాని స్థలం కూడా హార్డ్ స్పేస్ లేదా స్థిర స్థలం అని పిలుస్తారు.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "The non-breaking space is also known as a hard space or fixed space.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___article.wn.com_view_2010_12_24_Regimentation_of_Palestinian_society_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 32,
+    "source_document_id": "http___aryavysyasangham.org_health-checkups.html_1.xml",
+    "target_document_id": "http___aryavysyasangham.org_services.html_1.xml",
+    "context_sentence_ids": [
+      "6.1",
+      "8.1"
+    ],
+    "context_sentences": [
+      "Anantapur - 515005.",
+      "Dubakuntla Sainath Guptha, Cell : 90325 02538"
+    ],
+    "current_source_sentence_id": "9.1",
+    "current_source_sentence": "Our email is:",
+    "target_sentence_id": "15.1",
+    "target_reference": "Our email is:",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "మా ఇమెయిల్ః",
+    "context_hypothesis": "సందర్భం: అనంతపురం - 515005. దుబాకుంత్లా సైనాత్ గుప్తా, సెల్ః 90325 02538 ప్రస్తుత శిక్షః మా ఇమెయిల్ః",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Our email is:",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___aryavysyasangham.org_health-checkups.html_1.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 33,
+    "source_document_id": "http___cineraaga.com_movies_news__rajamouli-gave-strategic-break-to-tamanna-bhatia.xml",
+    "target_document_id": "http___cineraaga.com_politics_buy-water-bottle-and-get-snake-free_1.xml",
+    "context_sentence_ids": [
+      "5.1",
+      "6.1"
+    ],
+    "context_sentences": [
+      "Manju Warrier & Amala Akineni C/O Saira Banu (Mala..",
+      "Madhavan | Vijay Sethupathi Vikram Vedha Tamil Mov.."
+    ],
+    "current_source_sentence_id": "7.1",
+    "current_source_sentence": "Nayanthara Dora - Official Tamil Teaser",
+    "target_sentence_id": "6.1",
+    "target_reference": "Nayanthara Dora - Official Tamil Teaser",
+    "alignment_score": 0.7071070075035095,
+    "baseline_hypothesis": "నాయనతారా డోరా - అధికారిక తమిళ టీజర్",
+    "context_hypothesis": "సందర్భం: మంజు వార్యర్ & అమలా అకినెని సి/ఓ సైరా బను (మల.. మధవన్",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Nayanthara Dora - Official Tamil Teaser",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___cineraaga.com_movies_news__rajamouli-gave-strategic-break-to-tamanna-bhatia.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 34,
+    "source_document_id": "http___cineraaga.com_movies_news__rajamouli-gave-strategic-break-to-tamanna-bhatia.xml",
+    "target_document_id": "http___cineraaga.com_politics_buy-water-bottle-and-get-snake-free_2.xml",
+    "context_sentence_ids": [
+      "5.1",
+      "6.1"
+    ],
+    "context_sentences": [
+      "Manju Warrier & Amala Akineni C/O Saira Banu (Mala..",
+      "Madhavan | Vijay Sethupathi Vikram Vedha Tamil Mov.."
+    ],
+    "current_source_sentence_id": "7.1",
+    "current_source_sentence": "Nayanthara Dora - Official Tamil Teaser",
+    "target_sentence_id": "6.1",
+    "target_reference": "Trisha Mohini Official Trailer",
+    "alignment_score": 0.7071070075035095,
+    "baseline_hypothesis": "నాయనతారా డోరా - అధికారిక తమిళ టీజర్",
+    "context_hypothesis": "సందర్భం: మంజు వార్యర్ & అమలా అకినెని సి/ఓ సైరా బను (మల.. మధవన్",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Trisha Mohini Official Trailer",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___cineraaga.com_movies_news__rajamouli-gave-strategic-break-to-tamanna-bhatia.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 35,
+    "source_document_id": "http___blogs.tallysolutions.com_checklist-gst-input-tax-credit-claim_.xml",
+    "target_document_id": "http___blogs.tallysolutions.com_te_gst-tax-refund-claim__1.xml",
+    "context_sentence_ids": [
+      "39.1",
+      "40.1"
+    ],
+    "context_sentences": [
+      "- GST Software Updates (19)",
+      "- GST Transition (20)"
+    ],
+    "current_source_sentence_id": "41.1",
+    "current_source_sentence": "- GST Updates (7)",
+    "target_sentence_id": "140.1",
+    "target_reference": "- GST Updates (7)",
+    "alignment_score": 0.8176119923591614,
+    "baseline_hypothesis": "- జిఎస్టి నవీకరణలు (7)",
+    "context_hypothesis": "సందర్భంః - జిఎస్టి సాఫ్ట్వేర్ నవీకరణలు (19) - జిఎస్టి పరివర్తన (20) ప్రస్తుత శిక్షః - జిఎస్టి నవీకరణలు (7)",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- GST Updates (7)",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___blogs.tallysolutions.com_checklist-gst-input-tax-credit-claim_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 36,
+    "source_document_id": "http___agniveer.com_matrimonial-support-service-sharia-injustice-women-empowerment_.xml",
+    "target_document_id": "http___agniveer.com_no-beef-vedas-telugu__1.xml",
+    "context_sentence_ids": [
+      "5.1",
+      "6.1"
+    ],
+    "context_sentences": [
+      "Complete Works of Agniveer – Vol 1 (eBooks)",
+      "This is part of Project AgniKiran by Agniveer."
+    ],
+    "current_source_sentence_id": "7.1",
+    "current_source_sentence": "Facebook Comments",
+    "target_sentence_id": "22.1",
+    "target_reference": "Facebook Comments",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "ఫేస్బుక్ వ్యాఖ్యలు",
+    "context_hypothesis": "CONTEXT: అగ్నివీర్ పూర్తి రచనలు Vol 1 (eBooks) ఇది అగ్నివీర్ ప్రాజెక్ట్ అగ్నికిరణ్లో భాగం.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Facebook Comments",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___agniveer.com_matrimonial-support-service-sharia-injustice-women-empowerment_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 37,
+    "source_document_id": "http___cineraaga.com_movies_news__happy-birthday-to-meenaabout-meena-and-her-career.xml",
+    "target_document_id": "http___cineraaga.com_movies_news__cherrys-best-friend-plays-villain-role-in-his-next-movie_1.xml",
+    "context_sentence_ids": [
+      "4.1",
+      "5.1"
+    ],
+    "context_sentences": [
+      "Balakrishna Jai Simha Trailer",
+      "Akshay Kumar PADMAN Official Trailer"
+    ],
+    "current_source_sentence_id": "6.1",
+    "current_source_sentence": "Trisha Mohini Official Trailer",
+    "target_sentence_id": "6.1",
+    "target_reference": "Nayanthara Dora - Official Tamil Teaser",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "ట్రిషా మోహినీ అధికారిక ట్రైలర్",
+    "context_hypothesis": "సందర్భంః బాలకృష్ణ జై సింహా ట్రైలర్ అక్షయ్ కుమార్ పాడ్మాన్ అధికారిక ట్రైలర్ ప్రస్తుత శిక్షః త్రిష మోహినీ అధికారిక ట్రైలర్",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Nayanthara Dora - Official Tamil Teaser",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___cineraaga.com_movies_news__happy-birthday-to-meenaabout-meena-and-her-career.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 38,
+    "source_document_id": "http___cineraaga.com_movies_news__happy-birthday-to-meenaabout-meena-and-her-career.xml",
+    "target_document_id": "http___cineraaga.com_movies_news__cherrys-best-friend-plays-villain-role-in-his-next-movie_2.xml",
+    "context_sentence_ids": [
+      "4.1",
+      "5.1"
+    ],
+    "context_sentences": [
+      "Balakrishna Jai Simha Trailer",
+      "Akshay Kumar PADMAN Official Trailer"
+    ],
+    "current_source_sentence_id": "6.1",
+    "current_source_sentence": "Trisha Mohini Official Trailer",
+    "target_sentence_id": "6.1",
+    "target_reference": "Trisha Mohini Official Trailer",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "ట్రిషా మోహినీ అధికారిక ట్రైలర్",
+    "context_hypothesis": "సందర్భంః బాలకృష్ణ జై సింహా ట్రైలర్ అక్షయ్ కుమార్ పాడ్మాన్ అధికారిక ట్రైలర్ ప్రస్తుత శిక్షః త్రిష మోహినీ అధికారిక ట్రైలర్",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Trisha Mohini Official Trailer",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___cineraaga.com_movies_news__happy-birthday-to-meenaabout-meena-and-her-career.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 39,
+    "source_document_id": "http___classifiedsviral.com_for-sale_books-magazines_powerful-magic-ring-magic-wallet-for-power-protection-luck-27789518085-in-usa-uk-canada_i43315.xml",
+    "target_document_id": "http___classifiedsviral.com_for-sale_books-magazines_janavamsham-telugu-poetry-by-gunturu-seshendra-sharma_i49150_1.xml",
+    "context_sentence_ids": [
+      "27.1",
+      "31.1"
+    ],
+    "context_sentences": [
+      "Books - Magazines Greater Hyderabad (Andhra Pradesh) April 12, 2018450.00 Rupee ₹ Other currencies5.99 EUR",
+      "Love Marriage Specialist + 91-96947-7169..."
+    ],
+    "current_source_sentence_id": "32.1",
+    "current_source_sentence": "Books - Magazines all area (all area) April 5, 2018Free",
+    "target_sentence_id": "69.1",
+    "target_reference": "Books - Magazines all area (all area) April 5, 2018Free",
+    "alignment_score": 0.7966279983520508,
+    "baseline_hypothesis": "పుస్తకాలు - పత్రికలు అన్ని ప్రాంతం (అన్ని ప్రాంతం) ఏప్రిల్ 5, 2018ఉచిత",
+    "context_hypothesis": "CONTEXT: పుస్తకాలు - పత్రికలు గ్రేటర్ హైదరాబాద్ (ఆంధ్రప్రదేశ్) ఏప్రిల్ 12, 2018450.00 రూపాయలు ₹ ఇతర కరెన్సీలు5.99 యూరోల ప్రేమ వివాహం నిపుణుడు + 91-96947-7169... ప్రస్తుత విచారణః పుస్తకాలు - పత్రికలు అన్ని ప్రాంతం (అన్ని ప్రాంతం ఉచితం) ఏప్రిల్ 5, 2018",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Books - Magazines all area (all area) April 5, 2018Free",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___classifiedsviral.com_for-sale_books-magazines_powerful-magic-ring-magic-wallet-for-power-protection-luck-27789518085-in-usa-uk-canada_i43315.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 40,
+    "source_document_id": "http___agniveer.com_the-warrior_.xml",
+    "target_document_id": "http___agniveer.com_no-beef-vedas-telugu__1.xml",
+    "context_sentence_ids": [
+      "47.1",
+      "47.2"
+    ],
+    "context_sentences": [
+      "Liked the post?",
+      "Make a contribution and help bring change."
+    ],
+    "current_source_sentence_id": "48.1",
+    "current_source_sentence": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+    "target_sentence_id": "24.1",
+    "target_reference": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+    "alignment_score": 0.8010410070419312,
+    "baseline_hypothesis": "నిరాకరణః ఖురాన్ మరియు హదీసుల ద్వారా, మేము వాటి అసలు అర్థాలను సూచించము.",
+    "context_hypothesis": "కరెంట్ సెంటెన్స్ః డిస్క్లైమర్ః ఖురాన్ మరియు హదీసుల ద్వారా, మేము వాటి అసలు అర్థాలను సూచించము.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___agniveer.com_the-warrior_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 41,
+    "source_document_id": "http___agniveer.com_kashmir-pok-wants-freedom-pakistan__1.xml",
+    "target_document_id": "http___agniveer.com_must-know-facts-about-vedas-tel__1.xml",
+    "context_sentence_ids": [
+      "7.1",
+      "7.2"
+    ],
+    "context_sentences": [
+      "Liked the post?",
+      "Make a contribution and help bring change."
+    ],
+    "current_source_sentence_id": "8.1",
+    "current_source_sentence": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+    "target_sentence_id": "24.1",
+    "target_reference": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+    "alignment_score": 0.8010410070419312,
+    "baseline_hypothesis": "నిరాకరణః ఖురాన్ మరియు హదీసుల ద్వారా, మేము వాటి అసలు అర్థాలను సూచించము.",
+    "context_hypothesis": "కరెంట్ సెంటెన్స్ః డిస్క్లైమర్ః ఖురాన్ మరియు హదీసుల ద్వారా, మేము వాటి అసలు అర్థాలను సూచించము.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Disclaimer: By Quran and Hadiths, we do not refer to their original meanings.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___agniveer.com_kashmir-pok-wants-freedom-pakistan__1.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 42,
+    "source_document_id": "http___redeemerkansascity.org_audio_how-to-read-the-bible-seminar_.xml",
+    "target_document_id": "http___balagopal.org__m_200910_1.xml",
+    "context_sentence_ids": [
+      "4.1",
+      "4.2"
+    ],
+    "context_sentences": [
+      "Audio clip: Adobe Flash Player (version 9 or above) is required to play this audio clip.",
+      "Download the latest version here."
+    ],
+    "current_source_sentence_id": "4.3",
+    "current_source_sentence": "You also need to have JavaScript enabled in your browser.",
+    "target_sentence_id": "25.3",
+    "target_reference": "You also need to have JavaScript enabled in your browser.",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "మీరు కూడా మీ బ్రౌజర్లో JavaScript ని ప్రారంభించాలి.",
+    "context_hypothesis": "CONTEXT: ఆడియో క్లిప్ః ఈ ఆడియో క్లిప్ను ప్లే చేయడానికి Adobe Flash Player (వెర్షన్ 9 లేదా అంతకంటే ఎక్కువ) అవసరం. తాజా వెర్షన్ను ఇక్కడ డౌన్లోడ్ చేయండి.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "You also need to have JavaScript enabled in your browser.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___redeemerkansascity.org_audio_how-to-read-the-bible-seminar_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 43,
+    "source_document_id": "http___redeemerkansascity.org_audio_how-to-read-the-bible-seminar_.xml",
+    "target_document_id": "http___balagopal.org__m_200910_2.xml",
+    "context_sentence_ids": [
+      "4.1",
+      "4.2"
+    ],
+    "context_sentences": [
+      "Audio clip: Adobe Flash Player (version 9 or above) is required to play this audio clip.",
+      "Download the latest version here."
+    ],
+    "current_source_sentence_id": "4.3",
+    "current_source_sentence": "You also need to have JavaScript enabled in your browser.",
+    "target_sentence_id": "25.3",
+    "target_reference": "You also need to have JavaScript enabled in your browser.",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "మీరు కూడా మీ బ్రౌజర్లో JavaScript ని ప్రారంభించాలి.",
+    "context_hypothesis": "CONTEXT: ఆడియో క్లిప్ః ఈ ఆడియో క్లిప్ను ప్లే చేయడానికి Adobe Flash Player (వెర్షన్ 9 లేదా అంతకంటే ఎక్కువ) అవసరం. తాజా వెర్షన్ను ఇక్కడ డౌన్లోడ్ చేయండి.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "You also need to have JavaScript enabled in your browser.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___redeemerkansascity.org_audio_how-to-read-the-bible-seminar_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 44,
+    "source_document_id": "https___www.astrosage.com_2012_regional-horoscope_.xml",
+    "target_document_id": "http___astrosage.com_telugu_rasi-phalalu__1.xml",
+    "context_sentence_ids": [
+      "18.1",
+      "19.1"
+    ],
+    "context_sentences": [
+      "- Finance Horoscope 2022",
+      "- Education Horoscope 2022"
+    ],
+    "current_source_sentence_id": "20.1",
+    "current_source_sentence": "- Ascendant Horoscope 2022",
+    "target_sentence_id": "36.1",
+    "target_reference": "- Ascendant Horoscope 2022",
+    "alignment_score": 0.7766929864883423,
+    "baseline_hypothesis": "- అస్సెండెంట్ హార్సోస్కోప్ 2022",
+    "context_hypothesis": "సందర్భంః - ఆర్థిక రాశిచక్రం 2022 - విద్య రాశిచక్రం 2022 ప్రస్తుత వాక్యంః - రాశిచక్రం 2022",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- Ascendant Horoscope 2022",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "https___www.astrosage.com_2012_regional-horoscope_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 45,
+    "source_document_id": "http___agniveer.com_check-yoga-brave-enterprising-warriors-gita__1.xml",
+    "target_document_id": "http___agniveer.com_who-is-agniveer-telugu__1.xml",
+    "context_sentence_ids": [
+      "11.3",
+      "11.4"
+    ],
+    "context_sentences": [
+      "We highly respect the original Quran, Hadiths and their creators.",
+      "We also respect Muslim heroes like APJ Abdul Kalam who are our role models."
+    ],
+    "current_source_sentence_id": "11.5",
+    "current_source_sentence": "Our fight is against those who misinterpret them and malign Islam by associating it with terrorism.",
+    "target_sentence_id": "32.5",
+    "target_reference": "Our fight is against those who misinterpret them and malign Islam by associating it with terrorism.",
+    "alignment_score": 0.9075220227241516,
+    "baseline_hypothesis": "ఇస్లాం ను ఉగ్రవాదంతో అనుసంధానించడం ద్వారా దాన్ని తప్పుగా అర్థం చేసుకునే వారిపై మన పోరాటం ఉంది.",
+    "context_hypothesis": "సందర్భంః మేము అసలు ఖురాన్, హదీసులు మరియు వాటి సృష్టికర్తలను ఎంతో గౌరవిస్తాము. మేము మా రోల్ మోడల్ అయిన ఎపిజె అబ్దుల్ కలాం వంటి ముస్లిం హీరోలను కూడా గౌరవిస్తాము. ప్రస్తుత తీర్పుః వాటిని తప్పుగా అర్థం చేసుకునేవారికి వ్యతిరేకంగా మా పోరాటం మరియు దానిని ఉగ్రవాదంతో అనుసంధానించడం ద్వారా ఇస్లాంను అపవిత్రం చేసే వారికి వ్యతిరేకంగా మా పోరాటం.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Our fight is against those who misinterpret them and malign Islam by associating it with terrorism.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___agniveer.com_check-yoga-brave-enterprising-warriors-gita__1.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 46,
+    "source_document_id": "http___chipcollection.com_2013_12__1.xml",
+    "target_document_id": "http___chipcollection.com_2013_12__lang_te_1.xml",
+    "context_sentence_ids": [
+      "15.1",
+      "16.1"
+    ],
+    "context_sentences": [
+      "- Prophet 12 (8%, 1 Votes)",
+      "- Novation Bass Station II (8%, 1 Votes)"
+    ],
+    "current_source_sentence_id": "17.1",
+    "current_source_sentence": "- Nord Lead 4 (0%, 0 Votes)",
+    "target_sentence_id": "16.1",
+    "target_reference": "- నోర్డ్ లీడ్ 4 (0%, 0 Votes)",
+    "alignment_score": 0.7007669806480408,
+    "baseline_hypothesis": "- నార్డ్ లీడ్ 4 (0%, 0 ఓట్లు)",
+    "context_hypothesis": "సందర్భంః - ప్రవక్త 12 (8%, 1 ఓట్లు) - నవేశన్ బాస్ స్టేషన్ II (8%, 1 ఓట్లు) ప్రస్తుత తీర్పుః - నార్డ్ లీడ్ 4 (0%, 0 ఓట్లు)",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- నోర్డ్ లీడ్ 4 (0%, 0 Votes)",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___chipcollection.com_2013_12__1.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 47,
+    "source_document_id": "http___bharath-thippireddy.blogspot.com_2009_06_fear-forget-everything-and-ride.html.xml",
+    "target_document_id": "http___bharath-thippireddy.blogspot.com_2008_08_blog-post.html_1.xml",
+    "context_sentence_ids": [
+      "21.1",
+      "22.1"
+    ],
+    "context_sentences": [
+      "UK Visitor Visa for non US Citizens in USA",
+      "Hasinis Day Out"
+    ],
+    "current_source_sentence_id": "23.1",
+    "current_source_sentence": "Florida Part 1:Six days in Orlando",
+    "target_sentence_id": "16.1",
+    "target_reference": "Florida Part 1:Six days in Orlando",
+    "alignment_score": 1.0,
+    "baseline_hypothesis": "ఫ్లోరిడా పార్ట్ 1: ఓర్లాండోలో ఆరు రోజులు",
+    "context_hypothesis": "సంయుక్త రాష్ట్రాల్లోని అమెరికా పౌరులకు UK సందర్శన వీసా ఇవ్వడం హస్సినిస్ డే అవుట్ ప్రస్తుత శిక్షః ఫ్లోరిడా పార్ట్ 1: ఓర్లాండోలో ఆరు రోజులు",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "Florida Part 1:Six days in Orlando",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___bharath-thippireddy.blogspot.com_2009_06_fear-forget-everything-and-ride.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 48,
+    "source_document_id": "http___article.wn.com_view_2015_03_06_The_DDC_Group_Partners_with_Shared_Services_Outsourcing_Netw_.xml",
+    "target_document_id": "http___article.wn.com_view_WNAT115149ff3aeda529f334399b6b5d7d59__1.xml",
+    "context_sentence_ids": [
+      "17.2",
+      "17.3"
+    ],
+    "context_sentences": [
+      "For example, if the text “100 km” will not quite fit at the end of a line, the software may insert a line break between “100” and “km”.",
+      "To avoid this undesirable behaviour, the editor may choose to use a non-breaking space between “100” and “km”."
+    ],
+    "current_source_sentence_id": "17.4",
+    "current_source_sentence": "This guarantees that the text “100 km” will not be broken: if it does not fit at the end of a line it is moved in its entirety to the next line.",
+    "target_sentence_id": "17.4",
+    "target_reference": "This guarantees that the text “100 km” will not be broken: if it does not fit at the end of a line it is moved in its entirety to the next line.",
+    "alignment_score": 0.8625940084457397,
+    "baseline_hypothesis": "దీనివల్ల 100 km అనే టెక్స్ట్ విచ్ఛిన్నం కాదని నిర్ధారిస్తుంది. ఇది ఒక లైన్ చివరికి సరిపోకపోతే, మొత్తం వరుసను తదుపరి లైన్కు తరలించబడుతుంది.",
+    "context_hypothesis": "సాఫ్ట్వేర్ 100 మరియు km మధ్య లైన్ బ్రేక్ను చొప్పించగలదు. ఈ అవాంఛిత ప్రవర్తనను నివారించడానికి, ఎడిటర్ 100 మరియు km మధ్య విచ్ఛిన్నం కాని స్థలాన్ని ఉపయోగించుకోవచ్చు. ప్రస్తుత విచారణః ఇది 100 km టెక్స్ట్ విచ్ఛిన్నం కాదని హామీ ఇస్తుందిః ఇది లైన్ చివరిలో సరిపోకపోతే, అది మొత్తం తదుపరి లైన్కు తరలించబడుతుంది.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "This guarantees that the text “100 km” will not be broken: if it does not fit at the end of a line it is moved in its entirety to the next line.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___article.wn.com_view_2015_03_06_The_DDC_Group_Partners_with_Shared_Services_Outsourcing_Netw_.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 49,
+    "source_document_id": "http___abstractextures.blogspot.ru_2012_04_getting-back-am-i-artist.html.xml",
+    "target_document_id": "http___abstractextures.blogspot.in__1.xml",
+    "context_sentence_ids": [
+      "13.1",
+      "13.2"
+    ],
+    "context_sentences": [
+      "“Art is unique, new, and challenging to the status quo.",
+      "It’s not decoration, it’s something that causes change.”"
+    ],
+    "current_source_sentence_id": "14.1",
+    "current_source_sentence": "“Art cannot be merely commerce.",
+    "target_sentence_id": "79.1",
+    "target_reference": "“Art cannot be merely commerce.",
+    "alignment_score": 0.7071070075035095,
+    "baseline_hypothesis": "కళ కేవలం వాణిజ్యం మాత్రమే కాదు.",
+    "context_hypothesis": "సందర్భంః కళ అనేది ప్రత్యేకమైనది, కొత్తది మరియు స్థితిస్థాపకతకు సవాలు చేస్తుంది. ఇది అలంకరణ కాదు, ఇది మార్పును కలిగించే విషయం.",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "“Art cannot be merely commerce.",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___abstractextures.blogspot.ru_2012_04_getting-back-am-i-artist.html.xml",
+      "unit_type": "document"
+    }
+  },
+  {
+    "example_index": 50,
+    "source_document_id": "http___chipcollection.com_2013_12__1.xml",
+    "target_document_id": "http___chipcollection.com_2013_12__lang_te_1.xml",
+    "context_sentence_ids": [
+      "20.1",
+      "21.1"
+    ],
+    "context_sentences": [
+      "- MicroBrute (0%, 0 Votes)",
+      "- Elektron Analog Keys (0%, 0 Votes)"
+    ],
+    "current_source_sentence_id": "22.1",
+    "current_source_sentence": "- microKorg (0%, 0 Votes)",
+    "target_sentence_id": "21.1",
+    "target_reference": "- microKorg (0%, 0 Votes)",
+    "alignment_score": 0.8167650103569031,
+    "baseline_hypothesis": "- మైక్రోకోర్గ్ (0%, 0 ఓట్లు)",
+    "context_hypothesis": "సాహిత్యంః - మైక్రో బ్రూట్ (0%, 0 ఓట్లు) - ఎలక్ట్రానిక్ అనలాగ్ కీలు (0%, 0 ఓట్లు)",
+    "baseline_status": "computed",
+    "context_status": "computed",
+    "baseline_error": null,
+    "context_error": null,
+    "reference_used_for_both_conditions": "- microKorg (0%, 0 Votes)",
+    "context_was_supplied": true,
+    "model_name": "nllb200",
+    "dataset_provenance": {
+      "dataset_name": "DocHPLT",
+      "dataset_revision": "76a591ec3c014d0ac4193a3cbdfc12689616a8d3",
+      "split": "train",
+      "source_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "reference_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "alignment_location": "C:\\Users\\MEDHAT~1\\AppData\\Local\\Temp\\tmpgtzzhvg4\\en-te\\train-00000-of-00030.parquet",
+      "adapter_name": "dochplt_parquet_v1",
+      "unit_id": "http___chipcollection.com_2013_12__1.xml",
+      "unit_type": "document"
+    }
+  }
+]
