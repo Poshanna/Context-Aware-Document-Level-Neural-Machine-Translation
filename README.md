@@ -6,13 +6,6 @@
 
 
 
-\[!\[Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
-
-\[!\[FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688)](https://fastapi.tiangolo.com/)
-
-\[!\[React](https://img.shields.io/badge/Frontend-React-61DAFB)](https://react.dev/)
-
-\[!\[PyTorch](https://img.shields.io/badge/ML-PyTorch-EE4C2C)](https://pytorch.org/)
 
 
 
